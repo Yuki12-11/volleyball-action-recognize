@@ -1,61 +1,865 @@
-<!DOCTYPE html>
-<!-- saved from url=(0053)https://solo.trae.ai/session/6a0d77864276a014b8d0e6a2 -->
-<html data-theme="light" style="--pinnable-backdrop-left: 300px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="manifest" href="data:application/manifest+json,%7B%22name%22%3A%22TRAE%20SOLO%22%2C%22short_name%22%3A%22TRAE%20SOLO%22%2C%22description%22%3A%22More%20Than%20Coding%22%2C%22start_url%22%3A%22%2F%22%2C%22display%22%3A%22standalone%22%2C%22background_color%22%3A%22%231a1b1d%22%2C%22theme_color%22%3A%22%231a1b1d%22%2C%22icons%22%3A%5B%7B%22src%22%3A%22%2Ficon-192.png%22%2C%22sizes%22%3A%22192x192%22%2C%22type%22%3A%22image%2Fpng%22%7D%2C%7B%22src%22%3A%22%2Ficon-512.png%22%2C%22sizes%22%3A%22512x512%22%2C%22type%22%3A%22image%2Fpng%22%7D%2C%7B%22src%22%3A%22%2Ficon-512.png%22%2C%22sizes%22%3A%22512x512%22%2C%22type%22%3A%22image%2Fpng%22%2C%22purpose%22%3A%22maskable%22%7D%5D%7D"><meta name="theme-color" content="#1a1b1d"><link rel="preconnect" href="https://core-normal.trae.ai/"><link rel="preconnect" href="https://lf-cdn.marscode.com/"><link rel="dns-prefetch" href="https://mon-normal.trae.ai/"><link rel="dns-prefetch" href="https://mcs-normal.trae.ai/"><link rel="dns-prefetch" href="https://libra-normal.trae.ai/"><link rel="dns-prefetch" href="https://ttwid-sg.byteoversea.com/"><script>window.gfdatav1={"env":"prod","envName":"prod","runtime":"node","ver":"1.0.0.1184","canary":0,"idc":"my","region":"ALISG","vdc":"my","vregion":"Singapore-Central","extra":{"canaryType":null}}</script><script>"serviceWorker"in navigator&&window.addEventListener("load",function(){navigator.serviceWorker.register("/sw.js",{updateViaCache:"none"}).then(function(e){let n=setInterval(function(){e.update().catch(function(e){console.log("SW update failed:",e),e&&"InvalidStateError"===e.name&&clearInterval(n)})},18e5)}).catch(function(e){console.log("SW registration failed:",e)})})</script><script>
-            ;(function(){
-              window._MODERNJS_ROUTE_MANIFEST = {"routeAssets":{"main":{"chunkIds":["6408","6493","9783","7216","9535","6285","1957","4937","7931","1889"],"assets":["static/js/lib-polyfill.347cba83.js","static/js/lib-react.f3d55d9b.js","static/js/argus-builder-strategy.fe5d9228.js","static/js/lib-router.a31e42c5.js","static/js/6285.c8e7eff8.js","static/js/1957.75004b5a.js","static/js/4937.253bc788.js","static/js/7931.138ead3f.js","static/css/7931.64788f69.css","static/js/main.123b02b9.js","static/css/main.b1b07cad.css"],"referenceCssAssets":["static/css/7931.64788f69.css","static/css/main.b1b07cad.css"]}}};
-            })();
-          </script><link rel="icon" href="https://lf-cdn.marscode.com/obj/marscode-bucket-sg/goofy_deploy_edenx/ide/trae-mono/favicon.png"><title _msttexthash="49599407" _msthash="0">TRAE SOLO：不仅仅是编程</title><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,viewport-fit=cover,minimum-scale=1,maximum-scale=1,user-scalable=no"><meta http-equiv="x-ua-compatible" content="ie=edge"><meta name="renderer" content="webkit"><meta name="layoutmode" content="standard"><meta name="imagemode" content="force"><meta name="wap-font-scale" content="no"><meta name="format-detection" content="telephone=no"><script defer="defer">(()=>{"use strict";var e,a,t,o,r,n,c,i,d={},f={};function b(e){var a=f[e];if(void 0!==a)return a.exports;var t=f[e]={exports:{}};return d[e].call(t.exports,t,t.exports,b),t.exports}if(b.m=d,b.n=e=>{var a=e&&e.__esModule?()=>e.default:()=>e;return b.d(a,{a:a}),a},a=Object.getPrototypeOf?e=>Object.getPrototypeOf(e):e=>e.__proto__,b.t=function(t,o){if(1&o&&(t=this(t)),8&o||"object"==typeof t&&t&&(4&o&&t.__esModule||16&o&&"function"==typeof t.then))return t;var r=Object.create(null);b.r(r);var n={};e=e||[null,a({}),a([]),a(a)];for(var c=2&o&&t;("object"==typeof c||"function"==typeof c)&&!~e.indexOf(c);c=a(c))Object.getOwnPropertyNames(c).forEach(e=>{n[e]=()=>t[e]});return n.default=()=>t,b.d(r,n),r},b.d=(e,a)=>{for(var t in a)b.o(a,t)&&!b.o(e,t)&&Object.defineProperty(e,t,{enumerable:!0,get:a[t]})},b.f={},b.e=e=>Promise.all(Object.keys(b.f).reduce((a,t)=>(b.f[t](e,a),a),[])),b.u=e=>"1957"===e?"static/js/1957.75004b5a.js":"static/js/async/"+({1399:"marketplace/page",1675:"oauth/callback/(type)/page",1679:"session/(sessionId)/page",2181:"oauth/callback/page",2978:"lark-oauth/page",3436:"lib-arco-icons",354:"lib-axios",367:"region-blocked/page",4299:"invitation/manage/page",4951:"session/layout",5454:"share/layout",5521:"authorization/page",5813:"share/(shareSessionId)/page",6987:"lab/page",754:"lib-framer-motion",769:"lib-lottie",7720:"transcription-demo/page",7807:"page",781:"automation/page",7980:"lib-codemirror",8321:"invitation/page",840:"invitation/(invite-code)/page",8894:"skeleton-preview/page",9774:"voice-demo/page",9855:"settings/page",9927:"lib-mermaid"}[e]||e)+"."+{1136:"7dae99a5",1244:"8d95e9e3",1342:"6b189a45",1399:"2924de1e",1426:"c4278326",1453:"e8b3a412",1533:"af07098c",1555:"ebf6e5e8",1675:"02cc9302",1679:"ab300213",1693:"a89dcf9a",1823:"ca4245c9",2096:"a676d8cd",2169:"c4b4e509",2181:"565fea95",2373:"a990e3c9",2386:"0a4c9add",248:"2d708d14",2582:"dcc2b617",2839:"757f59ea",2933:"89d7af23",2978:"8c2d199f",3297:"fecb032a",3434:"a5710788",3436:"d3553874",354:"85a1a5ad",367:"513670b4",3672:"70d68bb5",3681:"c6c002d3",3824:"949bfa13",4299:"960dd9a4",4438:"89dbb8bd",4499:"c4d4c5c8",4501:"20c9fd70",4635:"a21f6ff2",4767:"e49c8ecb",4877:"2b349e4d",4951:"22b62062",5005:"e78e4c7c",5055:"802a497c",5150:"42f34716",5291:"004f0eaf",5454:"a14bccf2",5521:"a7e5e2cd",5813:"6e0b1145",5844:"435fd494",5995:"c58e4460",6071:"60d3bc66",6161:"4d07e173",625:"9d5429d0",6439:"a1df925b",6648:"37309609",6943:"742c32df",6987:"24faf344",7117:"b70fb2cb",7247:"77a8912d",7267:"744fe9db",7319:"e91bfec2",7513:"16b96cc4",7514:"18c68e85",754:"c924d1db",7564:"1df5f578",7602:"58a61fe0",7659:"b0067154",7666:"5e063b7f",769:"c8800c3f",7720:"f848ec56",7784:"ae254022",7792:"24584d7c",7807:"d23a9335",781:"eefb47ad",7925:"d7c28933",7970:"bcdef15e",7980:"1a4c714e",8067:"a2fa86aa",8203:"3ece28de",8218:"d102c370",8321:"d38cd475",8367:"0470d5b8",840:"4cc853be",8543:"b750f9a3",8894:"285f1e60",8914:"30f62e9a",8990:"64253551",901:"4c6df2a5",9031:"ae55a84d",9270:"04e70063",9374:"8a5535f3",9438:"07ffe374",9700:"4914a304",9774:"9d3184e1",9855:"3ccbf0d8",9927:"e06a51ec",9949:"ae8b9e63"}[e]+".js",b.miniCssF=e=>"static/css/async/"+({1399:"marketplace/page",1675:"oauth/callback/(type)/page",2181:"oauth/callback/page",2978:"lark-oauth/page",367:"region-blocked/page",4299:"invitation/manage/page",4951:"session/layout",5521:"authorization/page",5813:"share/(shareSessionId)/page",6987:"lab/page",7720:"transcription-demo/page",7807:"page",781:"automation/page",8176:"feishu-oauth/page",8321:"invitation/page",840:"invitation/(invite-code)/page",8894:"skeleton-preview/page",9774:"voice-demo/page",9855:"settings/page"}[e]||e)+"."+{1136:"cfc6654e",1399:"0d8c9bc6",1426:"cdac804e",1533:"de5f50da",1675:"3945ac5f",2096:"d3024cf8",2181:"ee348855",248:"1628a324",2582:"4efc7a9e",2978:"efeaf0b1",367:"d63bec04",3681:"2e971186",4299:"22f84703",4877:"2395fe3a",4951:"dc0adc5d",5521:"ed383867",5813:"1fed70ff",6161:"e1fa89b2",625:"faf839d0",6648:"39afebee",6943:"5fe04790",6987:"568172eb",74:"2e971186",7602:"33def5b4",7720:"8e837f7e",7807:"7bad4cca",781:"39f00087",8176:"efeaf0b1",8321:"22f84703",840:"22f84703",8894:"798810ba",8990:"bc397370",9270:"b7359fda",9438:"2be6a814",9603:"e1fa89b2",9774:"5d6b82aa",9793:"cf89b963",9855:"a8e35e2c"}[e]+".css",b.g=(()=>{if("object"==typeof globalThis)return globalThis;try{return this||Function("return this")()}catch(e){if("object"==typeof window)return window}})(),b.o=(e,a)=>Object.prototype.hasOwnProperty.call(e,a),t={},o="trae-remote-web:",b.l=function(e,a,r,n){if(t[e])t[e].push(a);else{if(void 0!==r)for(var c,i,d=document.getElementsByTagName("script"),f=0;f<d.length;f++){var s=d[f];if(s.getAttribute("src")==e||s.getAttribute("data-rspack")==o+r){c=s;break}}c||(i=!0,(c=document.createElement("script")).timeout=120,b.nc&&c.setAttribute("nonce",b.nc),c.setAttribute("data-rspack",o+r),c.src=e),t[e]=[a];var l=function(a,o){c.onerror=c.onload=null,clearTimeout(u);var r=t[e];if(delete t[e],c.parentNode&&c.parentNode.removeChild(c),r&&r.forEach(function(e){return e(o)}),a)return a(o)},u=setTimeout(l.bind(null,void 0,{type:"timeout",target:c}),12e4);c.onerror=l.bind(null,c.onerror),c.onload=l.bind(null,c.onload),i&&document.head.appendChild(c)}},b.r=e=>{"u">typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},b.nc=void 0,r=[],b.O=(e,a,t,o)=>{if(!a){var n=1/0;for(f=0;f<r.length;f++){for(var[a,t,o]=r[f],c=!0,i=0;i<a.length;i++)(!1&o||n>=o)&&Object.keys(b.O).every(e=>b.O[e](a[i]))?a.splice(i--,1):(c=!1,o<n&&(n=o));if(c){r.splice(f--,1);var d=t();void 0!==d&&(e=d)}}return e}o=o||0;for(var f=r.length;f>0&&r[f-1][2]>o;f--)r[f]=r[f-1];r[f]=[a,t,o]},b.p="//lf-cdn.marscode.com/obj/marscode-bucket-sg/goofy_deploy_edenx/ide/trae-mono/","u">typeof document){var s={6408:0};b.f.miniCss=function(e,a){s[e]?a.push(s[e]):0!==s[e]&&{1136:1,1399:1,1426:1,1533:1,1675:1,2096:1,2181:1,248:1,2582:1,2978:1,367:1,3681:1,4299:1,4877:1,4951:1,5521:1,5813:1,6161:1,625:1,6648:1,6943:1,6987:1,74:1,7602:1,7720:1,7807:1,781:1,8176:1,8321:1,840:1,8894:1,8990:1,9270:1,9438:1,9603:1,9774:1,9793:1,9855:1}[e]&&a.push(s[e]=new Promise(function(a,t){var o=b.miniCssF(e),r=b.p+o;if(function(e,a){for(var t=document.getElementsByTagName("link"),o=0;o<t.length;o++)if((c=(n=t[o]).getAttribute("data-href")||n.getAttribute("href"))&&(c=c.split("?")[0]),"stylesheet"===n.rel&&(c===e||c===a))return n;var r=document.getElementsByTagName("style");for(o=0;o<r.length;o++){var n,c;if((c=(n=r[o]).getAttribute("data-href"))===e||c===a)return n}}(o,r))return a();!function(e,a,t,o,r){var n=document.createElement("link");n.rel="stylesheet",n.type="text/css",b.nc&&(n.nonce=b.nc),n.href=a,n.onerror=n.onload=function(t){if(n.onerror=n.onload=null,"load"===t.type)o();else{var c=t&&("load"===t.type?"missing":t.type),i=t&&t.target&&t.target.href||a,d=Error("Loading CSS chunk "+e+" failed.\\n("+i+")");d.code="CSS_CHUNK_LOAD_FAILED",d.type=c,d.request=i,n.parentNode&&n.parentNode.removeChild(n),r(d)}},t?t.parentNode.insertBefore(n,t.nextSibling):document.head.appendChild(n)}(e,r,null,a,t)}).then(function(){s[e]=0},function(a){throw delete s[e],a}))}}n={6408:0},b.f.j=function(e,a){var t=b.o(n,e)?n[e]:void 0;if(0!==t)if(t)a.push(t[2]);else if(/^(6408|74|8176|9603|9793)$/.test(e))n[e]=0;else{var o=new Promise((a,o)=>t=n[e]=[a,o]);a.push(t[2]=o);var r=b.p+b.u(e),c=Error();b.l(r,function(a){if(b.o(n,e)&&(0!==(t=n[e])&&(n[e]=void 0),t)){var o=a&&("load"===a.type?"missing":a.type),r=a&&a.target&&a.target.src;c.message="Loading chunk "+e+" failed.\n("+o+": "+r+")",c.name="ChunkLoadError",c.type=o,c.request=r,t[1](c)}},"chunk-"+e,e)}},b.O.j=e=>0===n[e],c=(e,a)=>{var t,o,[r,c,i]=a,d=0;if(r.some(e=>0!==n[e])){for(t in c)b.o(c,t)&&(b.m[t]=c[t]);if(i)var f=i(b)}for(e&&e(a);d<r.length;d++)o=r[d],b.o(n,o)&&n[o]&&n[o][0](),n[o]=0;return b.O(f)},(i=globalThis.webpackChunktrae_remote_web=globalThis.webpackChunktrae_remote_web||[]).forEach(c.bind(null,0)),i.push=c.bind(null,i.push.bind(i))})()</script><script defer="defer" src="./TRAE SOLO：不仅仅是编程_files/lib-polyfill.347cba83.js.下载"></script><script defer="defer" src="./TRAE SOLO：不仅仅是编程_files/lib-react.f3d55d9b.js.下载"></script><script defer="defer" src="./TRAE SOLO：不仅仅是编程_files/argus-builder-strategy.fe5d9228.js.下载"></script><script defer="defer" src="./TRAE SOLO：不仅仅是编程_files/lib-router.a31e42c5.js.下载"></script><script defer="defer" src="./TRAE SOLO：不仅仅是编程_files/6285.c8e7eff8.js.下载"></script><script defer="defer" src="./TRAE SOLO：不仅仅是编程_files/1957.75004b5a.js.下载"></script><script defer="defer" src="./TRAE SOLO：不仅仅是编程_files/4937.253bc788.js.下载"></script><script defer="defer" src="./TRAE SOLO：不仅仅是编程_files/7931.138ead3f.js.下载"></script><script defer="defer" src="./TRAE SOLO：不仅仅是编程_files/main.123b02b9.js.下载"></script><link href="./TRAE SOLO：不仅仅是编程_files/7931.64788f69.css" rel="stylesheet"><link href="./TRAE SOLO：不仅仅是编程_files/main.b1b07cad.css" rel="stylesheet"><script src="./TRAE SOLO：不仅仅是编程_files/common-monitors.1.16.6.js.下载" crossorigin="anonymous"></script><link rel="stylesheet" type="text/css" href="./TRAE SOLO：不仅仅是编程_files/page.7bad4cca.css"><link rel="stylesheet" type="text/css" href="./TRAE SOLO：不仅仅是编程_files/9270.b7359fda.css"><link rel="stylesheet" type="text/css" href="./TRAE SOLO：不仅仅是编程_files/9438.2be6a814.css"><link rel="stylesheet" type="text/css" href="./TRAE SOLO：不仅仅是编程_files/248.1628a324.css"><link rel="prefetch" as="image" href="https://lf-cdn.trae.ai/obj/trae-ai-sg/solo-code-modal/code-dark-v1.png"><link rel="prefetch" as="image" href="https://lf-cdn.trae.ai/obj/trae-ai-sg/solo-code-modal/code-light-v1.png"><link rel="prefetch" as="image" href="https://lf-cdn.trae.ai/obj/trae-ai-sg/solo-code-modal/golden-code-dark-v1.png"><link rel="prefetch" as="image" href="https://lf-cdn.trae.ai/obj/trae-ai-sg/solo-code-modal/golden-code-light-v1.png"><link rel="prefetch" as="image" href="https://lf-cdn.trae.ai/obj/trae-ai-sg/solo-code-modal/normal-code-dark-v1.png"><link rel="prefetch" as="image" href="https://lf-cdn.trae.ai/obj/trae-ai-sg/solo-code-modal/normal-code-light-v1.png"><link rel="stylesheet" type="text/css" href="./TRAE SOLO：不仅仅是编程_files/layout.dc0adc5d.css"><link rel="stylesheet" type="text/css" href="./TRAE SOLO：不仅仅是编程_files/1533.de5f50da.css"><link rel="stylesheet" type="text/css" href="./TRAE SOLO：不仅仅是编程_files/8990.bc397370.css"></head><body data-sidebar-collapsed="false"><div id="root"><div class="layout-kZA4Q1 "><aside class="sidebar-IlIa2h"><div class="header-WLyHO4"><div class="capsule-LvKzmj workMode-X3Lz9K " role="button" tabindex="0" aria-label="切换到代码模式" _mstaria-label="311337" _msthash="1"><div class="logoContainer-eiOqZF"><svg xmlns="http://www.w3.org/2000/svg" width="34" height="24" fill="none" viewBox="0 0 34 24" class="logo-QwIKWu"><g fill="currentColor" clip-path="url(#icon-logo_svg__a)"><path d="M.002 0H0v19.549h4.454V4.454h24.864v15.092H4.454V24h29.318V0z"></path><path d="m13.43 8.776-3.149 3.15 3.15 3.149 3.149-3.15zM23.204 8.775l-3.15 3.149 3.15 3.149 3.15-3.15z"></path></g><defs><clippath id="icon-logo_svg__a"><path fill="#fff" d="M0 0h33.772v24H0z"></path></clippath></defs></svg></div><span class="modeText-B4QLUt workText-vTsnO5" _msttexthash="23582" _msthash="2">MTC</span><span class="modeText-B4QLUt codeText-AlDifH" _msttexthash="5032729" _msthash="3">代码</span></div><div class="headerRight-zKtKVX"><div style="width: 32px; height: 32px; display: flex; align-items: center; justify-content: center;"><span class="trigger-jIoLhZ"><button class="iconButton-abHesq tertiary-J9WelI default-yRVfZ2"><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-ViewLeft_line " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M13.9332 2.06702V13.9332H2.06702V2.06702H13.9332ZM6.60022 12.733H12.733V3.26624H6.60022V12.733ZM3.26624 12.733H5.40002V3.26624H3.26624V12.733Z"></path></svg></span></button></span></div></div></div><div class="content-ltxS9m"><div class="primarySection-RxL7j6"><div class="navItem-r4wswG "><span class="icon-ot1yE3 default-n2KhWI primaryIcon-nFVwdl"><svg class="newide-icon newide-icon-chatNew " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M13.5669 8.00024C13.5669 4.92597 11.0747 2.43304 8.00049 2.43286C4.92611 2.43286 2.43311 4.92586 2.43311 8.00024C2.43316 8.92121 2.65655 9.78835 3.05127 10.552L3.14893 10.7405L3.10596 10.9485L2.6001 13.4114L5.14893 12.9358L5.34619 12.8987L5.52686 12.9885C6.27127 13.3584 7.11085 13.5667 8.00049 13.5667C11.0746 13.5665 13.5667 11.0743 13.5669 8.00024ZM7.3999 8.59985H5.3999V7.39966H7.3999V5.39966H8.6001V7.39966H10.6001V8.59985H8.6001V10.5999H7.3999V8.59985ZM14.7671 8.00024C14.7669 11.7371 11.7373 14.7667 8.00049 14.7668C6.99497 14.7668 6.04031 14.5441 5.18115 14.1497L1.06592 14.9202L1.89014 10.9045C1.47065 10.0236 1.23394 9.03918 1.23389 8.00024C1.23389 4.26312 4.26336 1.23364 8.00049 1.23364C11.7374 1.23382 14.7671 4.26323 14.7671 8.00024Z"></path></svg></span><span class="primaryText-o42Vkv" _msttexthash="6946589" _msthash="4">新任务</span></div><div class="navItem-r4wswG "><span class="icon-ot1yE3 default-n2KhWI primaryIcon-nFVwdl"><svg class="newide-icon newide-icon-skills " width="1em" height="1em" viewBox="0 0 13 13" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#svg_bb97d25829__clip0_893_21005)"><path d="M11.6611 12.7705H8.9375V11.917H11.6611V12.7705ZM4.87598 2.62695C5.52882 2.62709 6.11259 2.92328 6.5 3.38867C6.8875 2.92287 7.47271 2.62695 8.12598 2.62695H12.4053V7.36035H11.4297V3.60156H8.12598C7.49782 3.60156 6.9884 4.11113 6.98828 4.73926V10.5439C7.10856 10.4669 7.23685 10.4013 7.37207 10.3496L7.82715 10.1748L8.1748 11.0859L7.71973 11.2598C7.2913 11.4235 6.98851 11.838 6.98828 12.3223H6.0127L6.00684 12.207C5.94869 11.6335 5.4648 11.1858 4.87598 11.1855H0.59668V2.62695H4.87598ZM12.917 10.874H8.9375V10.0205H12.917V10.874ZM1.57129 10.21H4.87598C5.29481 10.21 5.68437 10.3336 6.0127 10.5439V4.73926C6.01258 4.11128 5.50392 3.6018 4.87598 3.60156H1.57129V10.21ZM12.917 8.97852H8.9375V8.125H12.917V8.97852Z"></path></g><defs><clippath id="svg_bb97d25829__clip0_893_21005"><path d="M0 0H13V13H0z"></path></clippath></defs></svg></span><span class="primaryText-o42Vkv" _msttexthash="5728840" _msthash="5">技能</span></div><div class="navItem-r4wswG " style="gap: 3px;"><span class="icon-ot1yE3 default-n2KhWI primaryIcon-nFVwdl"><svg class="newide-icon newide-icon-time " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M13.4004 8C13.4004 5.01766 10.9823 2.59961 8 2.59961C5.01766 2.59961 2.59961 5.01766 2.59961 8C2.59961 10.9823 5.01766 13.4004 8 13.4004C10.9823 13.4004 13.4004 10.9823 13.4004 8ZM7.40039 4.7334H8.59961V7.75098L10.5156 9.66699L9.66699 10.5156L7.40039 8.24805V4.7334ZM14.5996 8C14.5996 11.6451 11.6451 14.5996 8 14.5996C4.35492 14.5996 1.40039 11.6451 1.40039 8C1.40039 4.35492 4.35492 1.40039 8 1.40039C11.6451 1.40039 14.5996 4.35492 14.5996 8Z"></path></svg></span><span class="primaryText-o42Vkv" _msttexthash="7715708" _msthash="6">自动化</span></div></div><div class="projectsSection-NbGP3T"><div class="projectsSectionInner-SNZ8_p  "><div class="projectsContent-JKZ_CZ"><div class="projectsHeader-Zw_C6i"><span class="projectsHeading-UVr4Aj" _msttexthash="17475536" _msthash="7">你的任务清单</span><div class="headerActions-cWB0ey"></div></div><div class="scrollbarContainer-RAntmd projectsList-_cGMQr"><div class="scrollbarContent-qrtDFj scrollY-I6nZoQ projectsListContent-n9sJMQ"><div class="taskList-TYOoT1"><div class="taskItemWrapper-TttqwS"><div class="taskItem-agRc5x taskItemSelected-G_gfrr  "><span class="trigger-jIoLhZ"><span class="taskText-QQKJpF" _msttexthash="44245461" _msthash="8">排球动作识别纠错网站</span></span><div class="taskRight-GUQPja"><div class="taskActions-vEzmmv"><span class="trigger-jIoLhZ"><button class="iconButton-abHesq tertiary-J9WelI small-MVjdue taskIconBtn-xkwOTP taskMoreBtn-n6rLAO "><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-more-action " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M4.22769 9.17501H1.87769V6.82501H4.22769V9.17501ZM9.17501 9.17501H6.82501V6.82501H9.17501V9.17501ZM14.1223 9.17501H11.7723V6.82501H14.1223V9.17501Z"></path></svg></span></button></span><span class="wrapper-RV5xqM"><span><span class="trigger-jIoLhZ"><span class="icon-ot1yE3 default-n2KhWI tertiary-ua3tAv taskIconBtn-xkwOTP taskTreeBtn-mJacf2 taskTreeBtnWork-pkmztV"><svg class="newide-icon newide-icon-tree " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M14 13.9336H7.33301V12.7334H14V13.9336ZM3.33301 2.06738C4.40065 2.06738 5.26643 2.9324 5.2666 4C5.26644 4.85817 4.70664 5.58446 3.93262 5.83691V8.06641H6V9.2666H3.93262V12.7334H6V13.9326H2.7334V5.83691C1.95984 5.58428 1.40055 4.85796 1.40039 4C1.40057 2.93255 2.26557 2.06762 3.33301 2.06738ZM14 9.2666H7.33301V8.06641H14V9.2666ZM3.33301 3.2666C2.92831 3.26684 2.59979 3.59529 2.59961 4C2.59981 4.40469 2.92833 4.73316 3.33301 4.7334C3.73789 4.7334 4.06621 4.40484 4.06641 4C4.06623 3.59514 3.73791 3.2666 3.33301 3.2666ZM14 4.59961H6V3.40039H14V4.59961Z"></path></svg></span></span></span></span></div><div class="taskStatusIcon-A7e6gk"></div></div></div></div></div></div><div class="shadowTop-ytqHYT " style="height: 40px; --scroll-shadow-color: var(--bg-bg-base-secondary, #EDEFF2);"></div><div class="shadowBottom-RqEvWr " style="height: 40px; --scroll-shadow-color: var(--bg-bg-base-secondary, #EDEFF2);"></div></div></div><div class="fileTreeWrapper-mW1q5_"></div></div></div></div><div class="footer-XkUaYe"><div class="footerContent-HUuOfB"><div class="container-GTFuJT sidebar-jJL5AN"><div class="trigger-wIYDIa" data-tea-event-name="icube_common_click_avatar" data-tea-param-action="expand_profile"><span class="avatar-elZNJe" style="--avatar-size: 28px; --avatar-radius: 4px; --badge-size: 10px;"><span class="content-Yas5VW"><img src="./TRAE SOLO：不仅仅是编程_files/1a90b244bab11d82af6c13b6a046c92c~128x128.image" alt="雪12-11" class="image-CVRLrk" _mstalt="87321" _msthash="9"></span></span><span class="triggerUsername-kbHi7I" _msttexthash="3547141" _msthash="10">雪12-11</span><span class="profileTag-sT8t9u" _msttexthash="5653895" _msthash="11">免费</span><button type="button" class="installBtn-Uj8lbZ" data-install-btn="true"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16" class="installBtnIcon-OZSzSD"><path stroke="currentColor" stroke-linecap="square" stroke-linejoin="round" stroke-width="1.2" d="M14 8A6 6 0 1 1 2 8a6 6 0 0 1 12 0Z"></path><path stroke="currentColor" stroke-linecap="square" stroke-width="1.2" d="M8 6v3.2m1.6-.8L8 10 6.4 8.4"></path></svg><span class="installBtnText-drmItz" _msttexthash="13462397" _msthash="12">获取桌面</span></button></div></div></div></div></aside><main id="main-container" class="main-KqevMo"><div class="contentWrapper-U1GjQr" style=""><header class="header-fId8VF"><div class="headerCenter-HRprYa"><div class="headerTitleRow-uodA5O"><span class="headerTitleText-nbdk7p" _msttexthash="44245461" _msthash="13">排球动作识别纠错网站</span><span class="trigger-jIoLhZ"><div class="headerSubtitle-kCA8JS headerSubtitleText-iKvqkU"><span class="headerSubtitleItem-fn66Bp headerSubtitleTime-kggWbc" _msttexthash="31044" _msthash="14">17:25</span></div></span></div></div><div class="headerRight-A9O9pk"><span class="trigger-jIoLhZ"><button class="iconButton-abHesq tertiary-J9WelI large-tX8f7h status-panel-trigger"><span class="icon-V7eOa6"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16" class="status-panel-trigger_icon"><path fill="currentColor" d="M14 11.741V13H2v-1.259zm0-4.251v1.258H8.204V7.49zM14 3v1.258H2V3zM2.397 10.39 2 10.62V6l4 2.31z"></path></svg></span></button></span></div></header><div class="workspace-nQt_sr"><div class="mainContent-I6jtPZ"><div id="agent-chat-view" class="chatArea-zQPQwl"><div class="chatInner-c6091C"><div class="chatContent-h48jjm"><div class="ai-chat chat-session" data-session-id="6a0d77864276a014b8d0e6a2"><div class="virtualized-message-list-view" data-session-id="6a0d77864276a014b8d0e6a2"><div class="virtualized-message-list-view__content"><div class="virtualized-message-list-view__scroller virtualized-message-list-view__scroller--hide-scrollbar"><div data-virtuoso-scroller="true" class="virtualized-message-list-view__virtuoso" style="position: relative; height: 3521px;"><div data-viewport-type="window" style="height: 100%; position: absolute; top: 0px; width: 100%;"><div data-testid="virtuoso-item-list" style="box-sizing: border-box; margin-top: 0px; padding-bottom: 0px; padding-top: 0px;"><div data-index="0" data-item-index="0" data-known-size="807" data-user-message-id="6a0d77864276a014b8d0e6a3" data-agent-message-id="6a0d7786f8776e01eb5302b6" style="overflow-anchor: none;"><div class="turn " data-turn-id="6a0d77864276a014b8d0e6a3"><div class="turn__user-message" data-item-type="turn:user-message" data-role="user" data-message-id="6a0d77864276a014b8d0e6a3"><section class="user-message" data-message-id="6a0d77864276a014b8d0e6a3" data-role="user" data-message-index="0"><div class="user-message__main"><div class="user-message__content-area"><div class="user-message__text-box"><div class="user-message__text-wrapper"><div class="user-message__text-inner user-message__text-inner--collapsed"><div class="user-message__text-content custom-scrollbar user-message__text-content--collapsed"><div class="user-message-query-line"><span class="user-message-query-text" _msttexthash="350065404" _msthash="15">做一个排球动作识别与纠错单页网站，纯HTML+JS，使用国内CDN加载MediaPipe Pose，实现：</span></div><div class="user-message-query-line"><span class="user-message-query-text" _msttexthash="116056980" _msthash="16">1. 调用摄像头实时画面，画出人体骨骼点</span></div><div class="user-message-query-line"><span class="user-message-query-text" _msttexthash="131221324" _msthash="17">2. 三种动作：下手垫球、上手传球、正面上手发球</span></div><div class="user-message-query-line"><span class="user-message-query-text" _msttexthash="85735897" _msthash="18">3. 实时中文错误提示，红色醒目</span></div><div class="user-message-query-line"><span class="user-message-query-text" _msttexthash="86310575" _msthash="19">4. 考试模拟模式：计数、百分制打分</span></div><div class="user-message-query-line"><span class="user-message-query-text" _msttexthash="104272532" _msthash="20">5. 界面简洁，蓝色风格，手机适配</span></div><div class="user-message-query-line"><span class="user-message-query-text" _msttexthash="74387131" _msthash="21">6. 所有逻辑本地运行，无后端</span></div><div class="user-message-query-line"><span class="user-message-query-text" _msttexthash="75521563" _msthash="22">7. 代码完整，打开浏览器就能用</span></div><div class="user-message__expand-gradient"></div></div><div class="user-message__expand-float"><button class="user-message__expand-button" type="button" _msttexthash="11658322" _msthash="23">显示更多</button></div></div></div></div></div></div><div class="user-message__bottom-bar"><span class="trigger-jIoLhZ"><span class="textEllipsis-uRFsZA singleLine-Bo6pad user-message__time" _msttexthash="31616" _msthash="24">16:57</span></span><span class="user-message__bottom-bar-divider"></span><div class="user-message__action-buttons"><span class="trigger-jIoLhZ"><span class="user-message__icon-wrapper"><button class="iconButton-abHesq quaternary-bkmm6w small-MVjdue iconCopy-Giwy3p  "><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-Copy " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M13.9332 2.06708V11.2663H11.2662V13.9333H2.06702V4.73309H4.73303V2.06708H13.9332ZM3.26624 12.7331H10.067V5.93329H3.26624V12.7331ZM5.93323 4.73309H11.2662V10.0671H12.733V3.2663H5.93323V4.73309Z"></path></svg></span></button></span></span><span class="trigger-jIoLhZ"><button class="iconButton-abHesq quaternary-bkmm6w small-MVjdue"><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-Delete " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M7.99963 1.40039C9.22935 1.40039 10.2568 2.2537 10.528 3.40039H13.9332V4.59961H12.6002V14.5996H3.40002V4.59961H2.06702V3.40039H5.47229C5.74346 2.25384 6.77009 1.40054 7.99963 1.40039ZM4.60022 13.4004H11.4V4.59961H4.60022V13.4004ZM6.06702 6.7334H7.26624V11.2666H6.06702V6.7334ZM8.73303 6.7334H9.93323V11.2666H8.73303V6.7334ZM7.99963 2.59961C7.44153 2.59974 6.95961 2.92747 6.73499 3.40039H9.26428C9.03956 2.92751 8.55778 2.59961 7.99963 2.59961Z"></path></svg></span></button></span><span class="trigger-jIoLhZ"><button class="iconButton-abHesq quaternary-bkmm6w small-MVjdue"><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-revert " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M14.0996 8.33365C14.0996 5.70109 11.9656 3.56705 9.33301 3.56705H3.78125L4.75781 2.59048L4.33301 2.16666L3.90918 1.74283L1.90918 3.74283L1.48438 4.16666L1.90918 4.59048L3.90918 6.59048L4.33301 7.01529L5.18164 6.16666L3.78125 4.76627H9.33301C11.3028 4.76627 12.9004 6.36383 12.9004 8.33365C12.9002 10.3033 11.3027 11.9001 9.33301 11.9001H3.06641V13.1003H9.33301C11.9655 13.1003 14.0994 10.9661 14.0996 8.33365ZM3.90918 1.74283L4.75781 2.59048L5.18164 2.16666L4.33301 1.31802L3.90918 1.74283Z"></path></svg></span></button></span></div></div></section></div><div class="turn__agent-message" data-role="assistant" data-message-id="6a0d7786f8776e01eb5302b6"><div data-item-type="turn:assistant-avatar"><div class="agent-message__header"><div class="agent-avatar agent-avatar--solo-work" style="width: 18px; height: 18px;"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 12 8"><path fill="currentColor" d="M.372 0v6.516h1.484V1.485h8.288v5.03H1.856V8h9.773V0z"></path><path fill="currentColor" d="m4.849 2.925-1.05 1.05 1.05 1.05 1.05-1.05zM8.106 2.925l-1.05 1.05 1.05 1.05 1.05-1.05z"></path></svg></div><span class="agent-message__title" _msttexthash="10948366" _msthash="25">仅限中医</span></div></div><div data-item-type="agent:reference-list"></div><div data-item-type="agent:before-plans"><div data-virtual-item-empty="before-plans" style="height: 0px; overflow: hidden;"></div></div><div data-item-type="task:todo-progress-container"><div class="todo-progress-container"><div class="todo-progress-divider" role="button" tabindex="0"><div class="todo-progress-divider__line"></div><span class="todo-progress-divider__label"><font _mstmutation="1" _msttexthash="15354729" _msthash="26">工作了4分46秒</font><span class="todo-progress-divider__icon"><svg class="newide-icon newide-icon-Right " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M7.09058 4.90955L10.1824 8.00037L9.75757 8.42419L6.66675 11.515L5.81812 10.6664L6.24292 10.2426L8.48413 7.99939L6.24292 5.7572L5.81812 5.33337L6.66675 4.48474L7.09058 4.90955Z"></path></svg></span></span><div class="todo-progress-divider__line"></div></div><div class="todo-progress-content-wrapper"><div class="todo-progress-content"><div data-item-type="task:explore-group"><div class="core-expandable-section"><div class="core-expandable-section__header"><span class="core-expandable-section__header-title" _msttexthash="246825644" _msthash="27">创建了1个文件，搜索了13个网页，运行了1个命令，打开了预览1次</span><span class="core-expandable-section__header-icon"><svg class="newide-icon newide-icon-Right " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M7.09058 4.90955L10.1824 8.00037L9.75757 8.42419L6.66675 11.515L5.81812 10.6664L6.24292 10.2426L8.48413 7.99939L6.24292 5.7572L5.81812 5.33337L6.66675 4.48474L7.09058 4.90955Z"></path></svg></span></div></div></div></div></div></div></div><div data-item-type="plan-item:toolcall"><div class="agent-plan-item" data-plan-item-id="6a0d78a6f8776e01eb530338" data-toolcall-type="finish"><div class="core-finish-card"><div class="core-finish-card__summary"><div class="markdown-renderer"><p class="markdown-p" _msttexthash="2132982566" _msthash="28">已按你的要求做成「纯 HTML + JS、无后端、本地运行」的单页网站，集成了 MediaPipe Pose（CDN）、实时骨骼绘制、三类动作识别+纠错（中文红色提示）、考试模拟（计数+百分制评分）、蓝色简洁风格与手机适配。</p>
-<p class="markdown-p"><a data-opens-panel="true" class="markdown-computer-link" href="computer:///workspace/index.html" _msttexthash="52996112" _msthash="82">查看网页文件（index.html）</a></p>
-<p class="markdown-p"><font _mstmutation="1" _msttexthash="558529023" _msthash="81">你可以直接用本地静态服务器打开它来使用摄像头（例如 VSCode Live Server，或 ）。 我这边也已启动本地预览： <a href="http://localhost:8000/" data-opens-panel="true" class="markdown-link" _mstmutation="1" style="cursor: pointer;" _istranslated="1">http://localhost:8000/</a></font><code>python -m http.server</code></p></div></div><div class="core-finish-card__title" _msttexthash="5411237" _msthash="31">文物</div><div data-opens-panel="true" class="core-finish-card__content"><div class="core-finish-card__subtitle" _msttexthash="10405005" _msthash="32">文件变更</div><div class="core-finish-card__artifact-grid" style="--grid-columns: 1;"><div class="core-finish-card__preview-item "><div class="core-finish-card__preview-header"><div class="core-finish-card__preview-info"><div class="core-finish-card__preview-icon"><span class="flatFileIcon-Sw3HU7"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgZmlsdGVyPSJ1cmwoI2ZpbHRlcjBfZGRfMTU1NzdfMzM1NDkpIj4KPHJlY3QgeD0iNS44ODkxNiIgeT0iNiIgd2lkdGg9IjI4LjMzMzMiIGhlaWdodD0iMjguMzMiIHJ4PSIzLjMzMzMzIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMjAuMDU1NyA5LjE2NTA0QzI2LjEzMDggOS4xNjUwNCAzMS4wNTU3IDE0LjA4OTkgMzEuMDU1NyAyMC4xNjVDMzEuMDU1NyAyNi4yNDAyIDI2LjEzMDggMzEuMTY1IDIwLjA1NTcgMzEuMTY1QzEzLjk4MDcgMzEuMTY0OCA5LjA1NTY2IDI2LjI0IDkuMDU1NjYgMjAuMTY1QzkuMDU1NjYgMTQuMDkwMSAxMy45ODA3IDkuMTY1MjggMjAuMDU1NyA5LjE2NTA0WiIgZmlsbD0iI0I1QkJDNCIgZmlsbC1vcGFjaXR5PSIwLjY1Ii8+CjxwYXRoIGQ9Ik0xNi4zMDY0IDI0LjI3MkMxNS45NDEyIDI0LjQyODkgMTUuNTcxNiAyNC4wNTkzIDE1LjcyODUgMjMuNjk0MUwxOC4wNTI2IDE4LjI4MjZDMTguMDk3MSAxOC4xNzkgMTguMTc5NiAxOC4wOTY0IDE4LjI4MzIgMTguMDUxOUwyMy42OTQ3IDE1LjcyNzlDMjQuMDYgMTUuNTcxIDI0LjQyOTUgMTUuOTQwNSAyNC4yNzI2IDE2LjMwNThMMjEuOTQ4NSAyMS43MTcyQzIxLjkwNCAyMS44MjA4IDIxLjgyMTUgMjEuOTAzNCAyMS43MTc5IDIxLjk0NzlMMTYuMzA2NCAyNC4yNzJaIiBmaWxsPSJ3aGl0ZSIvPgo8cGF0aCBkPSJNMjMuNjk0NCAxNS43MjgyTDE4LjQxOTkgMTcuOTkzNEMxOC4yNzcgMTguMDU0OCAxOC4yNDEyIDE4LjI0MTEgMTguMzUxMiAxOC4zNTExTDIxLjY0OTQgMjEuNjQ5M0MyMS43NTk0IDIxLjc1OTMgMjEuOTQ1NyAyMS43MjM1IDIyLjAwNzEgMjEuNTgwNkwyNC4yNzIzIDE2LjMwNjFDMjQuNDI5MiAxNS45NDA4IDI0LjA1OTcgMTUuNTcxMyAyMy42OTQ0IDE1LjcyODJaIiBmaWxsPSIjQ0E0QzRDIi8+CjwvZz4KPGRlZnM+CjxmaWx0ZXIgaWQ9ImZpbHRlcjBfZGRfMTU1NzdfMzM1NDkiIHg9IjEuNjA1ODMiIHk9IjUuMDUiIHdpZHRoPSIzNi45MDAyIiBoZWlnaHQ9IjM2Ljg5NjciIGZpbHRlclVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY29sb3ItaW50ZXJwb2xhdGlvbi1maWx0ZXJzPSJzUkdCIj4KPGZlRmxvb2QgZmxvb2Qtb3BhY2l0eT0iMCIgcmVzdWx0PSJCYWNrZ3JvdW5kSW1hZ2VGaXgiLz4KPGZlQ29sb3JNYXRyaXggaW49IlNvdXJjZUFscGhhIiB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMTI3IDAiIHJlc3VsdD0iaGFyZEFscGhhIi8+CjxmZU9mZnNldCBkeT0iMy4zMzMzMyIvPgo8ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIyLjE0MTY3Ii8+CjxmZUNvbXBvc2l0ZSBpbjI9ImhhcmRBbHBoYSIgb3BlcmF0b3I9Im91dCIvPgo8ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMCAwIDAgMCAwLjM2OCAwIDAgMCAwIDAuMzg0IDAgMCAwIDAgMC40IDAgMCAwIDAuMDQgMCIvPgo8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluMj0iQmFja2dyb3VuZEltYWdlRml4IiByZXN1bHQ9ImVmZmVjdDFfZHJvcFNoYWRvd18xNTU3N18zMzU0OSIvPgo8ZmVDb2xvck1hdHJpeCBpbj0iU291cmNlQWxwaGEiIHR5cGU9Im1hdHJpeCIgdmFsdWVzPSIwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAxMjcgMCIgcmVzdWx0PSJoYXJkQWxwaGEiLz4KPGZlT2Zmc2V0IGR5PSIxLjY2NjY3Ii8+CjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjEuMDc1Ii8+CjxmZUNvbXBvc2l0ZSBpbjI9ImhhcmRBbHBoYSIgb3BlcmF0b3I9Im91dCIvPgo8ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMCAwIDAgMCAwLjM2ODYyNyAwIDAgMCAwIDAuMzg0MzE0IDAgMCAwIDAgMC40IDAgMCAwIDAuMTUgMCIvPgo8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluMj0iZWZmZWN0MV9kcm9wU2hhZG93XzE1NTc3XzMzNTQ5IiByZXN1bHQ9ImVmZmVjdDJfZHJvcFNoYWRvd18xNTU3N18zMzU0OSIvPgo8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluPSJTb3VyY2VHcmFwaGljIiBpbjI9ImVmZmVjdDJfZHJvcFNoYWRvd18xNTU3N18zMzU0OSIgcmVzdWx0PSJzaGFwZSIvPgo8L2ZpbHRlcj4KPC9kZWZzPgo8L3N2Zz4K" alt="" class="icon-nYimXp"></span></div><div class="core-finish-card__preview-content"><div class="core-finish-card__preview-name" _msttexthash="16108443" _msthash="33">预览网页</div></div></div></div><div class="core-finish-card__preview-body "></div></div></div><div class="core-finish-card__subtitle" _msttexthash="12635012" _msthash="34">规范变更</div><div class="core-finish-card__code-card"><div class="core-finish-card__code-header core-finish-card__code-header--expanded"><div class="core-finish-card__code-header-left"><div class="core-finish-card__code-header-icon"><span class="flatFileIcon-Sw3HU7"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwXzE2NTM2XzEwNjIyKSI+CjxnIGZpbHRlcj0idXJsKCNmaWx0ZXIwX2RkXzE2NTM2XzEwNjIyKSI+CjxwYXRoIGQ9Ik02LjY2NjUgNi42NjYzNEM2LjY2NjUgNC44MjUzOSA4LjE1ODg5IDMuMzMzMDEgOS45OTk4NCAzLjMzMzAxSDIzLjYxOTFDMjQuNTAzMiAzLjMzMzAxIDI1LjM1MSAzLjY4NDIgMjUuOTc2MSA0LjMwOTMyTDMyLjM1NjkgMTAuNjlDMzIuOTgyIDExLjMxNTIgMzMuMzMzMiAxMi4xNjMgMzMuMzMzMiAxMy4wNDcxVjMzLjMzM0MzMy4zMzMyIDM1LjE3NCAzMS44NDA4IDM2LjY2NjMgMjkuOTk5OCAzNi42NjYzSDkuOTk5ODRDOC4xNTg4OSAzNi42NjYzIDYuNjY2NSAzNS4xNzQgNi42NjY1IDMzLjMzM1Y2LjY2NjM0WiIgZmlsbD0id2hpdGUiLz4KPC9nPgo8ZyBjbGlwLXBhdGg9InVybCgjY2xpcDFfMTY1MzZfMTA2MjIpIj4KPHJlY3QgeD0iMTUuOTk5NSIgeT0iMjAiIHdpZHRoPSI4IiBoZWlnaHQ9IjIiIGZpbGw9IiMyNkE1N0IiLz4KPHJlY3QgeD0iMTUuOTk5NSIgeT0iMjgiIHdpZHRoPSI4IiBoZWlnaHQ9IjIiIGZpbGw9IiNDMTU2NEUiLz4KPHJlY3QgeD0iMjAuOTk5NSIgeT0iMTciIHdpZHRoPSI4IiBoZWlnaHQ9IjIiIHRyYW5zZm9ybT0icm90YXRlKDkwIDIwLjk5OTUgMTcpIiBmaWxsPSIjMjZBNTdCIi8+CjwvZz4KPGcgZmlsdGVyPSJ1cmwoI2ZpbHRlcjFfZF8xNjUzNl8xMDYyMikiPgo8cGF0aCBkPSJNMjUgOS4xNjYzNFYzLjMzMzAxTDMzLjMzMzMgMTEuNjY2M0gyNy41QzI2LjExOTMgMTEuNjY2MyAyNSAxMC41NDcxIDI1IDkuMTY2MzRaIiBmaWxsPSJ3aGl0ZSIvPgo8L2c+CjwvZz4KPGRlZnM+CjxmaWx0ZXIgaWQ9ImZpbHRlcjBfZGRfMTY1MzZfMTA2MjIiIHg9IjIuMzgzMTciIHk9IjIuMzgzMDEiIHdpZHRoPSIzNS4yMzMyIiBoZWlnaHQ9IjQxLjkwMDIiIGZpbHRlclVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY29sb3ItaW50ZXJwb2xhdGlvbi1maWx0ZXJzPSJzUkdCIj4KPGZlRmxvb2QgZmxvb2Qtb3BhY2l0eT0iMCIgcmVzdWx0PSJCYWNrZ3JvdW5kSW1hZ2VGaXgiLz4KPGZlQ29sb3JNYXRyaXggaW49IlNvdXJjZUFscGhhIiB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMTI3IDAiIHJlc3VsdD0iaGFyZEFscGhhIi8+CjxmZU9mZnNldCBkeT0iMy4zMzMzMyIvPgo8ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIyLjE0MTY3Ii8+CjxmZUNvbXBvc2l0ZSBpbjI9ImhhcmRBbHBoYSIgb3BlcmF0b3I9Im91dCIvPgo8ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMCAwIDAgMCAwLjM2OCAwIDAgMCAwIDAuMzg0IDAgMCAwIDAgMC40IDAgMCAwIDAuMDQgMCIvPgo8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluMj0iQmFja2dyb3VuZEltYWdlRml4IiByZXN1bHQ9ImVmZmVjdDFfZHJvcFNoYWRvd18xNjUzNl8xMDYyMiIvPgo8ZmVDb2xvck1hdHJpeCBpbj0iU291cmNlQWxwaGEiIHR5cGU9Im1hdHJpeCIgdmFsdWVzPSIwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAxMjcgMCIgcmVzdWx0PSJoYXJkQWxwaGEiLz4KPGZlT2Zmc2V0IGR5PSIxLjY2NjY3Ii8+CjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjEuMDc1Ii8+CjxmZUNvbXBvc2l0ZSBpbjI9ImhhcmRBbHBoYSIgb3BlcmF0b3I9Im91dCIvPgo8ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMCAwIDAgMCAwLjM2ODYyNyAwIDAgMCAwIDAuMzg0MzE0IDAgMCAwIDAgMC40IDAgMCAwIDAuMTUgMCIvPgo8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluMj0iZWZmZWN0MV9kcm9wU2hhZG93XzE2NTM2XzEwNjIyIiByZXN1bHQ9ImVmZmVjdDJfZHJvcFNoYWRvd18xNjUzNl8xMDYyMiIvPgo8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluPSJTb3VyY2VHcmFwaGljIiBpbjI9ImVmZmVjdDJfZHJvcFNoYWRvd18xNjUzNl8xMDYyMiIgcmVzdWx0PSJzaGFwZSIvPgo8L2ZpbHRlcj4KPGZpbHRlciBpZD0iZmlsdGVyMV9kXzE2NTM2XzEwNjIyIiB4PSIyMC44MzMzIiB5PSIxLjY2NjM0IiB3aWR0aD0iMTUuMDAwMiIgaGVpZ2h0PSIxNS4wMDAyIiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0ic1JHQiI+CjxmZUZsb29kIGZsb29kLW9wYWNpdHk9IjAiIHJlc3VsdD0iQmFja2dyb3VuZEltYWdlRml4Ii8+CjxmZUNvbG9yTWF0cml4IGluPSJTb3VyY2VBbHBoYSIgdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDEyNyAwIiByZXN1bHQ9ImhhcmRBbHBoYSIvPgo8ZmVPZmZzZXQgZHg9Ii0wLjgzMzMzMyIgZHk9IjEuNjY2NjciLz4KPGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMS42NjY2NyIvPgo8ZmVDb21wb3NpdGUgaW4yPSJoYXJkQWxwaGEiIG9wZXJhdG9yPSJvdXQiLz4KPGZlQ29sb3JNYXRyaXggdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAuMTIgMCIvPgo8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluMj0iQmFja2dyb3VuZEltYWdlRml4IiByZXN1bHQ9ImVmZmVjdDFfZHJvcFNoYWRvd18xNjUzNl8xMDYyMiIvPgo8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluPSJTb3VyY2VHcmFwaGljIiBpbjI9ImVmZmVjdDFfZHJvcFNoYWRvd18xNjUzNl8xMDYyMiIgcmVzdWx0PSJzaGFwZSIvPgo8L2ZpbHRlcj4KPGNsaXBQYXRoIGlkPSJjbGlwMF8xNjUzNl8xMDYyMiI+CjxyZWN0IHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgZmlsbD0id2hpdGUiLz4KPC9jbGlwUGF0aD4KPGNsaXBQYXRoIGlkPSJjbGlwMV8xNjUzNl8xMDYyMiI+CjxyZWN0IHdpZHRoPSIyMS42NjY3IiBoZWlnaHQ9IjIxLjY2NjciIGZpbGw9IndoaXRlIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg5LjE2Njk5IDEyLjUpIi8+CjwvY2xpcFBhdGg+CjwvZGVmcz4KPC9zdmc+Cg==" alt="" class="icon-nYimXp"></span></div><span class="core-finish-card__code-files-text" _msttexthash="15565602" _msthash="35">1个文件更改</span><span class="core-finish-card__toggle-icon"><svg class="newide-icon newide-icon-fold_2 " width="1em" height="1em" viewBox="0 0 14 14" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M7.37109 8.37891L10.0762 11.083L9.33398 11.8252L7 9.49219L4.66699 11.8252L3.9248 11.083L6.62891 8.37891L7 8.00684L7.37109 8.37891ZM10.0752 2.91699L7 5.99219L3.92383 2.91699L4.66602 2.17383L5.03711 2.5459L7 4.50879L8.96191 2.5459L9.33301 2.17383L10.0752 2.91699Z"></path></svg></span></div><div class="core-finish-card__code-header-right"></div></div><div class="core-finish-card__file-list-container core-finish-card__file-list-container--expanded" _mstvisible="0"><div class="core-finish-card__file-list" _mstvisible="1"><div class="core-finish-card__file-item" _mstvisible="2"><div class="core-finish-card__file-info" _mstvisible="3"><div class="core-finish-card__file-icon core-finish-card__file-icon-added" _mstvisible="4"><svg class="newide-icon newide-icon-icon-add-file-square " width="1em" height="1em" viewBox="0 0 14 14" fill="currentColor" xmlns="http://www.w3.org/2000/svg" _mstVisible="5"><path d="M9.91211 1.20679L12.3779 4.16577L12.5107 4.32593V12.9998H1.99023V0.999756H9.73926L9.91211 1.20679ZM3.14062 11.8494H11.3604V4.74194L9.2002 2.15015H3.14062V11.8494ZM7.75488 6.38062H9.46973V7.38062H7.75488V9.10522H6.75488V7.38062H5.03125V6.38062H6.75488V4.66675H7.75488V6.38062Z" _mstVisible="6"></path></svg></div><div class="core-finish-card__file-details" _mstvisible="4"><span class="core-finish-card__file-name" title="./index.html" _msttexthash="152568" _msthash="36" _mstvisible="5">index.html</span><div class="core-finish-card__file-path-wrap" _mstvisible="5"><span class="core-finish-card__file-path" title="./index.html" _msttexthash="188136" _msthash="37" _mstvisible="6">./index.html</span></div></div></div></div></div></div></div></div></div></div></div><div data-item-type="agent:notification"></div><div data-item-type="agent:after-plans"><div data-virtual-item-empty="after-plans" style="height: 0px; overflow: hidden;"></div></div><div data-item-type="widget:action-bar"><div class="latest-assistant-bar latest-assistant-bar-stage-0"><div class="latest-assistant-bar-left-part"></div><div class="latest-assistant-bar-right-part"><div class="assistant-action-bar"><div class="assistant-action-bar-buttons"><span class="trigger-jIoLhZ"><button class="iconButton-abHesq tertiary-J9WelI small-MVjdue" aria-label="很好" _mstaria-label="43992" _msthash="39"><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-Like " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M7.74414 1.40039C8.85634 1.40061 9.72254 2.33085 9.67578 3.41309L9.6543 3.63086L9.37891 5.40039H12.042C13.5682 5.40039 14.7544 6.70441 14.6338 8.20508L14.6182 8.35156L14.1641 11.6846C13.9884 12.9727 12.8879 13.9334 11.5879 13.9336H1.40039V6.7334H4.2959L6.79688 1.73145L6.96289 1.40039H7.74414ZM5.2666 7.47461V12.7334H11.5879C12.2878 12.7332 12.88 12.216 12.9746 11.5225L13.4297 8.18945L13.4414 8.0332C13.4612 7.25814 12.8375 6.59961 12.042 6.59961H7.97656L8.46875 3.44629L8.47656 3.36328C8.49412 2.95299 8.16579 2.59983 7.74414 2.59961H7.7041L5.2666 7.47461ZM2.59961 12.7334H4.06641V7.93359H2.59961V12.7334Z"></path></svg></span></button></span><span class="trigger-jIoLhZ"><button class="iconButton-abHesq tertiary-J9WelI small-MVjdue" aria-label="糟糕" _mstaria-label="27794" _msthash="40"><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-Unlike " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8.27635 14.5996C7.16456 14.5995 6.30318 13.6673 6.34959 12.5869L6.37107 12.3691L6.64549 10.5996H3.99314C2.46891 10.5995 1.28816 9.29343 1.40818 7.79492L1.42381 7.64941L1.87693 4.31543C2.05188 3.02874 3.14797 2.06641 4.44627 2.06641H14.5996V9.2666H11.706L9.0576 14.5996H8.27635ZM10.7334 8.52539V3.2666H4.44627C3.75141 3.2666 3.16084 3.78239 3.06639 4.47754L2.61326 7.81055L2.60057 7.96777C2.58122 8.74422 3.20415 9.40032 3.99314 9.40039H8.04685L7.55662 12.5537C7.48736 13.0008 7.83169 13.4003 8.27635 13.4004H8.31346L10.7334 8.52539ZM13.4004 3.2666H11.9336V8.06641H13.4004V3.2666Z"></path></svg></span></button></span><span class="trigger-jIoLhZ"><button class="iconButton-abHesq tertiary-J9WelI small-MVjdue" aria-label="全部复制" _mstaria-label="90870" _msthash="41"><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-Copy " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M13.9332 2.06708V11.2663H11.2662V13.9333H2.06702V4.73309H4.73303V2.06708H13.9332ZM3.26624 12.7331H10.067V5.93329H3.26624V12.7331ZM5.93323 4.73309H11.2662V10.0671H12.733V3.2663H5.93323V4.73309Z"></path></svg></span></button></span><span class="trigger-jIoLhZ"><button class="iconButton-abHesq tertiary-J9WelI small-MVjdue" aria-label="重试" _mstaria-label="63661" _msthash="42"><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-retry " width="1em" height="1em" viewBox="0 0 17 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M3.23303 10.067H7.10022V11.2662H5.03577C5.90979 12.1687 7.15084 12.7329 8.49963 12.733C11.1138 12.733 13.233 10.6138 13.233 7.99963V7.40002H14.4332V7.99963C14.4332 11.2765 11.7765 13.9332 8.49963 13.9332C6.94502 13.9331 5.50585 13.3329 4.43323 12.3522V13.9332H3.23303V10.067ZM2.56702 7.99963C2.56719 4.723 5.223 2.06719 8.49963 2.06702C10.0583 2.06702 11.5013 2.66979 12.5748 3.65491V2.06702H13.774V5.93323H9.90784V4.73303H11.9625C11.0884 3.83107 9.84793 3.26624 8.49963 3.26624C5.88574 3.26641 3.76641 5.38574 3.76624 7.99963V8.60022H2.56702V7.99963Z"></path></svg></span></button></span></div></div></div></div></div><div data-item-type="agent:last-content"></div></div></div></div><div data-index="1" data-item-index="1" data-known-size="312" data-user-message-id="6a0d7b3dadde5ea5011cb934" data-agent-message-id="6a0d7b3df8776e01eb53033c" style="overflow-anchor: none;"><div class="turn " data-turn-id="6a0d7b3dadde5ea5011cb934"><div class="turn__user-message" data-item-type="turn:user-message" data-role="user" data-message-id="6a0d7b3dadde5ea5011cb934"><section class="user-message" data-message-id="6a0d7b3dadde5ea5011cb934" data-role="user" data-message-index="2"><div class="user-message__main"><div class="user-message__content-area"><div class="user-message__text-box"><div class="user-message__text-wrapper"><div class="user-message__text-inner"><div class="user-message__text-content custom-scrollbar user-message__text-content--no-expand"><div class="user-message-query-line"><span class="user-message-query-text" _msttexthash="102387038" _msthash="83">请给我一个可以直接在浏览器中打开的网址</span></div></div></div></div></div></div></div><div class="user-message__bottom-bar"><span class="trigger-jIoLhZ"><span class="textEllipsis-uRFsZA singleLine-Bo6pad user-message__time" _msttexthash="30628" _msthash="84">17:13</span></span><span class="user-message__bottom-bar-divider"></span><div class="user-message__action-buttons"><span class="trigger-jIoLhZ"><span class="user-message__icon-wrapper"><button class="iconButton-abHesq quaternary-bkmm6w small-MVjdue iconCopy-Giwy3p  "><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-Copy " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M13.9332 2.06708V11.2663H11.2662V13.9333H2.06702V4.73309H4.73303V2.06708H13.9332ZM3.26624 12.7331H10.067V5.93329H3.26624V12.7331ZM5.93323 4.73309H11.2662V10.0671H12.733V3.2663H5.93323V4.73309Z"></path></svg></span></button></span></span><span class="trigger-jIoLhZ"><button class="iconButton-abHesq quaternary-bkmm6w small-MVjdue"><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-Delete " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M7.99963 1.40039C9.22935 1.40039 10.2568 2.2537 10.528 3.40039H13.9332V4.59961H12.6002V14.5996H3.40002V4.59961H2.06702V3.40039H5.47229C5.74346 2.25384 6.77009 1.40054 7.99963 1.40039ZM4.60022 13.4004H11.4V4.59961H4.60022V13.4004ZM6.06702 6.7334H7.26624V11.2666H6.06702V6.7334ZM8.73303 6.7334H9.93323V11.2666H8.73303V6.7334ZM7.99963 2.59961C7.44153 2.59974 6.95961 2.92747 6.73499 3.40039H9.26428C9.03956 2.92751 8.55778 2.59961 7.99963 2.59961Z"></path></svg></span></button></span><span class="trigger-jIoLhZ"><button class="iconButton-abHesq quaternary-bkmm6w small-MVjdue"><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-revert " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M14.0996 8.33365C14.0996 5.70109 11.9656 3.56705 9.33301 3.56705H3.78125L4.75781 2.59048L4.33301 2.16666L3.90918 1.74283L1.90918 3.74283L1.48438 4.16666L1.90918 4.59048L3.90918 6.59048L4.33301 7.01529L5.18164 6.16666L3.78125 4.76627H9.33301C11.3028 4.76627 12.9004 6.36383 12.9004 8.33365C12.9002 10.3033 11.3027 11.9001 9.33301 11.9001H3.06641V13.1003H9.33301C11.9655 13.1003 14.0994 10.9661 14.0996 8.33365ZM3.90918 1.74283L4.75781 2.59048L5.18164 2.16666L4.33301 1.31802L3.90918 1.74283Z"></path></svg></span></button></span></div></div></section></div><div class="turn__agent-message" data-role="assistant" data-message-id="6a0d7b3df8776e01eb53033c"><div data-item-type="turn:assistant-avatar"><div class="agent-message__header"><div class="agent-avatar agent-avatar--solo-work" style="width: 18px; height: 18px;"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 12 8"><path fill="currentColor" d="M.372 0v6.516h1.484V1.485h8.288v5.03H1.856V8h9.773V0z"></path><path fill="currentColor" d="m4.849 2.925-1.05 1.05 1.05 1.05 1.05-1.05zM8.106 2.925l-1.05 1.05 1.05 1.05 1.05-1.05z"></path></svg></div><span class="agent-message__title" _msttexthash="10948366" _msthash="85">仅限中医</span></div></div><div data-item-type="agent:reference-list"></div><div data-item-type="agent:before-plans"><div data-virtual-item-empty="before-plans" style="height: 0px; overflow: hidden;"></div></div><div data-item-type="plan-item:toolcall"><div class="agent-plan-item" data-plan-item-id="6a0d7b47f8776e01eb530347" data-toolcall-type="finish"><div class="core-finish-card"><div class="core-finish-card__summary"><div class="markdown-renderer"><p class="markdown-p" _msttexthash="114763792" _msthash="98">在当前会话里可直接打开的预览网址是：</p>
-<p class="markdown-p"><a href="http://localhost:8000/" data-opens-panel="true" class="markdown-link" _msttexthash="401544" _msthash="109" style="cursor: pointer;">http://localhost:8000/</a></p>
-<p class="markdown-p"><font _mstmutation="1" _msttexthash="2269028424" _msthash="108">如果你想要“任何设备/他人也能打开”的公网网址（类似  ），需要把这个  部署到静态托管（如 GitHub Pages、Netlify、Vercel 或任意对象存储静态网站）； 你告诉我想用哪一种平台，我可以把部署步骤按你的平台写到可直接照做的程度。</font><code>https://xxx.com</code><code>index.html</code></p></div></div></div></div></div><div data-item-type="agent:notification"></div><div data-item-type="agent:after-plans"><div data-virtual-item-empty="after-plans" style="height: 0px; overflow: hidden;"></div></div><div data-item-type="widget:action-bar"><div class="latest-assistant-bar latest-assistant-bar-stage-0"><div class="latest-assistant-bar-left-part"></div><div class="latest-assistant-bar-right-part"><div class="assistant-action-bar"><div class="assistant-action-bar-buttons"><span class="trigger-jIoLhZ"><button class="iconButton-abHesq tertiary-J9WelI small-MVjdue" aria-label="很好" _mstaria-label="43992" _msthash="102"><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-Like " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M7.74414 1.40039C8.85634 1.40061 9.72254 2.33085 9.67578 3.41309L9.6543 3.63086L9.37891 5.40039H12.042C13.5682 5.40039 14.7544 6.70441 14.6338 8.20508L14.6182 8.35156L14.1641 11.6846C13.9884 12.9727 12.8879 13.9334 11.5879 13.9336H1.40039V6.7334H4.2959L6.79688 1.73145L6.96289 1.40039H7.74414ZM5.2666 7.47461V12.7334H11.5879C12.2878 12.7332 12.88 12.216 12.9746 11.5225L13.4297 8.18945L13.4414 8.0332C13.4612 7.25814 12.8375 6.59961 12.042 6.59961H7.97656L8.46875 3.44629L8.47656 3.36328C8.49412 2.95299 8.16579 2.59983 7.74414 2.59961H7.7041L5.2666 7.47461ZM2.59961 12.7334H4.06641V7.93359H2.59961V12.7334Z"></path></svg></span></button></span><span class="trigger-jIoLhZ"><button class="iconButton-abHesq tertiary-J9WelI small-MVjdue" aria-label="糟糕" _mstaria-label="27794" _msthash="103"><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-Unlike " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8.27635 14.5996C7.16456 14.5995 6.30318 13.6673 6.34959 12.5869L6.37107 12.3691L6.64549 10.5996H3.99314C2.46891 10.5995 1.28816 9.29343 1.40818 7.79492L1.42381 7.64941L1.87693 4.31543C2.05188 3.02874 3.14797 2.06641 4.44627 2.06641H14.5996V9.2666H11.706L9.0576 14.5996H8.27635ZM10.7334 8.52539V3.2666H4.44627C3.75141 3.2666 3.16084 3.78239 3.06639 4.47754L2.61326 7.81055L2.60057 7.96777C2.58122 8.74422 3.20415 9.40032 3.99314 9.40039H8.04685L7.55662 12.5537C7.48736 13.0008 7.83169 13.4003 8.27635 13.4004H8.31346L10.7334 8.52539ZM13.4004 3.2666H11.9336V8.06641H13.4004V3.2666Z"></path></svg></span></button></span><span class="trigger-jIoLhZ"><button class="iconButton-abHesq tertiary-J9WelI small-MVjdue" aria-label="全部复制" _mstaria-label="90870" _msthash="104"><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-Copy " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M13.9332 2.06708V11.2663H11.2662V13.9333H2.06702V4.73309H4.73303V2.06708H13.9332ZM3.26624 12.7331H10.067V5.93329H3.26624V12.7331ZM5.93323 4.73309H11.2662V10.0671H12.733V3.2663H5.93323V4.73309Z"></path></svg></span></button></span><span class="trigger-jIoLhZ"><button class="iconButton-abHesq tertiary-J9WelI small-MVjdue" aria-label="重试" _mstaria-label="63661" _msthash="105"><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-retry " width="1em" height="1em" viewBox="0 0 17 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M3.23303 10.067H7.10022V11.2662H5.03577C5.90979 12.1687 7.15084 12.7329 8.49963 12.733C11.1138 12.733 13.233 10.6138 13.233 7.99963V7.40002H14.4332V7.99963C14.4332 11.2765 11.7765 13.9332 8.49963 13.9332C6.94502 13.9331 5.50585 13.3329 4.43323 12.3522V13.9332H3.23303V10.067ZM2.56702 7.99963C2.56719 4.723 5.223 2.06719 8.49963 2.06702C10.0583 2.06702 11.5013 2.66979 12.5748 3.65491V2.06702H13.774V5.93323H9.90784V4.73303H11.9625C11.0884 3.83107 9.84793 3.26624 8.49963 3.26624C5.88574 3.26641 3.76641 5.38574 3.76624 7.99963V8.60022H2.56702V7.99963Z"></path></svg></span></button></span></div></div></div></div></div><div data-item-type="agent:last-content"></div></div></div></div><div data-index="2" data-item-index="2" data-known-size="903" data-user-message-id="6a0d7b5eadde5ea5011cb935" data-agent-message-id="6a0d7b5ef8776e01eb53034b" style="overflow-anchor: none;"><div class="turn " data-turn-id="6a0d7b5eadde5ea5011cb935"><div class="turn__user-message" data-item-type="turn:user-message" data-role="user" data-message-id="6a0d7b5eadde5ea5011cb935"><section class="user-message" data-message-id="6a0d7b5eadde5ea5011cb935" data-role="user" data-message-index="4"><div class="user-message__main"><div class="user-message__content-area"><div class="user-message__text-box"><div class="user-message__text-wrapper"><div class="user-message__text-inner"><div class="user-message__text-content custom-scrollbar user-message__text-content--no-expand"><div class="user-message-query-line"><span class="user-message-query-text" _msttexthash="13488137" _msthash="110">部署到GitHub中</span></div></div></div></div></div></div></div><div class="user-message__bottom-bar"><span class="trigger-jIoLhZ"><span class="textEllipsis-uRFsZA singleLine-Bo6pad user-message__time" _msttexthash="30771" _msthash="111">17:14</span></span><span class="user-message__bottom-bar-divider"></span><div class="user-message__action-buttons"><span class="trigger-jIoLhZ"><span class="user-message__icon-wrapper"><button class="iconButton-abHesq quaternary-bkmm6w small-MVjdue iconCopy-Giwy3p  "><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-Copy " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M13.9332 2.06708V11.2663H11.2662V13.9333H2.06702V4.73309H4.73303V2.06708H13.9332ZM3.26624 12.7331H10.067V5.93329H3.26624V12.7331ZM5.93323 4.73309H11.2662V10.0671H12.733V3.2663H5.93323V4.73309Z"></path></svg></span></button></span></span><span class="trigger-jIoLhZ"><button class="iconButton-abHesq quaternary-bkmm6w small-MVjdue"><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-Delete " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M7.99963 1.40039C9.22935 1.40039 10.2568 2.2537 10.528 3.40039H13.9332V4.59961H12.6002V14.5996H3.40002V4.59961H2.06702V3.40039H5.47229C5.74346 2.25384 6.77009 1.40054 7.99963 1.40039ZM4.60022 13.4004H11.4V4.59961H4.60022V13.4004ZM6.06702 6.7334H7.26624V11.2666H6.06702V6.7334ZM8.73303 6.7334H9.93323V11.2666H8.73303V6.7334ZM7.99963 2.59961C7.44153 2.59974 6.95961 2.92747 6.73499 3.40039H9.26428C9.03956 2.92751 8.55778 2.59961 7.99963 2.59961Z"></path></svg></span></button></span><span class="trigger-jIoLhZ"><button class="iconButton-abHesq quaternary-bkmm6w small-MVjdue"><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-revert " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M14.0996 8.33365C14.0996 5.70109 11.9656 3.56705 9.33301 3.56705H3.78125L4.75781 2.59048L4.33301 2.16666L3.90918 1.74283L1.90918 3.74283L1.48438 4.16666L1.90918 4.59048L3.90918 6.59048L4.33301 7.01529L5.18164 6.16666L3.78125 4.76627H9.33301C11.3028 4.76627 12.9004 6.36383 12.9004 8.33365C12.9002 10.3033 11.3027 11.9001 9.33301 11.9001H3.06641V13.1003H9.33301C11.9655 13.1003 14.0994 10.9661 14.0996 8.33365ZM3.90918 1.74283L4.75781 2.59048L5.18164 2.16666L4.33301 1.31802L3.90918 1.74283Z"></path></svg></span></button></span></div></div></section></div><div class="turn__agent-message" data-role="assistant" data-message-id="6a0d7b5ef8776e01eb53034b"><div data-item-type="turn:assistant-avatar"><div class="agent-message__header"><div class="agent-avatar agent-avatar--solo-work" style="width: 18px; height: 18px;"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 12 8"><path fill="currentColor" d="M.372 0v6.516h1.484V1.485h8.288v5.03H1.856V8h9.773V0z"></path><path fill="currentColor" d="m4.849 2.925-1.05 1.05 1.05 1.05 1.05-1.05zM8.106 2.925l-1.05 1.05 1.05 1.05 1.05-1.05z"></path></svg></div><span class="agent-message__title" _msttexthash="10948366" _msthash="112">仅限中医</span></div></div><div data-item-type="agent:reference-list"></div><div data-item-type="agent:before-plans"><div data-virtual-item-empty="before-plans" style="height: 0px; overflow: hidden;"></div></div><div data-item-type="plan-item:toolcall"><div class="agent-plan-item" data-plan-item-id="6a0d7b63f8776e01eb530355" data-toolcall-type="finish"><div class="core-finish-card"><div class="core-finish-card__summary"><div class="markdown-renderer"><p class="markdown-p"><font _mstmutation="1" _msttexthash="358214389" _msthash="126">按 GitHub Pages 部署最简单，部署后会得到一个  的网址（HTTPS，摄像头可用）。</font><code>https://你 的用户名.github.io/仓库名/</code></p>
-<h2 class="markdown-h2" _msttexthash="69571346" _msthash="264">方式 A：网页端（不装 Git）</h2>
-<ol class="markdown-ol" data-level-mod="0" node="[object Object]">
-<li class="markdown-li" _msttexthash="171648386" _msthash="258">登录 GitHub → 右上角 <strong>New repository</strong> 新建仓库（建议 Public）。</li>
-<li class="markdown-li"><font _mstmutation="1" _msttexthash="326279564" _msthash="259">进入仓库 → <strong _mstmutation="1">Add file → Upload files</strong><br _mstmutation="1">
-把我给你的  上传到仓库根目录（文件名保持 ）。</font><code>index.html</code><code>index.html</code></li>
-<li class="markdown-li"><font _mstmutation="1" _msttexthash="37344086" _msthash="260">进入仓库 <strong _mstmutation="1" _istranslated="1">设置 → 页面</strong></font>
-<ul class="markdown-ul" data-level-mod="0">
-<li class="markdown-li"><font _mstmutation="1" _msttexthash="55005353" _msthash="261"><strong _mstmutation="1" _istranslated="1">构建与部署 / 源头</strong>选选：</font><code>Deploy from a branch</code></li>
-<li class="markdown-li"><font _mstmutation="1" _msttexthash="74697012" _msthash="262"><strong _mstmutation="1">Branch</strong> 选：，文件夹选： → <strong _mstmutation="1">Save</strong></font><code>main</code><code>/ (root)</code></li>
-</ul>
-</li>
-<li class="markdown-li"><font _mstmutation="1" _msttexthash="117682916" _msthash="263">等 1~3 分钟，Pages 会显示你的网站地址：</font><br>
-<code>https://你 的用户名.github.io/仓库名/</code></li>
-</ol>
-<h2 class="markdown-h2" _msttexthash="52759707" _msthash="257">方式 B：命令行（Git）</h2>
-<div class="pre-wrapper"><div class="code-block-wrapper"><div class="code-block-toolbar"><div class="leftGroup-mkdWx1"><button type="button" class="trigger-bXeTRN" title="选择语言"><span class="languageName-yVeG8v" _msttexthash="4285372" _msthash="256">巴什</span><svg class="newide-icon newide-icon-Down icon-JHLeu3" width="1em" height="1em" viewBox="0 0 17 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8.92419 9.7572L11.5912 7.09119L12.015 6.66638L11.1664 5.81775L10.7426 6.24255L8.49939 8.48572L5.83337 5.81775L4.98474 6.66638L8.50037 10.182L8.92419 9.7572Z"></path></svg></button></div><button type="button" class="copyButton-r81fjN" title="Copy Code"><svg class="newide-icon newide-icon-Copy " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M13.9332 2.06708V11.2663H11.2662V13.9333H2.06702V4.73309H4.73303V2.06708H13.9332ZM3.26624 12.7331H10.067V5.93329H3.26624V12.7331ZM5.93323 4.73309H11.2662V10.0671H12.733V3.2663H5.93323V4.73309Z"></path></svg></button></div><div class="code-block-content"><div class="code-block-line-numbers"><pre>1
-2
-3
-4
-5
-6</pre></div><pre class="code-block-code"><code class="language-bash">git <span class="hljs-built_in">clone</span> https://github.com/ 你的用户名/仓库名.git
-<span class="hljs-built_in">cd</span> 仓库名
-<span class="hljs-comment"># 把 index.html 放到这里（仓库根目录）</span>
-git add index.html
-git commit -m <span class="hljs-string">"Add volleyball pose demo"</span>
-git push</code></pre></div></div></div>
-<p class="markdown-p" _msttexthash="119539251" _msthash="255">然后同样去 <strong>Settings → Pages</strong> 里开启 Pages（main / root）。</p>
-<h2 class="markdown-h2" _msttexthash="5121168" _msthash="254">注意</h2>
-<ul class="markdown-ul" data-level-mod="0">
-<li class="markdown-li" _msttexthash="293989670" _msthash="252">摄像头权限：首次打开网址时浏览器会询问“允许使用摄像头”，点允许即可。</li>
-<li class="markdown-li"><font _mstmutation="1" _msttexthash="88123204" _msthash="253">如果你的仓库叫 ，最终网址就是：</font><code>volley-demo</code><code>https://你 的用户名.github.io/volley-demo/</code></li>
-</ul>
-<p class="markdown-p" _msttexthash="507661596" _msthash="251">把你的 <strong>GitHub 用户名</strong> 和 <strong>仓库名</strong> 发我（或发仓库链接），我也可以帮你确认最终访问网址应该是哪一个。</p></div></div></div></div></div><div data-item-type="agent:notification"></div><div data-item-type="agent:after-plans"><div data-virtual-item-empty="after-plans" style="height: 0px; overflow: hidden;"></div></div><div data-item-type="widget:action-bar"><div class="latest-assistant-bar latest-assistant-bar-stage-0"><div class="latest-assistant-bar-left-part"></div><div class="latest-assistant-bar-right-part"><div class="assistant-action-bar"><div class="assistant-action-bar-buttons"><span class="trigger-jIoLhZ"><button class="iconButton-abHesq tertiary-J9WelI small-MVjdue" aria-label="很好" _mstaria-label="43992" _msthash="142"><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-Like " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M7.74414 1.40039C8.85634 1.40061 9.72254 2.33085 9.67578 3.41309L9.6543 3.63086L9.37891 5.40039H12.042C13.5682 5.40039 14.7544 6.70441 14.6338 8.20508L14.6182 8.35156L14.1641 11.6846C13.9884 12.9727 12.8879 13.9334 11.5879 13.9336H1.40039V6.7334H4.2959L6.79688 1.73145L6.96289 1.40039H7.74414ZM5.2666 7.47461V12.7334H11.5879C12.2878 12.7332 12.88 12.216 12.9746 11.5225L13.4297 8.18945L13.4414 8.0332C13.4612 7.25814 12.8375 6.59961 12.042 6.59961H7.97656L8.46875 3.44629L8.47656 3.36328C8.49412 2.95299 8.16579 2.59983 7.74414 2.59961H7.7041L5.2666 7.47461ZM2.59961 12.7334H4.06641V7.93359H2.59961V12.7334Z"></path></svg></span></button></span><span class="trigger-jIoLhZ"><button class="iconButton-abHesq tertiary-J9WelI small-MVjdue" aria-label="糟糕" _mstaria-label="27794" _msthash="143"><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-Unlike " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8.27635 14.5996C7.16456 14.5995 6.30318 13.6673 6.34959 12.5869L6.37107 12.3691L6.64549 10.5996H3.99314C2.46891 10.5995 1.28816 9.29343 1.40818 7.79492L1.42381 7.64941L1.87693 4.31543C2.05188 3.02874 3.14797 2.06641 4.44627 2.06641H14.5996V9.2666H11.706L9.0576 14.5996H8.27635ZM10.7334 8.52539V3.2666H4.44627C3.75141 3.2666 3.16084 3.78239 3.06639 4.47754L2.61326 7.81055L2.60057 7.96777C2.58122 8.74422 3.20415 9.40032 3.99314 9.40039H8.04685L7.55662 12.5537C7.48736 13.0008 7.83169 13.4003 8.27635 13.4004H8.31346L10.7334 8.52539ZM13.4004 3.2666H11.9336V8.06641H13.4004V3.2666Z"></path></svg></span></button></span><span class="trigger-jIoLhZ"><button class="iconButton-abHesq tertiary-J9WelI small-MVjdue" aria-label="全部复制" _mstaria-label="90870" _msthash="144"><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-Copy " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M13.9332 2.06708V11.2663H11.2662V13.9333H2.06702V4.73309H4.73303V2.06708H13.9332ZM3.26624 12.7331H10.067V5.93329H3.26624V12.7331ZM5.93323 4.73309H11.2662V10.0671H12.733V3.2663H5.93323V4.73309Z"></path></svg></span></button></span><span class="trigger-jIoLhZ"><button class="iconButton-abHesq tertiary-J9WelI small-MVjdue" aria-label="重试" _mstaria-label="63661" _msthash="145"><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-retry " width="1em" height="1em" viewBox="0 0 17 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M3.23303 10.067H7.10022V11.2662H5.03577C5.90979 12.1687 7.15084 12.7329 8.49963 12.733C11.1138 12.733 13.233 10.6138 13.233 7.99963V7.40002H14.4332V7.99963C14.4332 11.2765 11.7765 13.9332 8.49963 13.9332C6.94502 13.9331 5.50585 13.3329 4.43323 12.3522V13.9332H3.23303V10.067ZM2.56702 7.99963C2.56719 4.723 5.223 2.06719 8.49963 2.06702C10.0583 2.06702 11.5013 2.66979 12.5748 3.65491V2.06702H13.774V5.93323H9.90784V4.73303H11.9625C11.0884 3.83107 9.84793 3.26624 8.49963 3.26624C5.88574 3.26641 3.76641 5.38574 3.76624 7.99963V8.60022H2.56702V7.99963Z"></path></svg></span></button></span></div></div></div></div></div><div data-item-type="agent:last-content"></div></div></div></div><div data-index="3" data-item-index="3" data-known-size="480" data-user-message-id="6a0d7c1dadde5ea5011cb936" data-agent-message-id="6a0d7c1df8776e01eb530359" style="overflow-anchor: none;"><div class="turn " data-turn-id="6a0d7c1dadde5ea5011cb936"><div class="turn__user-message" data-item-type="turn:user-message" data-role="user" data-message-id="6a0d7c1dadde5ea5011cb936"><section class="user-message" data-message-id="6a0d7c1dadde5ea5011cb936" data-role="user" data-message-index="6"><div class="user-message__main"><div class="user-message__content-area"><div class="user-message__text-box"><div class="user-message__text-wrapper"><div class="user-message__text-inner"><div class="user-message__text-content custom-scrollbar user-message__text-content--no-expand"><div class="user-message-query-line"><span class="user-message-query-text" _msttexthash="30966546" _msthash="265">原仓库的网址是什么</span></div></div></div></div></div></div></div><div class="user-message__bottom-bar"><span class="trigger-jIoLhZ"><span class="textEllipsis-uRFsZA singleLine-Bo6pad user-message__time" _msttexthash="31200" _msthash="266">17:17</span></span><span class="user-message__bottom-bar-divider"></span><div class="user-message__action-buttons"><span class="trigger-jIoLhZ"><span class="user-message__icon-wrapper"><button class="iconButton-abHesq quaternary-bkmm6w small-MVjdue iconCopy-Giwy3p  "><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-Copy " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M13.9332 2.06708V11.2663H11.2662V13.9333H2.06702V4.73309H4.73303V2.06708H13.9332ZM3.26624 12.7331H10.067V5.93329H3.26624V12.7331ZM5.93323 4.73309H11.2662V10.0671H12.733V3.2663H5.93323V4.73309Z"></path></svg></span></button></span></span><span class="trigger-jIoLhZ"><button class="iconButton-abHesq quaternary-bkmm6w small-MVjdue"><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-Delete " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M7.99963 1.40039C9.22935 1.40039 10.2568 2.2537 10.528 3.40039H13.9332V4.59961H12.6002V14.5996H3.40002V4.59961H2.06702V3.40039H5.47229C5.74346 2.25384 6.77009 1.40054 7.99963 1.40039ZM4.60022 13.4004H11.4V4.59961H4.60022V13.4004ZM6.06702 6.7334H7.26624V11.2666H6.06702V6.7334ZM8.73303 6.7334H9.93323V11.2666H8.73303V6.7334ZM7.99963 2.59961C7.44153 2.59974 6.95961 2.92747 6.73499 3.40039H9.26428C9.03956 2.92751 8.55778 2.59961 7.99963 2.59961Z"></path></svg></span></button></span><span class="trigger-jIoLhZ"><button class="iconButton-abHesq quaternary-bkmm6w small-MVjdue"><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-revert " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M14.0996 8.33365C14.0996 5.70109 11.9656 3.56705 9.33301 3.56705H3.78125L4.75781 2.59048L4.33301 2.16666L3.90918 1.74283L1.90918 3.74283L1.48438 4.16666L1.90918 4.59048L3.90918 6.59048L4.33301 7.01529L5.18164 6.16666L3.78125 4.76627H9.33301C11.3028 4.76627 12.9004 6.36383 12.9004 8.33365C12.9002 10.3033 11.3027 11.9001 9.33301 11.9001H3.06641V13.1003H9.33301C11.9655 13.1003 14.0994 10.9661 14.0996 8.33365ZM3.90918 1.74283L4.75781 2.59048L5.18164 2.16666L4.33301 1.31802L3.90918 1.74283Z"></path></svg></span></button></span></div></div></section></div><div class="turn__agent-message" data-role="assistant" data-message-id="6a0d7c1df8776e01eb530359"><div data-item-type="turn:assistant-avatar"><div class="agent-message__header"><div class="agent-avatar agent-avatar--solo-work" style="width: 18px; height: 18px;"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 12 8"><path fill="currentColor" d="M.372 0v6.516h1.484V1.485h8.288v5.03H1.856V8h9.773V0z"></path><path fill="currentColor" d="m4.849 2.925-1.05 1.05 1.05 1.05 1.05-1.05zM8.106 2.925l-1.05 1.05 1.05 1.05 1.05-1.05z"></path></svg></div><span class="agent-message__title" _msttexthash="10948366" _msthash="267">仅限中医</span></div></div><div data-item-type="agent:reference-list"></div><div data-item-type="agent:before-plans"><div data-virtual-item-empty="before-plans" style="height: 0px; overflow: hidden;"></div></div><div data-item-type="task:todo-progress-container"><div class="todo-progress-container"><div class="todo-progress-divider" role="button" tabindex="0"><div class="todo-progress-divider__line"></div><span class="todo-progress-divider__label"><font _mstmutation="1" _msttexthash="18349825" _msthash="299">工作时间是5s。</font><span class="todo-progress-divider__icon"><svg class="newide-icon newide-icon-Right " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M7.09058 4.90955L10.1824 8.00037L9.75757 8.42419L6.66675 11.515L5.81812 10.6664L6.24292 10.2426L8.48413 7.99939L6.24292 5.7572L5.81812 5.33337L6.66675 4.48474L7.09058 4.90955Z"></path></svg></span></span><div class="todo-progress-divider__line"></div></div><div class="todo-progress-content-wrapper"><div class="todo-progress-content"><div data-item-type="task:explore-group"><div class="core-expandable-section"><div class="core-expandable-section__header"><span class="core-expandable-section__header-title" _msttexthash="4820231" _msthash="300">思想</span><span class="core-expandable-section__header-icon"><svg class="newide-icon newide-icon-Right " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M7.09058 4.90955L10.1824 8.00037L9.75757 8.42419L6.66675 11.515L5.81812 10.6664L6.24292 10.2426L8.48413 7.99939L6.24292 5.7572L5.81812 5.33337L6.66675 4.48474L7.09058 4.90955Z"></path></svg></span></div></div></div></div></div></div></div><div data-item-type="plan-item:toolcall"><div class="agent-plan-item" data-plan-item-id="6a0d7c20f8776e01eb530363" data-toolcall-type="finish"><div class="core-finish-card"><div class="core-finish-card__summary"><div class="markdown-renderer"><p class="markdown-p" _msttexthash="216408036" _msthash="285">GitHub 上“仓库原地址”（也就是仓库主页网址）格式是：</p>
-<ul class="markdown-ul" data-level-mod="0">
-<li class="markdown-li"><font _mstmutation="1" _msttexthash="22413248" _msthash="366"><strong _mstmutation="1" _istranslated="1">HTTPS</strong>系统：</font><code>https://github.com/&lt;你的用户名&gt;/&lt;仓库名&gt;</code></li>
-<li class="markdown-li"><font _mstmutation="1" _msttexthash="62278840" _msthash="367"><strong _mstmutation="1">Git 克隆地址（HTTPS）</strong>：</font><code>https://github.com/&lt;你的用户名&gt;/&lt;仓库名&gt;.git</code></li>
-</ul>
-<p class="markdown-p" _msttexthash="474177249" _msthash="365">创建好仓库后，在仓库首页浏览器地址栏里就是这个“原仓库网址”； 点绿色 <strong _istranslated="1">Code</strong> 按钮也能看到克隆地址。</p></div></div></div></div></div><div data-item-type="agent:notification"></div><div data-item-type="agent:after-plans"><div class="downloadDesktopCard"><div class="downloadDesktopCardBody"><div class="downloadDesktopCardIcon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16"><path stroke="url(#icon-gift_svg__a)" stroke-width="1.2" d="M3.333 8h-.667V5.333h10.667V8h-.667M3.333 8v5.333h9.333V8M3.333 8h9.333M8 5.333v-1.11m0 1.11H6.889a2.22 2.22 0 0 1-2.222-2.222c0-.614.497-1.111 1.11-1.111C7.006 2 8 2.995 8 4.222m0 1.111H9.11a2.22 2.22 0 0 0 2.222-2.222c0-.614-.497-1.111-1.11-1.111A2.22 2.22 0 0 0 8 4.222m0 1.111v8"></path><defs><lineargradient id="icon-gift_svg__a" x1="2.667" x2="13.333" y1="7.667" y2="7.667" gradientUnits="userSpaceOnUse"><stop stop-color="#0AC27B"></stop><stop offset="0.36" stop-color="#0ECD70"></stop><stop offset="0.72" stop-color="#06C179"></stop><stop offset="1" stop-color="#63C5B1"></stop></lineargradient></defs></svg></div><div class="downloadDesktopCardContent"><div class="downloadDesktopCardHeader"><p class="downloadDesktopCardTitle" _msttexthash="22863438" _msthash="295">探索桌面版的TRAE SOLO</p><button type="button" class="downloadDesktopCardClose" aria-label="结束" _mstaria-label="59709" _msthash="296"><svg class="newide-icon newide-icon-close-small " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M11.515 5.33337L8.84802 7.99939L11.0912 10.2426L10.6664 10.6664L10.2426 11.0912L7.99939 8.84802L5.33337 11.515L4.48474 10.6664L4.90955 10.2426L7.15173 7.99939L4.90955 5.7572L4.48474 5.33337L5.33337 4.48474L5.7572 4.90955L7.99939 7.15173L10.2426 4.90955L10.6664 4.48474L11.515 5.33337ZM11.515 10.6664L10.6664 11.515L10.2426 11.0912L11.0912 10.2426L11.515 10.6664Z"></path></svg></button></div><p class="downloadDesktopCardDescription" _msttexthash="327105818" _msthash="297">支持本地和云端任务，提供强大的性能和更丰富的互动性，确保整体体验更加顺畅。</p></div></div><div class="downloadDesktopCardActions"><button class="button-muTeiY secondary-J0eGRO small-g_CYf2"><span class="label-RSUjZl " _msttexthash="13462397" _msthash="298">获取桌面</span></button></div></div><div data-virtual-item-empty="after-plans" style="height: 0px; overflow: hidden;"></div></div><div data-item-type="widget:action-bar"><div class="latest-assistant-bar latest-assistant-bar-stage-0"><div class="latest-assistant-bar-left-part"></div><div class="latest-assistant-bar-right-part"><div class="assistant-action-bar"><div class="assistant-action-bar-buttons"><span class="trigger-jIoLhZ"><button class="iconButton-abHesq tertiary-J9WelI small-MVjdue" aria-label="很好" _mstaria-label="43992" _msthash="291"><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-Like " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M7.74414 1.40039C8.85634 1.40061 9.72254 2.33085 9.67578 3.41309L9.6543 3.63086L9.37891 5.40039H12.042C13.5682 5.40039 14.7544 6.70441 14.6338 8.20508L14.6182 8.35156L14.1641 11.6846C13.9884 12.9727 12.8879 13.9334 11.5879 13.9336H1.40039V6.7334H4.2959L6.79688 1.73145L6.96289 1.40039H7.74414ZM5.2666 7.47461V12.7334H11.5879C12.2878 12.7332 12.88 12.216 12.9746 11.5225L13.4297 8.18945L13.4414 8.0332C13.4612 7.25814 12.8375 6.59961 12.042 6.59961H7.97656L8.46875 3.44629L8.47656 3.36328C8.49412 2.95299 8.16579 2.59983 7.74414 2.59961H7.7041L5.2666 7.47461ZM2.59961 12.7334H4.06641V7.93359H2.59961V12.7334Z"></path></svg></span></button></span><span class="trigger-jIoLhZ"><button class="iconButton-abHesq tertiary-J9WelI small-MVjdue" aria-label="糟糕" _mstaria-label="27794" _msthash="292"><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-Unlike " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8.27635 14.5996C7.16456 14.5995 6.30318 13.6673 6.34959 12.5869L6.37107 12.3691L6.64549 10.5996H3.99314C2.46891 10.5995 1.28816 9.29343 1.40818 7.79492L1.42381 7.64941L1.87693 4.31543C2.05188 3.02874 3.14797 2.06641 4.44627 2.06641H14.5996V9.2666H11.706L9.0576 14.5996H8.27635ZM10.7334 8.52539V3.2666H4.44627C3.75141 3.2666 3.16084 3.78239 3.06639 4.47754L2.61326 7.81055L2.60057 7.96777C2.58122 8.74422 3.20415 9.40032 3.99314 9.40039H8.04685L7.55662 12.5537C7.48736 13.0008 7.83169 13.4003 8.27635 13.4004H8.31346L10.7334 8.52539ZM13.4004 3.2666H11.9336V8.06641H13.4004V3.2666Z"></path></svg></span></button></span><span class="trigger-jIoLhZ"><button class="iconButton-abHesq tertiary-J9WelI small-MVjdue" aria-label="全部复制" _mstaria-label="90870" _msthash="293"><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-Copy " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M13.9332 2.06708V11.2663H11.2662V13.9333H2.06702V4.73309H4.73303V2.06708H13.9332ZM3.26624 12.7331H10.067V5.93329H3.26624V12.7331ZM5.93323 4.73309H11.2662V10.0671H12.733V3.2663H5.93323V4.73309Z"></path></svg></span></button></span><span class="trigger-jIoLhZ"><button class="iconButton-abHesq tertiary-J9WelI small-MVjdue" aria-label="重试" _mstaria-label="63661" _msthash="294"><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-retry " width="1em" height="1em" viewBox="0 0 17 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M3.23303 10.067H7.10022V11.2662H5.03577C5.90979 12.1687 7.15084 12.7329 8.49963 12.733C11.1138 12.733 13.233 10.6138 13.233 7.99963V7.40002H14.4332V7.99963C14.4332 11.2765 11.7765 13.9332 8.49963 13.9332C6.94502 13.9331 5.50585 13.3329 4.43323 12.3522V13.9332H3.23303V10.067ZM2.56702 7.99963C2.56719 4.723 5.223 2.06719 8.49963 2.06702C10.0583 2.06702 11.5013 2.66979 12.5748 3.65491V2.06702H13.774V5.93323H9.90784V4.73303H11.9625C11.0884 3.83107 9.84793 3.26624 8.49963 3.26624C5.88574 3.26641 3.76641 5.38574 3.76624 7.99963V8.60022H2.56702V7.99963Z"></path></svg></span></button></span></div></div></div></div></div><div data-item-type="agent:last-content"></div></div></div></div><div data-index="4" data-item-index="4" data-known-size="368" data-user-message-id="6a0d7da84276a014b8d0e6b9" data-agent-message-id="6a0d7da8f8776e01eb530367" style="overflow-anchor: none;"><div class="turn " data-turn-id="6a0d7da84276a014b8d0e6b9"><div class="turn__user-message" data-item-type="turn:user-message" data-role="user" data-message-id="6a0d7da84276a014b8d0e6b9"><section class="user-message" data-message-id="6a0d7da84276a014b8d0e6b9" data-role="user" data-message-index="8"><div class="user-message__main"><div class="user-message__content-area"><div class="user-message__text-box"><div class="user-message__text-wrapper"><div class="user-message__text-inner"><div class="user-message__text-content custom-scrollbar user-message__text-content--no-expand"><div class="user-message-query-line"><span class="trigger-jIoLhZ"><span class="web-page-mention-pill clickable" role="button" tabindex="0"><span class="web-page-mention-pill-icon"><svg width="1em" height="1em" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12.5098 2.1123C17.7405 2.37761 21.8994 6.70334 21.8994 12C21.8994 17.4677 17.4677 21.8994 12 21.8994C6.53238 21.8994 2.10059 17.4677 2.10059 12C2.10059 6.53238 6.53238 2.10059 12 2.10059L12.5098 2.1123ZM8.92091 12.8994C9.01413 14.9194 9.4172 16.6994 9.99464 17.9985C10.326 18.744 10.6972 19.2917 11.064 19.6407C11.3809 19.9422 11.6613 20.0682 11.9004 20.0948L12 20.1006C12.2594 20.1006 12.5739 19.9851 12.936 19.6407C13.3028 19.2917 13.674 18.744 14.0054 17.9985C14.5828 16.6994 14.9859 14.9194 15.0791 12.8994H8.92091ZM3.95069 12.8994C4.27064 15.7952 6.11708 18.2282 8.66748 19.3814C8.55474 19.1727 8.44958 18.9545 8.34962 18.7295C7.65585 17.1686 7.21484 15.1311 7.12061 12.8994H3.95069ZM16.8794 12.8994C16.7852 15.1311 16.3442 17.1686 15.6504 18.7295C15.5504 18.9546 15.4439 19.1724 15.3311 19.3814C17.8821 18.2283 19.7294 15.7956 20.0493 12.8994H16.8794ZM8.66748 4.61718C6.11679 5.77035 4.27065 8.20464 3.95069 11.1006H7.12061C7.21484 8.86898 7.65585 6.83147 8.34962 5.27051C8.44977 5.04518 8.55452 4.82625 8.66748 4.61718ZM12 3.89942C11.7406 3.89942 11.4261 4.01484 11.064 4.35938C10.6972 4.70841 10.326 5.25603 9.99464 6.00147C9.4172 7.3007 9.01413 9.08057 8.92091 11.1006H15.0791C14.9859 9.08057 14.5828 7.3007 14.0054 6.00147C13.674 5.25603 13.3028 4.70841 12.936 4.35938C12.5739 4.01484 12.2594 3.89942 12 3.89942ZM15.3311 4.61718C15.4442 4.82643 15.5502 5.04495 15.6504 5.27051C16.3442 6.83147 16.7852 8.86898 16.8794 11.1006H20.0493C19.7294 8.20418 17.8824 5.77013 15.3311 4.61718Z"></path></svg></span><span class="web-page-mention-pill-text" _msttexthash="2708745" _msthash="368">https://github.com/Yuki12-11/volleyball-action-recognize.git</span></span></span><span class="user-message-query-text" _msttexthash="66925703" _msthash="369">这是我关于这个项目生成的仓库</span></div></div></div></div></div></div></div><div class="user-message__bottom-bar"><span class="trigger-jIoLhZ"><span class="textEllipsis-uRFsZA singleLine-Bo6pad user-message__time" _msttexthash="30758" _msthash="370">17:23</span></span><span class="user-message__bottom-bar-divider"></span><div class="user-message__action-buttons"><span class="trigger-jIoLhZ"><span class="user-message__icon-wrapper"><button class="iconButton-abHesq quaternary-bkmm6w small-MVjdue iconCopy-Giwy3p  "><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-Copy " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M13.9332 2.06708V11.2663H11.2662V13.9333H2.06702V4.73309H4.73303V2.06708H13.9332ZM3.26624 12.7331H10.067V5.93329H3.26624V12.7331ZM5.93323 4.73309H11.2662V10.0671H12.733V3.2663H5.93323V4.73309Z"></path></svg></span></button></span></span><span class="trigger-jIoLhZ"><button class="iconButton-abHesq quaternary-bkmm6w small-MVjdue"><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-Delete " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M7.99963 1.40039C9.22935 1.40039 10.2568 2.2537 10.528 3.40039H13.9332V4.59961H12.6002V14.5996H3.40002V4.59961H2.06702V3.40039H5.47229C5.74346 2.25384 6.77009 1.40054 7.99963 1.40039ZM4.60022 13.4004H11.4V4.59961H4.60022V13.4004ZM6.06702 6.7334H7.26624V11.2666H6.06702V6.7334ZM8.73303 6.7334H9.93323V11.2666H8.73303V6.7334ZM7.99963 2.59961C7.44153 2.59974 6.95961 2.92747 6.73499 3.40039H9.26428C9.03956 2.92751 8.55778 2.59961 7.99963 2.59961Z"></path></svg></span></button></span><span class="trigger-jIoLhZ"><button class="iconButton-abHesq quaternary-bkmm6w small-MVjdue"><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-revert " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M14.0996 8.33365C14.0996 5.70109 11.9656 3.56705 9.33301 3.56705H3.78125L4.75781 2.59048L4.33301 2.16666L3.90918 1.74283L1.90918 3.74283L1.48438 4.16666L1.90918 4.59048L3.90918 6.59048L4.33301 7.01529L5.18164 6.16666L3.78125 4.76627H9.33301C11.3028 4.76627 12.9004 6.36383 12.9004 8.33365C12.9002 10.3033 11.3027 11.9001 9.33301 11.9001H3.06641V13.1003H9.33301C11.9655 13.1003 14.0994 10.9661 14.0996 8.33365ZM3.90918 1.74283L4.75781 2.59048L5.18164 2.16666L4.33301 1.31802L3.90918 1.74283Z"></path></svg></span></button></span></div></div></section></div><div class="turn__agent-message" data-role="assistant" data-message-id="6a0d7da8f8776e01eb530367"><div data-item-type="turn:assistant-avatar"><div class="agent-message__header"><div class="agent-avatar agent-avatar--solo-work" style="width: 18px; height: 18px;"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 12 8"><path fill="currentColor" d="M.372 0v6.516h1.484V1.485h8.288v5.03H1.856V8h9.773V0z"></path><path fill="currentColor" d="m4.849 2.925-1.05 1.05 1.05 1.05 1.05-1.05zM8.106 2.925l-1.05 1.05 1.05 1.05 1.05-1.05z"></path></svg></div><span class="agent-message__title" _msttexthash="10948366" _msthash="371">仅限中医</span></div></div><div data-item-type="agent:reference-list"></div><div data-item-type="agent:before-plans"><div data-virtual-item-empty="before-plans" style="height: 0px; overflow: hidden;"></div></div><div data-item-type="plan-item:toolcall"><div class="agent-plan-item" data-plan-item-id="6a0d7dabf8776e01eb530371" data-toolcall-type="finish"><div class="core-finish-card"><div class="core-finish-card__summary"><div class="markdown-renderer"><p class="markdown-p" _msttexthash="110866288" _msthash="385">你的仓库“原仓库网址”（主页）是：</p>
-<p class="markdown-p"><a class="markdown-link" href="https://github.com/Yuki12-11/volleyball-action-recognize" target="_blank" rel="noopener noreferrer" _msttexthash="2397122" _msthash="403">https://github.com/Yuki12-11/volleyball-action-recognize</a></p>
-<p class="markdown-p" _msttexthash="124836660" _msthash="402">对应的 Git 克隆地址（你发的这个）是：</p>
-<p class="markdown-p"><a class="markdown-link" href="https://github.com/Yuki12-11/volleyball-action-recognize.git" target="_blank" rel="noopener noreferrer" _msttexthash="2708745" _msthash="401">https://github.com/Yuki12-11/volleyball-action-recognize.git</a></p>
-<p class="markdown-p" _msttexthash="269762051" _msthash="400">如果你用 GitHub Pages 部署（main / root），最终页面网址会是：</p>
-<p class="markdown-p"><a class="markdown-link" href="https://yuki12-11.github.io/volleyball-action-recognize/" target="_blank" rel="noopener noreferrer" _msttexthash="2394652" _msthash="399">https://yuki12-11.github.io/volleyball-action-recognize/</a></p></div></div></div></div></div><div data-item-type="agent:notification"></div><div data-item-type="agent:after-plans"><div data-virtual-item-empty="after-plans" style="height: 0px; overflow: hidden;"></div></div><div data-item-type="widget:action-bar"><div class="latest-assistant-bar latest-assistant-bar-stage-0"><div class="latest-assistant-bar-left-part"></div><div class="latest-assistant-bar-right-part"><div class="assistant-action-bar"><div class="assistant-action-bar-buttons"><span class="trigger-jIoLhZ"><button class="iconButton-abHesq tertiary-J9WelI small-MVjdue" aria-label="很好" _mstaria-label="43992" _msthash="392"><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-Like " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M7.74414 1.40039C8.85634 1.40061 9.72254 2.33085 9.67578 3.41309L9.6543 3.63086L9.37891 5.40039H12.042C13.5682 5.40039 14.7544 6.70441 14.6338 8.20508L14.6182 8.35156L14.1641 11.6846C13.9884 12.9727 12.8879 13.9334 11.5879 13.9336H1.40039V6.7334H4.2959L6.79688 1.73145L6.96289 1.40039H7.74414ZM5.2666 7.47461V12.7334H11.5879C12.2878 12.7332 12.88 12.216 12.9746 11.5225L13.4297 8.18945L13.4414 8.0332C13.4612 7.25814 12.8375 6.59961 12.042 6.59961H7.97656L8.46875 3.44629L8.47656 3.36328C8.49412 2.95299 8.16579 2.59983 7.74414 2.59961H7.7041L5.2666 7.47461ZM2.59961 12.7334H4.06641V7.93359H2.59961V12.7334Z"></path></svg></span></button></span><span class="trigger-jIoLhZ"><button class="iconButton-abHesq tertiary-J9WelI small-MVjdue" aria-label="糟糕" _mstaria-label="27794" _msthash="393"><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-Unlike " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8.27635 14.5996C7.16456 14.5995 6.30318 13.6673 6.34959 12.5869L6.37107 12.3691L6.64549 10.5996H3.99314C2.46891 10.5995 1.28816 9.29343 1.40818 7.79492L1.42381 7.64941L1.87693 4.31543C2.05188 3.02874 3.14797 2.06641 4.44627 2.06641H14.5996V9.2666H11.706L9.0576 14.5996H8.27635ZM10.7334 8.52539V3.2666H4.44627C3.75141 3.2666 3.16084 3.78239 3.06639 4.47754L2.61326 7.81055L2.60057 7.96777C2.58122 8.74422 3.20415 9.40032 3.99314 9.40039H8.04685L7.55662 12.5537C7.48736 13.0008 7.83169 13.4003 8.27635 13.4004H8.31346L10.7334 8.52539ZM13.4004 3.2666H11.9336V8.06641H13.4004V3.2666Z"></path></svg></span></button></span><span class="trigger-jIoLhZ"><button class="iconButton-abHesq tertiary-J9WelI small-MVjdue" aria-label="全部复制" _mstaria-label="90870" _msthash="394"><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-Copy " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M13.9332 2.06708V11.2663H11.2662V13.9333H2.06702V4.73309H4.73303V2.06708H13.9332ZM3.26624 12.7331H10.067V5.93329H3.26624V12.7331ZM5.93323 4.73309H11.2662V10.0671H12.733V3.2663H5.93323V4.73309Z"></path></svg></span></button></span><span class="trigger-jIoLhZ"><button class="iconButton-abHesq tertiary-J9WelI small-MVjdue" aria-label="重试" _mstaria-label="63661" _msthash="395"><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-retry " width="1em" height="1em" viewBox="0 0 17 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M3.23303 10.067H7.10022V11.2662H5.03577C5.90979 12.1687 7.15084 12.7329 8.49963 12.733C11.1138 12.733 13.233 10.6138 13.233 7.99963V7.40002H14.4332V7.99963C14.4332 11.2765 11.7765 13.9332 8.49963 13.9332C6.94502 13.9331 5.50585 13.3329 4.43323 12.3522V13.9332H3.23303V10.067ZM2.56702 7.99963C2.56719 4.723 5.223 2.06719 8.49963 2.06702C10.0583 2.06702 11.5013 2.66979 12.5748 3.65491V2.06702H13.774V5.93323H9.90784V4.73303H11.9625C11.0884 3.83107 9.84793 3.26624 8.49963 3.26624C5.88574 3.26641 3.76641 5.38574 3.76624 7.99963V8.60022H2.56702V7.99963Z"></path></svg></span></button></span></div></div></div></div></div><div data-item-type="agent:last-content"></div></div></div></div><div data-index="5" data-item-index="5" data-known-size="651" data-user-message-id="6a0d7dd94217530a202d585a" data-agent-message-id="6a0d7dd9f8776e01eb530375" style="overflow-anchor: none;"><div class="turn turn--last" data-turn-id="6a0d7dd94217530a202d585a"><div class="turn__user-message" data-item-type="turn:user-message" data-role="user" data-message-id="6a0d7dd94217530a202d585a"><section class="user-message" data-message-id="6a0d7dd94217530a202d585a" data-role="user" data-message-index="10"><div class="user-message__main"><div class="user-message__content-area"><div class="user-message__text-box"><div class="user-message__text-wrapper"><div class="user-message__text-inner"><div class="user-message__text-content custom-scrollbar user-message__text-content--no-expand"><div class="user-message-query-line"><span class="user-message-query-text" _msttexthash="158616900" _msthash="404">请帮我将生成的代码，做出来的网站克隆到我的仓库中</span></div></div></div></div></div></div></div><div class="user-message__bottom-bar"><span class="trigger-jIoLhZ"><span class="textEllipsis-uRFsZA singleLine-Bo6pad user-message__time" _msttexthash="30901" _msthash="405">17:24</span></span><span class="user-message__bottom-bar-divider"></span><div class="user-message__action-buttons"><span class="trigger-jIoLhZ"><span class="user-message__icon-wrapper"><button class="iconButton-abHesq quaternary-bkmm6w small-MVjdue iconCopy-Giwy3p  "><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-Copy " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M13.9332 2.06708V11.2663H11.2662V13.9333H2.06702V4.73309H4.73303V2.06708H13.9332ZM3.26624 12.7331H10.067V5.93329H3.26624V12.7331ZM5.93323 4.73309H11.2662V10.0671H12.733V3.2663H5.93323V4.73309Z"></path></svg></span></button></span></span><span class="trigger-jIoLhZ"><button class="iconButton-abHesq quaternary-bkmm6w small-MVjdue"><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-Delete " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M7.99963 1.40039C9.22935 1.40039 10.2568 2.2537 10.528 3.40039H13.9332V4.59961H12.6002V14.5996H3.40002V4.59961H2.06702V3.40039H5.47229C5.74346 2.25384 6.77009 1.40054 7.99963 1.40039ZM4.60022 13.4004H11.4V4.59961H4.60022V13.4004ZM6.06702 6.7334H7.26624V11.2666H6.06702V6.7334ZM8.73303 6.7334H9.93323V11.2666H8.73303V6.7334ZM7.99963 2.59961C7.44153 2.59974 6.95961 2.92747 6.73499 3.40039H9.26428C9.03956 2.92751 8.55778 2.59961 7.99963 2.59961Z"></path></svg></span></button></span><span class="trigger-jIoLhZ"><button class="iconButton-abHesq quaternary-bkmm6w small-MVjdue"><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-revert " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M14.0996 8.33365C14.0996 5.70109 11.9656 3.56705 9.33301 3.56705H3.78125L4.75781 2.59048L4.33301 2.16666L3.90918 1.74283L1.90918 3.74283L1.48438 4.16666L1.90918 4.59048L3.90918 6.59048L4.33301 7.01529L5.18164 6.16666L3.78125 4.76627H9.33301C11.3028 4.76627 12.9004 6.36383 12.9004 8.33365C12.9002 10.3033 11.3027 11.9001 9.33301 11.9001H3.06641V13.1003H9.33301C11.9655 13.1003 14.0994 10.9661 14.0996 8.33365ZM3.90918 1.74283L4.75781 2.59048L5.18164 2.16666L4.33301 1.31802L3.90918 1.74283Z"></path></svg></span></button></span></div></div></section></div><div class="turn__agent-message" data-role="assistant" data-message-id="6a0d7dd9f8776e01eb530375"><div data-item-type="turn:assistant-avatar"><div class="agent-message__header"><div class="agent-avatar agent-avatar--solo-work" style="width: 18px; height: 18px;"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 12 8"><path fill="currentColor" d="M.372 0v6.516h1.484V1.485h8.288v5.03H1.856V8h9.773V0z"></path><path fill="currentColor" d="m4.849 2.925-1.05 1.05 1.05 1.05 1.05-1.05zM8.106 2.925l-1.05 1.05 1.05 1.05 1.05-1.05z"></path></svg></div><span class="agent-message__title" _msttexthash="10948366" _msthash="406">仅限中医</span></div></div><div data-item-type="agent:reference-list"></div><div data-item-type="agent:before-plans"><div data-virtual-item-empty="before-plans" style="height: 0px; overflow: hidden;"></div></div><div data-item-type="task:todo-progress-container"><div class="todo-progress-container"><div class="todo-progress-divider" role="button" tabindex="0"><div class="todo-progress-divider__line"></div><span class="todo-progress-divider__label"><font _mstmutation="1" _msttexthash="185419" _msthash="511">Worked for 43s</font><span class="todo-progress-divider__icon"><svg class="newide-icon newide-icon-Right " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M7.09058 4.90955L10.1824 8.00037L9.75757 8.42419L6.66675 11.515L5.81812 10.6664L6.24292 10.2426L8.48413 7.99939L6.24292 5.7572L5.81812 5.33337L6.66675 4.48474L7.09058 4.90955Z"></path></svg></span></span><div class="todo-progress-divider__line"></div></div><div class="todo-progress-content-wrapper"><div class="todo-progress-content"><div data-item-type="task:explore-group"><div class="core-expandable-section"><div class="core-expandable-section__header"><span class="core-expandable-section__header-title" _msttexthash="136123" _msthash="512">Asked user</span><span class="core-expandable-section__header-icon"><svg class="newide-icon newide-icon-Right " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M7.09058 4.90955L10.1824 8.00037L9.75757 8.42419L6.66675 11.515L5.81812 10.6664L6.24292 10.2426L8.48413 7.99939L6.24292 5.7572L5.81812 5.33337L6.66675 4.48474L7.09058 4.90955Z"></path></svg></span></div></div></div></div></div></div></div><div data-item-type="plan-item:toolcall"><div class="agent-plan-item" data-plan-item-id="6a0d7e02f8776e01eb530382" data-toolcall-type="finish"><div class="core-finish-card"><div class="core-finish-card__summary"><div class="markdown-renderer"><p class="markdown-p"><font _mstmutation="1" _msttexthash="312534521" _msthash="495">按你选的「网页上传」+ 默认分支 ，你这样做就能把我生成的网站代码放进  ：</font><code>main</code><code>https://github.com/Yuki12-11/volleyball-action-recognize</code></p><ol class="markdown-ol" data-level-mod="0" node="[object Object]">
-<li class="markdown-li" _msttexthash="44037760" _msthash="496">打开你的仓库主页：<br>
-<a class="markdown-link" href="https://github.com/Yuki12-11/volleyball-action-recognize" target="_blank" rel="noopener noreferrer">https://github.com/Yuki12-11/volleyball-action-recognize</a></li>
-<li class="markdown-li" _msttexthash="7742241" _msthash="497">进入 <strong>Add file → Upload files</strong></li>
-<li class="markdown-li" _msttexthash="249173548" _msthash="498">把我生成的这个文件上传到仓库<strong>根目录</strong>（不要放到子文件夹里）：<br>
-<a data-opens-panel="true" class="markdown-computer-link" href="computer:///workspace/index.html">index.html</a></li>
-<li class="markdown-li"><font _mstmutation="1" _msttexthash="87069138" _msthash="499">点击 <strong _mstmutation="1">Commit changes</strong>（直接提交到 ）</font><code>main</code></li>
-</ol><p class="markdown-p"><font _mstmutation="1" _msttexthash="560706289" _msthash="500">完成后你仓库里就有网站代码了。接下来如果要生成可直接访问的网址，再去 <strong _mstmutation="1">Settings → Pages</strong>，Source 选 ，Branch 选  +  保存即可。</font><code>Deploy from a branch</code><code>main</code><code>/(root)</code></p></div></div><div class="core-finish-card__title" _msttexthash="5411237" _msthash="501">文物</div><div data-opens-panel="true" class="core-finish-card__content"><div class="core-finish-card__code-card"><div class="core-finish-card__code-header core-finish-card__code-header--expanded"><div class="core-finish-card__code-header-left"><div class="core-finish-card__code-header-icon"><span class="flatFileIcon-Sw3HU7"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwXzE2NTM2XzEwNjIyKSI+CjxnIGZpbHRlcj0idXJsKCNmaWx0ZXIwX2RkXzE2NTM2XzEwNjIyKSI+CjxwYXRoIGQ9Ik02LjY2NjUgNi42NjYzNEM2LjY2NjUgNC44MjUzOSA4LjE1ODg5IDMuMzMzMDEgOS45OTk4NCAzLjMzMzAxSDIzLjYxOTFDMjQuNTAzMiAzLjMzMzAxIDI1LjM1MSAzLjY4NDIgMjUuOTc2MSA0LjMwOTMyTDMyLjM1NjkgMTAuNjlDMzIuOTgyIDExLjMxNTIgMzMuMzMzMiAxMi4xNjMgMzMuMzMzMiAxMy4wNDcxVjMzLjMzM0MzMy4zMzMyIDM1LjE3NCAzMS44NDA4IDM2LjY2NjMgMjkuOTk5OCAzNi42NjYzSDkuOTk5ODRDOC4xNTg4OSAzNi42NjYzIDYuNjY2NSAzNS4xNzQgNi42NjY1IDMzLjMzM1Y2LjY2NjM0WiIgZmlsbD0id2hpdGUiLz4KPC9nPgo8ZyBjbGlwLXBhdGg9InVybCgjY2xpcDFfMTY1MzZfMTA2MjIpIj4KPHJlY3QgeD0iMTUuOTk5NSIgeT0iMjAiIHdpZHRoPSI4IiBoZWlnaHQ9IjIiIGZpbGw9IiMyNkE1N0IiLz4KPHJlY3QgeD0iMTUuOTk5NSIgeT0iMjgiIHdpZHRoPSI4IiBoZWlnaHQ9IjIiIGZpbGw9IiNDMTU2NEUiLz4KPHJlY3QgeD0iMjAuOTk5NSIgeT0iMTciIHdpZHRoPSI4IiBoZWlnaHQ9IjIiIHRyYW5zZm9ybT0icm90YXRlKDkwIDIwLjk5OTUgMTcpIiBmaWxsPSIjMjZBNTdCIi8+CjwvZz4KPGcgZmlsdGVyPSJ1cmwoI2ZpbHRlcjFfZF8xNjUzNl8xMDYyMikiPgo8cGF0aCBkPSJNMjUgOS4xNjYzNFYzLjMzMzAxTDMzLjMzMzMgMTEuNjY2M0gyNy41QzI2LjExOTMgMTEuNjY2MyAyNSAxMC41NDcxIDI1IDkuMTY2MzRaIiBmaWxsPSJ3aGl0ZSIvPgo8L2c+CjwvZz4KPGRlZnM+CjxmaWx0ZXIgaWQ9ImZpbHRlcjBfZGRfMTY1MzZfMTA2MjIiIHg9IjIuMzgzMTciIHk9IjIuMzgzMDEiIHdpZHRoPSIzNS4yMzMyIiBoZWlnaHQ9IjQxLjkwMDIiIGZpbHRlclVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY29sb3ItaW50ZXJwb2xhdGlvbi1maWx0ZXJzPSJzUkdCIj4KPGZlRmxvb2QgZmxvb2Qtb3BhY2l0eT0iMCIgcmVzdWx0PSJCYWNrZ3JvdW5kSW1hZ2VGaXgiLz4KPGZlQ29sb3JNYXRyaXggaW49IlNvdXJjZUFscGhhIiB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMTI3IDAiIHJlc3VsdD0iaGFyZEFscGhhIi8+CjxmZU9mZnNldCBkeT0iMy4zMzMzMyIvPgo8ZmVHYXVzc2lhbkJsdXIgc3RkRGV2aWF0aW9uPSIyLjE0MTY3Ii8+CjxmZUNvbXBvc2l0ZSBpbjI9ImhhcmRBbHBoYSIgb3BlcmF0b3I9Im91dCIvPgo8ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMCAwIDAgMCAwLjM2OCAwIDAgMCAwIDAuMzg0IDAgMCAwIDAgMC40IDAgMCAwIDAuMDQgMCIvPgo8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluMj0iQmFja2dyb3VuZEltYWdlRml4IiByZXN1bHQ9ImVmZmVjdDFfZHJvcFNoYWRvd18xNjUzNl8xMDYyMiIvPgo8ZmVDb2xvck1hdHJpeCBpbj0iU291cmNlQWxwaGEiIHR5cGU9Im1hdHJpeCIgdmFsdWVzPSIwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAxMjcgMCIgcmVzdWx0PSJoYXJkQWxwaGEiLz4KPGZlT2Zmc2V0IGR5PSIxLjY2NjY3Ii8+CjxmZUdhdXNzaWFuQmx1ciBzdGREZXZpYXRpb249IjEuMDc1Ii8+CjxmZUNvbXBvc2l0ZSBpbjI9ImhhcmRBbHBoYSIgb3BlcmF0b3I9Im91dCIvPgo8ZmVDb2xvck1hdHJpeCB0eXBlPSJtYXRyaXgiIHZhbHVlcz0iMCAwIDAgMCAwLjM2ODYyNyAwIDAgMCAwIDAuMzg0MzE0IDAgMCAwIDAgMC40IDAgMCAwIDAuMTUgMCIvPgo8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluMj0iZWZmZWN0MV9kcm9wU2hhZG93XzE2NTM2XzEwNjIyIiByZXN1bHQ9ImVmZmVjdDJfZHJvcFNoYWRvd18xNjUzNl8xMDYyMiIvPgo8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluPSJTb3VyY2VHcmFwaGljIiBpbjI9ImVmZmVjdDJfZHJvcFNoYWRvd18xNjUzNl8xMDYyMiIgcmVzdWx0PSJzaGFwZSIvPgo8L2ZpbHRlcj4KPGZpbHRlciBpZD0iZmlsdGVyMV9kXzE2NTM2XzEwNjIyIiB4PSIyMC44MzMzIiB5PSIxLjY2NjM0IiB3aWR0aD0iMTUuMDAwMiIgaGVpZ2h0PSIxNS4wMDAyIiBmaWx0ZXJVbml0cz0idXNlclNwYWNlT25Vc2UiIGNvbG9yLWludGVycG9sYXRpb24tZmlsdGVycz0ic1JHQiI+CjxmZUZsb29kIGZsb29kLW9wYWNpdHk9IjAiIHJlc3VsdD0iQmFja2dyb3VuZEltYWdlRml4Ii8+CjxmZUNvbG9yTWF0cml4IGluPSJTb3VyY2VBbHBoYSIgdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDEyNyAwIiByZXN1bHQ9ImhhcmRBbHBoYSIvPgo8ZmVPZmZzZXQgZHg9Ii0wLjgzMzMzMyIgZHk9IjEuNjY2NjciLz4KPGZlR2F1c3NpYW5CbHVyIHN0ZERldmlhdGlvbj0iMS42NjY2NyIvPgo8ZmVDb21wb3NpdGUgaW4yPSJoYXJkQWxwaGEiIG9wZXJhdG9yPSJvdXQiLz4KPGZlQ29sb3JNYXRyaXggdHlwZT0ibWF0cml4IiB2YWx1ZXM9IjAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAuMTIgMCIvPgo8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluMj0iQmFja2dyb3VuZEltYWdlRml4IiByZXN1bHQ9ImVmZmVjdDFfZHJvcFNoYWRvd18xNjUzNl8xMDYyMiIvPgo8ZmVCbGVuZCBtb2RlPSJub3JtYWwiIGluPSJTb3VyY2VHcmFwaGljIiBpbjI9ImVmZmVjdDFfZHJvcFNoYWRvd18xNjUzNl8xMDYyMiIgcmVzdWx0PSJzaGFwZSIvPgo8L2ZpbHRlcj4KPGNsaXBQYXRoIGlkPSJjbGlwMF8xNjUzNl8xMDYyMiI+CjxyZWN0IHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgZmlsbD0id2hpdGUiLz4KPC9jbGlwUGF0aD4KPGNsaXBQYXRoIGlkPSJjbGlwMV8xNjUzNl8xMDYyMiI+CjxyZWN0IHdpZHRoPSIyMS42NjY3IiBoZWlnaHQ9IjIxLjY2NjciIGZpbGw9IndoaXRlIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg5LjE2Njk5IDEyLjUpIi8+CjwvY2xpcFBhdGg+CjwvZGVmcz4KPC9zdmc+Cg==" alt="" class="icon-nYimXp"></span></div><span class="core-finish-card__code-files-text" _msttexthash="15565602" _msthash="502">1个文件更改</span><span class="core-finish-card__toggle-icon"><svg class="newide-icon newide-icon-fold_2 " width="1em" height="1em" viewBox="0 0 14 14" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M7.37109 8.37891L10.0762 11.083L9.33398 11.8252L7 9.49219L4.66699 11.8252L3.9248 11.083L6.62891 8.37891L7 8.00684L7.37109 8.37891ZM10.0752 2.91699L7 5.99219L3.92383 2.91699L4.66602 2.17383L5.03711 2.5459L7 4.50879L8.96191 2.5459L9.33301 2.17383L10.0752 2.91699Z"></path></svg></span></div><div class="core-finish-card__code-header-right"></div></div><div class="core-finish-card__file-list-container core-finish-card__file-list-container--expanded" _mstvisible="0"><div class="core-finish-card__file-list" _mstvisible="1"><div class="core-finish-card__file-item" _mstvisible="2"><div class="core-finish-card__file-info" _mstvisible="3"><div class="core-finish-card__file-icon core-finish-card__file-icon-added" _mstvisible="4"><svg class="newide-icon newide-icon-icon-add-file-square " width="1em" height="1em" viewBox="0 0 14 14" fill="currentColor" xmlns="http://www.w3.org/2000/svg" _mstVisible="5"><path d="M9.91211 1.20679L12.3779 4.16577L12.5107 4.32593V12.9998H1.99023V0.999756H9.73926L9.91211 1.20679ZM3.14062 11.8494H11.3604V4.74194L9.2002 2.15015H3.14062V11.8494ZM7.75488 6.38062H9.46973V7.38062H7.75488V9.10522H6.75488V7.38062H5.03125V6.38062H6.75488V4.66675H7.75488V6.38062Z" _mstVisible="6"></path></svg></div><div class="core-finish-card__file-details" _mstvisible="4"><span class="core-finish-card__file-name" title="./index.html" _msttexthash="152568" _msthash="503" _mstvisible="5">index.html</span><div class="core-finish-card__file-path-wrap" _mstvisible="5"><span class="core-finish-card__file-path" title="./index.html" _msttexthash="188136" _msthash="504" _mstvisible="6">./index.html</span></div></div></div></div></div></div></div></div></div></div></div><div data-item-type="agent:notification"></div><div data-item-type="agent:after-plans"><div data-virtual-item-empty="after-plans" style="height: 0px; overflow: hidden;"></div></div><div data-item-type="widget:action-bar"><div class="latest-assistant-bar latest-assistant-bar-stage-0"><div class="latest-assistant-bar-left-part"><div class="status status-success"><span class="icon-wrapper"><svg class="newide-icon newide-icon-success-fill " width="1em" height="1em" viewBox="0 0 16 17" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8 1.4834C11.7369 1.48357 14.7664 4.51314 14.7666 8.25C14.7664 11.9869 11.7369 15.0164 8 15.0166C4.26313 15.0164 1.23357 11.9869 1.2334 8.25C1.23358 4.51314 4.26313 1.48357 8 1.4834ZM6.95605 9.35645L6.09082 8.49219L5.66699 8.06738L4.81836 8.91602L7.04492 11.1426L10.8447 6.49902L9.91602 5.73828L6.95605 9.35645Z"></path></svg></span><span class="status-text" _msttexthash="4632524" _msthash="506">完工</span></div></div><div class="latest-assistant-bar-right-part"><div class="assistant-action-bar"><div class="assistant-action-bar-buttons"><span class="trigger-jIoLhZ"><button class="iconButton-abHesq tertiary-J9WelI small-MVjdue" aria-label="很好" _mstaria-label="43992" _msthash="507"><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-Like " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M7.74414 1.40039C8.85634 1.40061 9.72254 2.33085 9.67578 3.41309L9.6543 3.63086L9.37891 5.40039H12.042C13.5682 5.40039 14.7544 6.70441 14.6338 8.20508L14.6182 8.35156L14.1641 11.6846C13.9884 12.9727 12.8879 13.9334 11.5879 13.9336H1.40039V6.7334H4.2959L6.79688 1.73145L6.96289 1.40039H7.74414ZM5.2666 7.47461V12.7334H11.5879C12.2878 12.7332 12.88 12.216 12.9746 11.5225L13.4297 8.18945L13.4414 8.0332C13.4612 7.25814 12.8375 6.59961 12.042 6.59961H7.97656L8.46875 3.44629L8.47656 3.36328C8.49412 2.95299 8.16579 2.59983 7.74414 2.59961H7.7041L5.2666 7.47461ZM2.59961 12.7334H4.06641V7.93359H2.59961V12.7334Z"></path></svg></span></button></span><span class="trigger-jIoLhZ"><button class="iconButton-abHesq tertiary-J9WelI small-MVjdue" aria-label="糟糕" _mstaria-label="27794" _msthash="508"><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-Unlike " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8.27635 14.5996C7.16456 14.5995 6.30318 13.6673 6.34959 12.5869L6.37107 12.3691L6.64549 10.5996H3.99314C2.46891 10.5995 1.28816 9.29343 1.40818 7.79492L1.42381 7.64941L1.87693 4.31543C2.05188 3.02874 3.14797 2.06641 4.44627 2.06641H14.5996V9.2666H11.706L9.0576 14.5996H8.27635ZM10.7334 8.52539V3.2666H4.44627C3.75141 3.2666 3.16084 3.78239 3.06639 4.47754L2.61326 7.81055L2.60057 7.96777C2.58122 8.74422 3.20415 9.40032 3.99314 9.40039H8.04685L7.55662 12.5537C7.48736 13.0008 7.83169 13.4003 8.27635 13.4004H8.31346L10.7334 8.52539ZM13.4004 3.2666H11.9336V8.06641H13.4004V3.2666Z"></path></svg></span></button></span><span class="trigger-jIoLhZ"><button class="iconButton-abHesq tertiary-J9WelI small-MVjdue" aria-label="全部复制" _mstaria-label="90870" _msthash="509"><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-Copy " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M13.9332 2.06708V11.2663H11.2662V13.9333H2.06702V4.73309H4.73303V2.06708H13.9332ZM3.26624 12.7331H10.067V5.93329H3.26624V12.7331ZM5.93323 4.73309H11.2662V10.0671H12.733V3.2663H5.93323V4.73309Z"></path></svg></span></button></span><span class="trigger-jIoLhZ"><button class="iconButton-abHesq tertiary-J9WelI small-MVjdue" aria-label="重试" _mstaria-label="63661" _msthash="510"><span class="icon-V7eOa6"><svg class="newide-icon newide-icon-retry " width="1em" height="1em" viewBox="0 0 17 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M3.23303 10.067H7.10022V11.2662H5.03577C5.90979 12.1687 7.15084 12.7329 8.49963 12.733C11.1138 12.733 13.233 10.6138 13.233 7.99963V7.40002H14.4332V7.99963C14.4332 11.2765 11.7765 13.9332 8.49963 13.9332C6.94502 13.9331 5.50585 13.3329 4.43323 12.3522V13.9332H3.23303V10.067ZM2.56702 7.99963C2.56719 4.723 5.223 2.06719 8.49963 2.06702C10.0583 2.06702 11.5013 2.66979 12.5748 3.65491V2.06702H13.774V5.93323H9.90784V4.73303H11.9625C11.0884 3.83107 9.84793 3.26624 8.49963 3.26624C5.88574 3.26641 3.76641 5.38574 3.76624 7.99963V8.60022H2.56702V7.99963Z"></path></svg></span></button></span></div></div></div></div></div><div data-item-type="agent:last-content"></div></div></div></div></div></div></div></div></div></div></div></div><div class="messageInputContainer messageInputNoBg" data-mode="work"><div class="messageInputEditorWrapper"><div class="chat-input-v2-container chat-input-v2-container--no-focus chat-input-v2-container--empty messageInputChatInput messageInputChatInputConversation"><div class="chat-input-v2-editor-part"><div class="chat-input-v2-slot-header"></div><div class="chat-input-v2-input-box-wrapper chat-input-v2-input-box--modern-scroll"><div class="chat-input-v2-placeholder" id="chat-input-v2-placeholder-MessageEditor" style="display: block;" _msttexthash="319338760" _msthash="464">帮助你组织文献综述，创建PPT，分析Excel数据及其他日常工作，产出专业的成果。</div><div class="chat-input-v2-input-box-editable" contenteditable="true" role="textbox" spellcheck="true" style="user-select: text; white-space: pre-wrap; word-break: break-word;" data-lexical-editor="true"><p class="chat-input-v2__paragraph" dir="auto"><br></p></div></div><div class="chat-input-v2-editor-part-lower-content"><div class="chat-input-v2-editor-part-lower__left"><div class="left-l"><span class="trigger-jIoLhZ"><button class="messageInputToolbarIconBtn"><svg width="24" height="24" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M14 14H2V2H14V14ZM3.15039 12.8496H12.8496V3.15039H3.15039V12.8496ZM10.4248 4.5127L6.64648 12.0264L5.57422 11.4873L9.35254 3.97266L10.4248 4.5127Z" fill="currentColor"></path></svg></button></span><input type="file" accept="" multiple="" class="messageInputFileUploadInput"><span class="trigger-jIoLhZ"><button class="messageInputToolbarIconBtn" type="button"><svg class="newide-icon newide-icon-paperclip_attachment_2 " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M3.23364 10.1663V6.56665H4.43286V10.1663C4.43286 12.044 5.95548 13.5667 7.83325 13.5667H8.16626C10.044 13.5667 11.5667 12.044 11.5667 10.1663V4.66626C11.5665 3.43297 10.5666 2.43286 9.33325 2.43286C8.09993 2.43286 7.10003 3.43297 7.09985 4.66626V9.91626C7.09985 10.3672 7.46538 10.7335 7.91626 10.7336C8.36729 10.7336 8.73364 10.3673 8.73364 9.91626V4.56665H9.93286V9.91626C9.93286 11.03 9.03003 11.9329 7.91626 11.9329C6.80264 11.9327 5.89966 11.0299 5.89966 9.91626V4.66626C5.89983 2.77023 7.43719 1.23364 9.33325 1.23364C11.2293 1.23364 12.7667 2.77023 12.7668 4.66626V10.1663C12.7668 12.7068 10.7068 14.7668 8.16626 14.7668H7.83325C5.29274 14.7668 3.23364 12.7068 3.23364 10.1663Z"></path></svg></button></span></div><div class="left-l-select"><div><div class="core-model-select  core-model-select-no-options "><div type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-:r13:" data-state="closed"><button type="button" role="combobox" aria-controls="radix-:r14:" aria-expanded="false" aria-autocomplete="none" dir="ltr" data-state="closed" disabled="" data-disabled="" data-placeholder="" class="core-model-select-trigger"><div class="core-model-select-trigger-value"><span _msttexthash="18403593" _msthash="469">SOLO汽车模型</span></div></button></div></div></div></div></div><div class="chat-input-v2-editor-part-lower__right"><div class="chat-input-v2-slot-toolbar-right"><div style="display: flex; align-items: center; gap: 6px;"><button class="voiceCallButton" type="button"><svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12.7187 7.49994C12.7187 4.61781 10.3823 2.28068 7.50018 2.28052C4.61795 2.28052 2.28076 4.61771 2.28076 7.49994C2.28081 8.36334 2.49024 9.17629 2.86029 9.89221L2.95184 10.0689L2.91156 10.2639L2.43732 12.5729L4.82684 12.127L5.01178 12.0922L5.18115 12.1765C5.87904 12.5232 6.66615 12.7184 7.50018 12.7184C10.3822 12.7183 12.7185 10.3819 12.7187 7.49994ZM13.8439 7.49994C13.8437 11.0032 11.0035 13.8435 7.50018 13.8436C6.55751 13.8436 5.66252 13.6348 4.85706 13.265L0.999023 13.9874L1.77173 10.2227C1.37846 9.39685 1.15654 8.47394 1.15649 7.49994C1.15649 3.99639 3.99663 1.15625 7.50018 1.15625C11.0036 1.15642 13.8439 3.99649 13.8439 7.49994Z" fill="currentColor"></path><path d="M7.8125 4.6875V10.3125" stroke="currentColor" stroke-width="1.125" stroke-linejoin="round"></path><path d="M10.3125 6.32812L10.3125 8.67188" stroke="currentColor" stroke-width="1.125" stroke-linejoin="round"></path><path d="M5.3125 5.625L5.3125 9.375" stroke="currentColor" stroke-width="1.125" stroke-linejoin="round"></path></svg></button><span style="display: inline-flex;"><button class="rtcVoicePluginButton" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16" style="width: 16px; height: 16px;"><path stroke="currentColor" stroke-linecap="square" stroke-width="1.2" d="M8 12.667V14m0-1.333c-2.452 0-3.902-1.504-4.657-2.667M8 12.667c2.452 0 3.902-1.504 4.657-2.667m-1.99-5.333v2.666a2.667 2.667 0 0 1-5.334 0V4.667a2.667 2.667 0 0 1 5.334 0Z"></path></svg></button></span></div></div><span class="wrapper-RV5xqM"><span style="display: inline-flex;"><button class="chat-input-v2-send-button disabled" type="button" disabled=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16" class="chat-input-v2-send-button-arrow-icon"><path stroke="currentColor" stroke-linecap="square" stroke-width="1.2" d="m4 6.667 4-4 4 4M8 3.333v10"></path></svg></button></span></span></div></div></div><div class="chat-input-v2-slot-overlay"></div></div></div></div></div><div class="user-message-navigator"><div class="user-message-navigator__container" style="max-height: 300px;"><div class="user-message-navigator__track"><span class="trigger-jIoLhZ"><button type="button" class="user-message-navigator__dot" data-message-id="6a0d77864276a014b8d0e6a3" aria-label="Navigate to message: 做一个排球动作识别与纠错单页网站，纯HTML+JS，使用国内CDN加载MediaPipe Pose，..." _mstaria-label="452007075" _msthash="113"><span class="user-message-navigator__dot-inner"></span></button></span><span class="trigger-jIoLhZ"><button type="button" class="user-message-navigator__dot" data-message-id="6a0d7b3dadde5ea5011cb934" aria-label="Navigate to message: 请给我一个可以直接在浏览器中打开的网址" _mstaria-label="218232625" _msthash="114"><span class="user-message-navigator__dot-inner"></span></button></span><span class="trigger-jIoLhZ"><button type="button" class="user-message-navigator__dot" data-message-id="6a0d7b5eadde5ea5011cb935" aria-label="导航至消息：部署到GitHub中" _mstaria-label="39913432" _msthash="115"><span class="user-message-navigator__dot-inner"></span></button></span><span class="trigger-jIoLhZ"><button type="button" class="user-message-navigator__dot" data-message-id="6a0d7c1dadde5ea5011cb936" aria-label="Navigate to message: 原仓库的网址是什么" _mstaria-label="82212455" _msthash="268"><span class="user-message-navigator__dot-inner"></span></button></span><span class="trigger-jIoLhZ"><button type="button" class="user-message-navigator__dot user-message-navigator__dot--active" data-message-id="6a0d7da84276a014b8d0e6b9" aria-label="导航至消息：https://github.com/Yuki12-11/volleyball-action-rec......" _mstaria-label="3473288" _msthash="372"><span class="user-message-navigator__dot-inner"></span></button></span><span class="trigger-jIoLhZ"><button type="button" class="user-message-navigator__dot" data-message-id="6a0d7dd94217530a202d585a" aria-label="Navigate to message: 请帮我将生成的代码，做出来的网站克隆到我的仓库中" _mstaria-label="316439045" _msthash="407"><span class="user-message-navigator__dot-inner"></span></button></span></div></div></div></div><div style=""><div class="container-xaMdj0"><div class="context-status_sidebar context-status_sidebar--work" style="width: 320px;"><div class="context-status_section context-status_section--progress"><div class="context-status_section-header"><span class="context-status_section-title" _msttexthash="5754424" _msthash="45">全部</span></div><div class="context-status_section-content"><div class="context-status_empty-state"><div class="context-status_empty-state-icon"><svg class="newide-icon newide-icon-bullet-list " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M4.73315 11.3333C4.73315 10.9282 4.40476 10.5999 3.99976 10.5999C3.5949 10.6 3.26636 10.9284 3.26636 11.3333C3.26636 11.7382 3.5949 12.0665 3.99976 12.0667C4.40476 12.0667 4.73315 11.7383 4.73315 11.3333ZM13.9333 10.7336V11.9329H8.06714V10.7336H13.9333ZM4.73315 4.66626C4.73298 4.2614 4.40466 3.93286 3.99976 3.93286C3.59501 3.93304 3.26653 4.26151 3.26636 4.66626C3.26636 5.07116 3.5949 5.39948 3.99976 5.39966C4.40476 5.39966 4.73315 5.07127 4.73315 4.66626ZM13.9333 4.06665V5.26685H8.06714V4.06665H13.9333ZM5.93335 11.3333C5.93335 12.401 5.06751 13.2668 3.99976 13.2668C2.93215 13.2667 2.06714 12.4009 2.06714 11.3333C2.06714 10.2656 2.93215 9.39983 3.99976 9.39966C5.06751 9.39966 5.93335 10.2655 5.93335 11.3333ZM5.93335 4.66626C5.93335 5.73401 5.06751 6.59985 3.99976 6.59985C2.93215 6.59968 2.06714 5.7339 2.06714 4.66626C2.06731 3.59877 2.93226 2.73382 3.99976 2.73364C5.0674 2.73364 5.93317 3.59866 5.93335 4.66626Z"></path></svg></div><div class="context-status_empty-state-content"><div class="context-status_empty-state-title" _msttexthash="13503880" _msthash="46">还没全部</div><div class="context-status_empty-state-description" _msttexthash="62731266" _msthash="47">复杂任务的进度将显示在这里</div></div></div></div></div><div class="context-status_divider-wrapper"><div class="divider-OMH_4r"><hr class="line-HcMivY"></div></div><div class="context-status_section context-status_section--artifact"><div class="context-status_section-header"><div class="context-status_section-header-left"><span class="context-status_section-title" _msttexthash="11068356" _msthash="48">任务输出</span></div></div><div class="context-status_section-content"><div class="context-status_artifact-wrapper"><div class="scrollbarContainer-RAntmd context-status_artifact-list"><div class="scrollbarContent-qrtDFj scrollY-I6nZoQ"><div class="context-status_context-item context-status_context-item--work context-status_context-item--hoverable context-status_context-item--clickable"><span class="context-status_context-item-icon context-status_context-item-icon--file"><svg class="newide-icon newide-icon-xml " width="1em" height="1em" viewBox="0 0 14 14" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8.44178 3.15366C8.52667 2.7765 8.28974 2.40193 7.91257 2.31704C7.53541 2.23215 7.16084 2.46909 7.07595 2.84625L5.27538 10.8463C5.1905 11.2234 5.42743 11.598 5.8046 11.6829C6.18176 11.7678 6.55633 11.5308 6.64122 11.1537L8.44178 3.15366ZM4.36019 3.06313C4.652 3.31672 4.683 3.75885 4.42941 4.05066L1.69209 7.20069L4.41263 10.1137C4.6765 10.3963 4.66137 10.8392 4.37882 11.1031C4.09628 11.367 3.65332 11.3518 3.38945 11.0693L0.23846 7.69535C-0.00618376 7.4334 -0.0134297 7.02897 0.221674 6.75842L3.37266 3.13236C3.62625 2.84054 4.06838 2.80955 4.36019 3.06313ZM9.64002 3.06313C9.93183 2.80955 10.374 2.84054 10.6275 3.13236L13.7785 6.75842C14.0136 7.02897 14.0064 7.4334 13.7617 7.69535L10.6108 11.0693C10.3469 11.3518 9.90393 11.367 9.62139 11.1031C9.33885 10.8392 9.32371 10.3963 9.58758 10.1137L12.3081 7.20069L9.5708 4.05066C9.31721 3.75885 9.34821 3.31672 9.64002 3.06313Z"></path></svg></span><span class="context-status_context-item-name" _msttexthash="152568" _msthash="49">index.html</span></div></div></div></div></div></div><div class="context-status_divider-wrapper"><div class="divider-OMH_4r"><hr class="line-HcMivY"></div></div><div class="context-status_section context-status_section--context"><div class="context-status_section-header"><div class="context-status_section-header-left"><span class="context-status_section-title" _msttexthash="12233533" _msthash="50">参考文献</span></div></div><div class="context-status_section-content"><div class="context-status_context-panel"><div class="context-status_context-content-wrapper"><div class="scrollbarContainer-RAntmd context-status_context-panel-content"><div class="scrollbarContent-qrtDFj scrollY-I6nZoQ"><div class="context-status_context-section"><div class="context-status_context-section-header"><div class="context-status_context-section-title" _msttexthash="14187875" _msthash="51">网页搜索</div></div><div class="context-status_context-list"><div class="context-status_context-item context-status_context-item--work context-status_context-item--hoverable context-status_context-item--clickable"><span class="context-status_context-item-icon context-status_context-item-icon--web"><svg class="newide-icon newide-icon-domain " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8.33984 1.4082C11.827 1.58507 14.5996 4.46889 14.5996 8C14.5996 11.6451 11.6451 14.5996 8 14.5996C4.35492 14.5996 1.40039 11.6451 1.40039 8C1.40039 4.35492 4.35492 1.40039 8 1.40039L8.33984 1.4082ZM5.94727 8.59961C6.00942 9.94629 6.27813 11.1329 6.66309 11.999C6.88398 12.496 7.13147 12.8611 7.37598 13.0938C7.58728 13.2948 7.77423 13.3788 7.93359 13.3965L8 13.4004C8.17293 13.4004 8.38263 13.3234 8.62402 13.0938C8.86853 12.8611 9.11602 12.496 9.33691 11.999C9.72187 11.1329 9.99058 9.94629 10.0527 8.59961H5.94727ZM2.63379 8.59961C2.84709 10.5301 4.07805 12.1521 5.77832 12.9209C5.70316 12.7818 5.63305 12.6363 5.56641 12.4863C5.1039 11.4457 4.80989 10.0874 4.74707 8.59961H2.63379ZM11.2529 8.59961C11.1901 10.0874 10.8961 11.4457 10.4336 12.4863C10.3669 12.6364 10.2959 12.7816 10.2207 12.9209C11.9214 12.1522 13.1529 10.5304 13.3662 8.59961H11.2529ZM10.2207 3.07812C10.2961 3.21762 10.3668 3.3633 10.4336 3.51367C10.8961 4.55431 11.1901 5.91265 11.2529 7.40039H13.3662C13.1529 5.46945 11.9216 3.84675 10.2207 3.07812ZM8 2.59961C7.82707 2.59961 7.61737 2.67656 7.37598 2.90625C7.13147 3.13894 6.88398 3.50402 6.66309 4.00098C6.27813 4.86713 6.00942 6.05371 5.94727 7.40039H10.0527C9.99058 6.05371 9.72187 4.86713 9.33691 4.00098C9.11602 3.50402 8.86853 3.13894 8.62402 2.90625C8.38263 2.67656 8.17293 2.59961 8 2.59961ZM5.77832 3.07812C4.07786 3.8469 2.8471 5.46976 2.63379 7.40039H4.74707C4.80989 5.91265 5.1039 4.55431 5.56641 3.51367C5.63318 3.36345 5.70301 3.2175 5.77832 3.07812Z"></path></svg></span><span class="context-status_context-item-name" _msttexthash="695734" _msthash="52">cdn.jsdelivr.net.cnpmjs.org</span></div><div class="context-status_context-item context-status_context-item--work context-status_context-item--hoverable context-status_context-item--clickable"><span class="context-status_context-item-icon context-status_context-item-icon--web"><svg class="newide-icon newide-icon-domain " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8.33984 1.4082C11.827 1.58507 14.5996 4.46889 14.5996 8C14.5996 11.6451 11.6451 14.5996 8 14.5996C4.35492 14.5996 1.40039 11.6451 1.40039 8C1.40039 4.35492 4.35492 1.40039 8 1.40039L8.33984 1.4082ZM5.94727 8.59961C6.00942 9.94629 6.27813 11.1329 6.66309 11.999C6.88398 12.496 7.13147 12.8611 7.37598 13.0938C7.58728 13.2948 7.77423 13.3788 7.93359 13.3965L8 13.4004C8.17293 13.4004 8.38263 13.3234 8.62402 13.0938C8.86853 12.8611 9.11602 12.496 9.33691 11.999C9.72187 11.1329 9.99058 9.94629 10.0527 8.59961H5.94727ZM2.63379 8.59961C2.84709 10.5301 4.07805 12.1521 5.77832 12.9209C5.70316 12.7818 5.63305 12.6363 5.56641 12.4863C5.1039 11.4457 4.80989 10.0874 4.74707 8.59961H2.63379ZM11.2529 8.59961C11.1901 10.0874 10.8961 11.4457 10.4336 12.4863C10.3669 12.6364 10.2959 12.7816 10.2207 12.9209C11.9214 12.1522 13.1529 10.5304 13.3662 8.59961H11.2529ZM10.2207 3.07812C10.2961 3.21762 10.3668 3.3633 10.4336 3.51367C10.8961 4.55431 11.1901 5.91265 11.2529 7.40039H13.3662C13.1529 5.46945 11.9216 3.84675 10.2207 3.07812ZM8 2.59961C7.82707 2.59961 7.61737 2.67656 7.37598 2.90625C7.13147 3.13894 6.88398 3.50402 6.66309 4.00098C6.27813 4.86713 6.00942 6.05371 5.94727 7.40039H10.0527C9.99058 6.05371 9.72187 4.86713 9.33691 4.00098C9.11602 3.50402 8.86853 3.13894 8.62402 2.90625C8.38263 2.67656 8.17293 2.59961 8 2.59961ZM5.77832 3.07812C4.07786 3.8469 2.8471 5.46976 2.63379 7.40039H4.74707C4.80989 5.91265 5.1039 4.55431 5.56641 3.51367C5.63318 3.36345 5.70301 3.2175 5.77832 3.07812Z"></path></svg></span><span class="context-status_context-item-name" _msttexthash="129194" _msthash="53">unpkg.com</span></div><div class="context-status_context-item context-status_context-item--work context-status_context-item--hoverable context-status_context-item--clickable"><span class="context-status_context-item-icon context-status_context-item-icon--web"><img src="./TRAE SOLO：不仅仅是编程_files/favicon.ico" class="context-status_context-item-favicon"></span><span class="context-status_context-item-name"></span></div><div class="context-status_context-item context-status_context-item--work context-status_context-item--hoverable context-status_context-item--clickable"><span class="context-status_context-item-icon context-status_context-item-icon--web"><svg class="newide-icon newide-icon-domain " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8.33984 1.4082C11.827 1.58507 14.5996 4.46889 14.5996 8C14.5996 11.6451 11.6451 14.5996 8 14.5996C4.35492 14.5996 1.40039 11.6451 1.40039 8C1.40039 4.35492 4.35492 1.40039 8 1.40039L8.33984 1.4082ZM5.94727 8.59961C6.00942 9.94629 6.27813 11.1329 6.66309 11.999C6.88398 12.496 7.13147 12.8611 7.37598 13.0938C7.58728 13.2948 7.77423 13.3788 7.93359 13.3965L8 13.4004C8.17293 13.4004 8.38263 13.3234 8.62402 13.0938C8.86853 12.8611 9.11602 12.496 9.33691 11.999C9.72187 11.1329 9.99058 9.94629 10.0527 8.59961H5.94727ZM2.63379 8.59961C2.84709 10.5301 4.07805 12.1521 5.77832 12.9209C5.70316 12.7818 5.63305 12.6363 5.56641 12.4863C5.1039 11.4457 4.80989 10.0874 4.74707 8.59961H2.63379ZM11.2529 8.59961C11.1901 10.0874 10.8961 11.4457 10.4336 12.4863C10.3669 12.6364 10.2959 12.7816 10.2207 12.9209C11.9214 12.1522 13.1529 10.5304 13.3662 8.59961H11.2529ZM10.2207 3.07812C10.2961 3.21762 10.3668 3.3633 10.4336 3.51367C10.8961 4.55431 11.1901 5.91265 11.2529 7.40039H13.3662C13.1529 5.46945 11.9216 3.84675 10.2207 3.07812ZM8 2.59961C7.82707 2.59961 7.61737 2.67656 7.37598 2.90625C7.13147 3.13894 6.88398 3.50402 6.66309 4.00098C6.27813 4.86713 6.00942 6.05371 5.94727 7.40039H10.0527C9.99058 6.05371 9.72187 4.86713 9.33691 4.00098C9.11602 3.50402 8.86853 3.13894 8.62402 2.90625C8.38263 2.67656 8.17293 2.59961 8 2.59961ZM5.77832 3.07812C4.07786 3.8469 2.8471 5.46976 2.63379 7.40039H4.74707C4.80989 5.91265 5.1039 4.55431 5.56641 3.51367C5.63318 3.36345 5.70301 3.2175 5.77832 3.07812Z"></path></svg></span><span class="context-status_context-item-name" _msttexthash="42157427" _msthash="54">@tensorflow模型/姿态检测</span></div><div class="context-status_context-item context-status_context-item--work context-status_context-item--hoverable context-status_context-item--clickable"><span class="context-status_context-item-icon context-status_context-item-icon--web"><svg class="newide-icon newide-icon-domain " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8.33984 1.4082C11.827 1.58507 14.5996 4.46889 14.5996 8C14.5996 11.6451 11.6451 14.5996 8 14.5996C4.35492 14.5996 1.40039 11.6451 1.40039 8C1.40039 4.35492 4.35492 1.40039 8 1.40039L8.33984 1.4082ZM5.94727 8.59961C6.00942 9.94629 6.27813 11.1329 6.66309 11.999C6.88398 12.496 7.13147 12.8611 7.37598 13.0938C7.58728 13.2948 7.77423 13.3788 7.93359 13.3965L8 13.4004C8.17293 13.4004 8.38263 13.3234 8.62402 13.0938C8.86853 12.8611 9.11602 12.496 9.33691 11.999C9.72187 11.1329 9.99058 9.94629 10.0527 8.59961H5.94727ZM2.63379 8.59961C2.84709 10.5301 4.07805 12.1521 5.77832 12.9209C5.70316 12.7818 5.63305 12.6363 5.56641 12.4863C5.1039 11.4457 4.80989 10.0874 4.74707 8.59961H2.63379ZM11.2529 8.59961C11.1901 10.0874 10.8961 11.4457 10.4336 12.4863C10.3669 12.6364 10.2959 12.7816 10.2207 12.9209C11.9214 12.1522 13.1529 10.5304 13.3662 8.59961H11.2529ZM10.2207 3.07812C10.2961 3.21762 10.3668 3.3633 10.4336 3.51367C10.8961 4.55431 11.1901 5.91265 11.2529 7.40039H13.3662C13.1529 5.46945 11.9216 3.84675 10.2207 3.07812ZM8 2.59961C7.82707 2.59961 7.61737 2.67656 7.37598 2.90625C7.13147 3.13894 6.88398 3.50402 6.66309 4.00098C6.27813 4.86713 6.00942 6.05371 5.94727 7.40039H10.0527C9.99058 6.05371 9.72187 4.86713 9.33691 4.00098C9.11602 3.50402 8.86853 3.13894 8.62402 2.90625C8.38263 2.67656 8.17293 2.59961 8 2.59961ZM5.77832 3.07812C4.07786 3.8469 2.8471 5.46976 2.63379 7.40039H4.74707C4.80989 5.91265 5.1039 4.55431 5.56641 3.51367C5.63318 3.36345 5.70301 3.2175 5.77832 3.07812Z"></path></svg></span><span class="context-status_context-item-name" _msttexthash="42157427" _msthash="55">@tensorflow模型/姿态检测</span></div><div class="context-status_context-item context-status_context-item--work context-status_context-item--hoverable context-status_context-item--clickable"><span class="context-status_context-item-icon context-status_context-item-icon--web"><svg class="newide-icon newide-icon-domain " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8.33984 1.4082C11.827 1.58507 14.5996 4.46889 14.5996 8C14.5996 11.6451 11.6451 14.5996 8 14.5996C4.35492 14.5996 1.40039 11.6451 1.40039 8C1.40039 4.35492 4.35492 1.40039 8 1.40039L8.33984 1.4082ZM5.94727 8.59961C6.00942 9.94629 6.27813 11.1329 6.66309 11.999C6.88398 12.496 7.13147 12.8611 7.37598 13.0938C7.58728 13.2948 7.77423 13.3788 7.93359 13.3965L8 13.4004C8.17293 13.4004 8.38263 13.3234 8.62402 13.0938C8.86853 12.8611 9.11602 12.496 9.33691 11.999C9.72187 11.1329 9.99058 9.94629 10.0527 8.59961H5.94727ZM2.63379 8.59961C2.84709 10.5301 4.07805 12.1521 5.77832 12.9209C5.70316 12.7818 5.63305 12.6363 5.56641 12.4863C5.1039 11.4457 4.80989 10.0874 4.74707 8.59961H2.63379ZM11.2529 8.59961C11.1901 10.0874 10.8961 11.4457 10.4336 12.4863C10.3669 12.6364 10.2959 12.7816 10.2207 12.9209C11.9214 12.1522 13.1529 10.5304 13.3662 8.59961H11.2529ZM10.2207 3.07812C10.2961 3.21762 10.3668 3.3633 10.4336 3.51367C10.8961 4.55431 11.1901 5.91265 11.2529 7.40039H13.3662C13.1529 5.46945 11.9216 3.84675 10.2207 3.07812ZM8 2.59961C7.82707 2.59961 7.61737 2.67656 7.37598 2.90625C7.13147 3.13894 6.88398 3.50402 6.66309 4.00098C6.27813 4.86713 6.00942 6.05371 5.94727 7.40039H10.0527C9.99058 6.05371 9.72187 4.86713 9.33691 4.00098C9.11602 3.50402 8.86853 3.13894 8.62402 2.90625C8.38263 2.67656 8.17293 2.59961 8 2.59961ZM5.77832 3.07812C4.07786 3.8469 2.8471 5.46976 2.63379 7.40039H4.74707C4.80989 5.91265 5.1039 4.55431 5.56641 3.51367C5.63318 3.36345 5.70301 3.2175 5.77832 3.07812Z"></path></svg></span><span class="context-status_context-item-name" _msttexthash="41365311" _msthash="56">Web的姿态地标检测指南</span></div><div class="context-status_context-item context-status_context-item--work context-status_context-item--hoverable context-status_context-item--clickable"><span class="context-status_context-item-icon context-status_context-item-icon--web"><svg class="newide-icon newide-icon-domain " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8.33984 1.4082C11.827 1.58507 14.5996 4.46889 14.5996 8C14.5996 11.6451 11.6451 14.5996 8 14.5996C4.35492 14.5996 1.40039 11.6451 1.40039 8C1.40039 4.35492 4.35492 1.40039 8 1.40039L8.33984 1.4082ZM5.94727 8.59961C6.00942 9.94629 6.27813 11.1329 6.66309 11.999C6.88398 12.496 7.13147 12.8611 7.37598 13.0938C7.58728 13.2948 7.77423 13.3788 7.93359 13.3965L8 13.4004C8.17293 13.4004 8.38263 13.3234 8.62402 13.0938C8.86853 12.8611 9.11602 12.496 9.33691 11.999C9.72187 11.1329 9.99058 9.94629 10.0527 8.59961H5.94727ZM2.63379 8.59961C2.84709 10.5301 4.07805 12.1521 5.77832 12.9209C5.70316 12.7818 5.63305 12.6363 5.56641 12.4863C5.1039 11.4457 4.80989 10.0874 4.74707 8.59961H2.63379ZM11.2529 8.59961C11.1901 10.0874 10.8961 11.4457 10.4336 12.4863C10.3669 12.6364 10.2959 12.7816 10.2207 12.9209C11.9214 12.1522 13.1529 10.5304 13.3662 8.59961H11.2529ZM10.2207 3.07812C10.2961 3.21762 10.3668 3.3633 10.4336 3.51367C10.8961 4.55431 11.1901 5.91265 11.2529 7.40039H13.3662C13.1529 5.46945 11.9216 3.84675 10.2207 3.07812ZM8 2.59961C7.82707 2.59961 7.61737 2.67656 7.37598 2.90625C7.13147 3.13894 6.88398 3.50402 6.66309 4.00098C6.27813 4.86713 6.00942 6.05371 5.94727 7.40039H10.0527C9.99058 6.05371 9.72187 4.86713 9.33691 4.00098C9.11602 3.50402 8.86853 3.13894 8.62402 2.90625C8.38263 2.67656 8.17293 2.59961 8 2.59961ZM5.77832 3.07812C4.07786 3.8469 2.8471 5.46976 2.63379 7.40039H4.74707C4.80989 5.91265 5.1039 4.55431 5.56641 3.51367C5.63318 3.36345 5.70301 3.2175 5.77832 3.07812Z"></path></svg></span><span class="context-status_context-item-name" _msttexthash="10350665" _msthash="57">MediaPipe 姿态</span></div><div class="context-status_context-item context-status_context-item--work context-status_context-item--hoverable context-status_context-item--clickable"><span class="context-status_context-item-icon context-status_context-item-icon--web"><svg class="newide-icon newide-icon-domain " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8.33984 1.4082C11.827 1.58507 14.5996 4.46889 14.5996 8C14.5996 11.6451 11.6451 14.5996 8 14.5996C4.35492 14.5996 1.40039 11.6451 1.40039 8C1.40039 4.35492 4.35492 1.40039 8 1.40039L8.33984 1.4082ZM5.94727 8.59961C6.00942 9.94629 6.27813 11.1329 6.66309 11.999C6.88398 12.496 7.13147 12.8611 7.37598 13.0938C7.58728 13.2948 7.77423 13.3788 7.93359 13.3965L8 13.4004C8.17293 13.4004 8.38263 13.3234 8.62402 13.0938C8.86853 12.8611 9.11602 12.496 9.33691 11.999C9.72187 11.1329 9.99058 9.94629 10.0527 8.59961H5.94727ZM2.63379 8.59961C2.84709 10.5301 4.07805 12.1521 5.77832 12.9209C5.70316 12.7818 5.63305 12.6363 5.56641 12.4863C5.1039 11.4457 4.80989 10.0874 4.74707 8.59961H2.63379ZM11.2529 8.59961C11.1901 10.0874 10.8961 11.4457 10.4336 12.4863C10.3669 12.6364 10.2959 12.7816 10.2207 12.9209C11.9214 12.1522 13.1529 10.5304 13.3662 8.59961H11.2529ZM10.2207 3.07812C10.2961 3.21762 10.3668 3.3633 10.4336 3.51367C10.8961 4.55431 11.1901 5.91265 11.2529 7.40039H13.3662C13.1529 5.46945 11.9216 3.84675 10.2207 3.07812ZM8 2.59961C7.82707 2.59961 7.61737 2.67656 7.37598 2.90625C7.13147 3.13894 6.88398 3.50402 6.66309 4.00098C6.27813 4.86713 6.00942 6.05371 5.94727 7.40039H10.0527C9.99058 6.05371 9.72187 4.86713 9.33691 4.00098C9.11602 3.50402 8.86853 3.13894 8.62402 2.90625C8.38263 2.67656 8.17293 2.59961 8 2.59961ZM5.77832 3.07812C4.07786 3.8469 2.8471 5.46976 2.63379 7.40039H4.74707C4.80989 5.91265 5.1039 4.55431 5.56641 3.51367C5.63318 3.36345 5.70301 3.2175 5.77832 3.07812Z"></path></svg></span><span class="context-status_context-item-name" _msttexthash="14294930" _msthash="58">@mediapipe/安装</span></div><span class="trigger-jIoLhZ"><div class="context-status_context-item context-status_context-item--work context-status_context-item--hoverable context-status_context-item--clickable"><span class="context-status_context-item-icon context-status_context-item-icon--web"><svg class="newide-icon newide-icon-domain " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8.33984 1.4082C11.827 1.58507 14.5996 4.46889 14.5996 8C14.5996 11.6451 11.6451 14.5996 8 14.5996C4.35492 14.5996 1.40039 11.6451 1.40039 8C1.40039 4.35492 4.35492 1.40039 8 1.40039L8.33984 1.4082ZM5.94727 8.59961C6.00942 9.94629 6.27813 11.1329 6.66309 11.999C6.88398 12.496 7.13147 12.8611 7.37598 13.0938C7.58728 13.2948 7.77423 13.3788 7.93359 13.3965L8 13.4004C8.17293 13.4004 8.38263 13.3234 8.62402 13.0938C8.86853 12.8611 9.11602 12.496 9.33691 11.999C9.72187 11.1329 9.99058 9.94629 10.0527 8.59961H5.94727ZM2.63379 8.59961C2.84709 10.5301 4.07805 12.1521 5.77832 12.9209C5.70316 12.7818 5.63305 12.6363 5.56641 12.4863C5.1039 11.4457 4.80989 10.0874 4.74707 8.59961H2.63379ZM11.2529 8.59961C11.1901 10.0874 10.8961 11.4457 10.4336 12.4863C10.3669 12.6364 10.2959 12.7816 10.2207 12.9209C11.9214 12.1522 13.1529 10.5304 13.3662 8.59961H11.2529ZM10.2207 3.07812C10.2961 3.21762 10.3668 3.3633 10.4336 3.51367C10.8961 4.55431 11.1901 5.91265 11.2529 7.40039H13.3662C13.1529 5.46945 11.9216 3.84675 10.2207 3.07812ZM8 2.59961C7.82707 2.59961 7.61737 2.67656 7.37598 2.90625C7.13147 3.13894 6.88398 3.50402 6.66309 4.00098C6.27813 4.86713 6.00942 6.05371 5.94727 7.40039H10.0527C9.99058 6.05371 9.72187 4.86713 9.33691 4.00098C9.11602 3.50402 8.86853 3.13894 8.62402 2.90625C8.38263 2.67656 8.17293 2.59961 8 2.59961ZM5.77832 3.07812C4.07786 3.8469 2.8471 5.46976 2.63379 7.40039H4.74707C4.80989 5.91265 5.1039 4.55431 5.56641 3.51367C5.63318 3.36345 5.70301 3.2175 5.77832 3.07812Z"></path></svg></span><span class="context-status_context-item-name" _msttexthash="272735346" _msthash="59">ai人体骨骼关键点检测镜像体验：毫秒级响应，本地运行稳定不报错</span></div></span><span class="trigger-jIoLhZ"><div class="context-status_context-item context-status_context-item--work context-status_context-item--hoverable context-status_context-item--clickable"><span class="context-status_context-item-icon context-status_context-item-icon--web"><svg class="newide-icon newide-icon-domain " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8.33984 1.4082C11.827 1.58507 14.5996 4.46889 14.5996 8C14.5996 11.6451 11.6451 14.5996 8 14.5996C4.35492 14.5996 1.40039 11.6451 1.40039 8C1.40039 4.35492 4.35492 1.40039 8 1.40039L8.33984 1.4082ZM5.94727 8.59961C6.00942 9.94629 6.27813 11.1329 6.66309 11.999C6.88398 12.496 7.13147 12.8611 7.37598 13.0938C7.58728 13.2948 7.77423 13.3788 7.93359 13.3965L8 13.4004C8.17293 13.4004 8.38263 13.3234 8.62402 13.0938C8.86853 12.8611 9.11602 12.496 9.33691 11.999C9.72187 11.1329 9.99058 9.94629 10.0527 8.59961H5.94727ZM2.63379 8.59961C2.84709 10.5301 4.07805 12.1521 5.77832 12.9209C5.70316 12.7818 5.63305 12.6363 5.56641 12.4863C5.1039 11.4457 4.80989 10.0874 4.74707 8.59961H2.63379ZM11.2529 8.59961C11.1901 10.0874 10.8961 11.4457 10.4336 12.4863C10.3669 12.6364 10.2959 12.7816 10.2207 12.9209C11.9214 12.1522 13.1529 10.5304 13.3662 8.59961H11.2529ZM10.2207 3.07812C10.2961 3.21762 10.3668 3.3633 10.4336 3.51367C10.8961 4.55431 11.1901 5.91265 11.2529 7.40039H13.3662C13.1529 5.46945 11.9216 3.84675 10.2207 3.07812ZM8 2.59961C7.82707 2.59961 7.61737 2.67656 7.37598 2.90625C7.13147 3.13894 6.88398 3.50402 6.66309 4.00098C6.27813 4.86713 6.00942 6.05371 5.94727 7.40039H10.0527C9.99058 6.05371 9.72187 4.86713 9.33691 4.00098C9.11602 3.50402 8.86853 3.13894 8.62402 2.90625C8.38263 2.67656 8.17293 2.59961 8 2.59961ZM5.77832 3.07812C4.07786 3.8469 2.8471 5.46976 2.63379 7.40039H4.74707C4.80989 5.91265 5.1039 4.55431 5.56641 3.51367C5.63318 3.36345 5.70301 3.2175 5.77832 3.07812Z"></path></svg></span><span class="context-status_context-item-name" _msttexthash="159115450" _msthash="60">舞蹈动作分析实战：mediapipe镜像实现高精度姿态捕捉</span></div></span><span class="trigger-jIoLhZ"><div class="context-status_context-item context-status_context-item--work context-status_context-item--hoverable context-status_context-item--clickable"><span class="context-status_context-item-icon context-status_context-item-icon--web"><svg class="newide-icon newide-icon-domain " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8.33984 1.4082C11.827 1.58507 14.5996 4.46889 14.5996 8C14.5996 11.6451 11.6451 14.5996 8 14.5996C4.35492 14.5996 1.40039 11.6451 1.40039 8C1.40039 4.35492 4.35492 1.40039 8 1.40039L8.33984 1.4082ZM5.94727 8.59961C6.00942 9.94629 6.27813 11.1329 6.66309 11.999C6.88398 12.496 7.13147 12.8611 7.37598 13.0938C7.58728 13.2948 7.77423 13.3788 7.93359 13.3965L8 13.4004C8.17293 13.4004 8.38263 13.3234 8.62402 13.0938C8.86853 12.8611 9.11602 12.496 9.33691 11.999C9.72187 11.1329 9.99058 9.94629 10.0527 8.59961H5.94727ZM2.63379 8.59961C2.84709 10.5301 4.07805 12.1521 5.77832 12.9209C5.70316 12.7818 5.63305 12.6363 5.56641 12.4863C5.1039 11.4457 4.80989 10.0874 4.74707 8.59961H2.63379ZM11.2529 8.59961C11.1901 10.0874 10.8961 11.4457 10.4336 12.4863C10.3669 12.6364 10.2959 12.7816 10.2207 12.9209C11.9214 12.1522 13.1529 10.5304 13.3662 8.59961H11.2529ZM10.2207 3.07812C10.2961 3.21762 10.3668 3.3633 10.4336 3.51367C10.8961 4.55431 11.1901 5.91265 11.2529 7.40039H13.3662C13.1529 5.46945 11.9216 3.84675 10.2207 3.07812ZM8 2.59961C7.82707 2.59961 7.61737 2.67656 7.37598 2.90625C7.13147 3.13894 6.88398 3.50402 6.66309 4.00098C6.27813 4.86713 6.00942 6.05371 5.94727 7.40039H10.0527C9.99058 6.05371 9.72187 4.86713 9.33691 4.00098C9.11602 3.50402 8.86853 3.13894 8.62402 2.90625C8.38263 2.67656 8.17293 2.59961 8 2.59961ZM5.77832 3.07812C4.07786 3.8469 2.8471 5.46976 2.63379 7.40039H4.74707C4.80989 5.91265 5.1039 4.55431 5.56641 3.51367C5.63318 3.36345 5.70301 3.2175 5.77832 3.07812Z"></path></svg></span><span class="context-status_context-item-name" _msttexthash="280208266" _msthash="61">保姆级教程：ai人体骨骼关键点检测镜像快速上手，小白也能轻松玩转</span></div></span><span class="trigger-jIoLhZ"><div class="context-status_context-item context-status_context-item--work context-status_context-item--hoverable context-status_context-item--clickable"><span class="context-status_context-item-icon context-status_context-item-icon--web"><svg class="newide-icon newide-icon-domain " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8.33984 1.4082C11.827 1.58507 14.5996 4.46889 14.5996 8C14.5996 11.6451 11.6451 14.5996 8 14.5996C4.35492 14.5996 1.40039 11.6451 1.40039 8C1.40039 4.35492 4.35492 1.40039 8 1.40039L8.33984 1.4082ZM5.94727 8.59961C6.00942 9.94629 6.27813 11.1329 6.66309 11.999C6.88398 12.496 7.13147 12.8611 7.37598 13.0938C7.58728 13.2948 7.77423 13.3788 7.93359 13.3965L8 13.4004C8.17293 13.4004 8.38263 13.3234 8.62402 13.0938C8.86853 12.8611 9.11602 12.496 9.33691 11.999C9.72187 11.1329 9.99058 9.94629 10.0527 8.59961H5.94727ZM2.63379 8.59961C2.84709 10.5301 4.07805 12.1521 5.77832 12.9209C5.70316 12.7818 5.63305 12.6363 5.56641 12.4863C5.1039 11.4457 4.80989 10.0874 4.74707 8.59961H2.63379ZM11.2529 8.59961C11.1901 10.0874 10.8961 11.4457 10.4336 12.4863C10.3669 12.6364 10.2959 12.7816 10.2207 12.9209C11.9214 12.1522 13.1529 10.5304 13.3662 8.59961H11.2529ZM10.2207 3.07812C10.2961 3.21762 10.3668 3.3633 10.4336 3.51367C10.8961 4.55431 11.1901 5.91265 11.2529 7.40039H13.3662C13.1529 5.46945 11.9216 3.84675 10.2207 3.07812ZM8 2.59961C7.82707 2.59961 7.61737 2.67656 7.37598 2.90625C7.13147 3.13894 6.88398 3.50402 6.66309 4.00098C6.27813 4.86713 6.00942 6.05371 5.94727 7.40039H10.0527C9.99058 6.05371 9.72187 4.86713 9.33691 4.00098C9.11602 3.50402 8.86853 3.13894 8.62402 2.90625C8.38263 2.67656 8.17293 2.59961 8 2.59961ZM5.77832 3.07812C4.07786 3.8469 2.8471 5.46976 2.63379 7.40039H4.74707C4.80989 5.91265 5.1039 4.55431 5.56641 3.51367C5.63318 3.36345 5.70301 3.2175 5.77832 3.07812Z"></path></svg></span><span class="context-status_context-item-name" _msttexthash="232829259" _msthash="62">ai姿态检测快速入门：webui操作，零配置实现人体骨骼可视化</span></div></span><div class="context-status_context-item context-status_context-item--work context-status_context-item--hoverable context-status_context-item--clickable"><span class="context-status_context-item-icon context-status_context-item-icon--web"><svg class="newide-icon newide-icon-domain " width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8.33984 1.4082C11.827 1.58507 14.5996 4.46889 14.5996 8C14.5996 11.6451 11.6451 14.5996 8 14.5996C4.35492 14.5996 1.40039 11.6451 1.40039 8C1.40039 4.35492 4.35492 1.40039 8 1.40039L8.33984 1.4082ZM5.94727 8.59961C6.00942 9.94629 6.27813 11.1329 6.66309 11.999C6.88398 12.496 7.13147 12.8611 7.37598 13.0938C7.58728 13.2948 7.77423 13.3788 7.93359 13.3965L8 13.4004C8.17293 13.4004 8.38263 13.3234 8.62402 13.0938C8.86853 12.8611 9.11602 12.496 9.33691 11.999C9.72187 11.1329 9.99058 9.94629 10.0527 8.59961H5.94727ZM2.63379 8.59961C2.84709 10.5301 4.07805 12.1521 5.77832 12.9209C5.70316 12.7818 5.63305 12.6363 5.56641 12.4863C5.1039 11.4457 4.80989 10.0874 4.74707 8.59961H2.63379ZM11.2529 8.59961C11.1901 10.0874 10.8961 11.4457 10.4336 12.4863C10.3669 12.6364 10.2959 12.7816 10.2207 12.9209C11.9214 12.1522 13.1529 10.5304 13.3662 8.59961H11.2529ZM10.2207 3.07812C10.2961 3.21762 10.3668 3.3633 10.4336 3.51367C10.8961 4.55431 11.1901 5.91265 11.2529 7.40039H13.3662C13.1529 5.46945 11.9216 3.84675 10.2207 3.07812ZM8 2.59961C7.82707 2.59961 7.61737 2.67656 7.37598 2.90625C7.13147 3.13894 6.88398 3.50402 6.66309 4.00098C6.27813 4.86713 6.00942 6.05371 5.94727 7.40039H10.0527C9.99058 6.05371 9.72187 4.86713 9.33691 4.00098C9.11602 3.50402 8.86853 3.13894 8.62402 2.90625C8.38263 2.67656 8.17293 2.59961 8 2.59961ZM5.77832 3.07812C4.07786 3.8469 2.8471 5.46976 2.63379 7.40039H4.74707C4.80989 5.91265 5.1039 4.55431 5.56641 3.51367C5.63318 3.36345 5.70301 3.2175 5.77832 3.07812Z"></path></svg></span><span class="context-status_context-item-name" _msttexthash="92465451" _msthash="63">nano姿态估计：mediapipe进行姿态估计</span></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div><div class="container-UhGXJa containerPassthrough-IjBXaD "><div class="content-FHMU5b " style=""><div><div></div></div></div></div></main></div></div><!--<?- chunksMap.js ?>--><!--<?- SSRDataScript ?>--><div id="cc-main" data-nosnippet=""><div class="cm-wrapper cc--anim"><div class="cm cm--box cm--bottom cm--right" role="dialog" aria-modal="true" aria-hidden="false" aria-describedby="cm__desc"><div tabindex="-1"></div><div class="cm__body"><div class="cm__texts"></div></div></div></div></div><div style="position: fixed; top: 0px; left: 0px; display: none; z-index: 1100; overflow: hidden;"><iframe sandbox="allow-scripts allow-same-origin" title="File Preview" src="./TRAE SOLO：不仅仅是编程_files/file.html" style="width: 100%; height: 100%; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial;"></iframe></div><div class="chat-input-tooltip " data-side="top" role="tooltip" style="top: 0px; left: 0px; --arrow-offset: 50%;"><div class="chat-input-tooltip-container"><span class="chat-input-tooltip-text" _msttexthash="5786547" _msthash="466">发送</span></div><div class="chat-input-tooltip-arrow"><svg width="8" height="4" viewBox="0 0 8 4" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0H8L4 4L0 0Z" fill="var(--bg-bg-invert, #1f1f1f)"></path></svg></div></div><div class="chat-input-tooltip " data-side="top" role="tooltip" style="top: 0px; left: 0px; --arrow-offset: 50%;"><div class="chat-input-tooltip-container"><span class="chat-input-tooltip-text" _msttexthash="44266326" _msthash="468">语音输入（Ctrl+Shift+V）</span></div><div class="chat-input-tooltip-arrow"><svg width="8" height="4" viewBox="0 0 8 4" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0H8L4 4L0 0Z" fill="var(--bg-bg-invert, #1f1f1f)"></path></svg></div></div><div class="core-model-select-portal"></div><div class="chat-input-tooltip " data-side="top" role="tooltip" style="top: 0px; left: 0px; --arrow-offset: 50%;"><div class="chat-input-tooltip-container"><span class="chat-input-tooltip-text" _msttexthash="16138291" _msthash="513">语音讨论</span></div><div class="chat-input-tooltip-arrow"><svg width="8" height="4" viewBox="0 0 8 4" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0H8L4 4L0 0Z" fill="var(--bg-bg-invert, #1f1f1f)"></path></svg></div></div></body></html>
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>排球动作识别与纠错（本地单页）</title>
+    <style>
+      :root{
+        --bg:#061a33;
+        --panel:#0a2b55;
+        --panel2:#0d3770;
+        --blue:#2f7ef7;
+        --blue2:#0ea5ff;
+        --text:#eaf2ff;
+        --muted:#b8cff8;
+        --danger:#ff2d2d;
+        --ok:#22c55e;
+      }
+      *{box-sizing:border-box}
+      body{
+        margin:0;
+        font-family: system-ui, -apple-system, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", Arial, sans-serif;
+        background: radial-gradient(1200px 900px at 20% 0%, #0b2f66 0%, var(--bg) 40%, #041021 100%);
+        color:var(--text);
+      }
+      header{
+        padding:14px 14px 10px;
+        border-bottom:1px solid rgba(255,255,255,.08);
+        background: linear-gradient(180deg, rgba(20,80,170,.35), rgba(10,25,55,.15));
+        position: sticky;
+        top: 0;
+        backdrop-filter: blur(8px);
+        z-index: 10;
+      }
+      .title{
+        display:flex; align-items:center; justify-content:space-between; gap:10px;
+      }
+      .title h1{
+        margin:0;
+        font-size:16px;
+        font-weight:700;
+        letter-spacing:.3px;
+      }
+      .badge{
+        font-size:12px;
+        color:var(--muted);
+        border:1px solid rgba(255,255,255,.15);
+        padding:4px 8px;
+        border-radius:999px;
+        white-space:nowrap;
+      }
+      .wrap{
+        max-width:1080px;
+        margin:0 auto;
+        padding:12px;
+        display:grid;
+        grid-template-columns: 1.2fr .8fr;
+        gap:12px;
+      }
+      @media (max-width: 900px){
+        .wrap{grid-template-columns: 1fr}
+      }
+      .card{
+        background: linear-gradient(180deg, rgba(13,55,112,.55), rgba(10,43,85,.35));
+        border:1px solid rgba(255,255,255,.10);
+        border-radius:14px;
+        overflow:hidden;
+        box-shadow: 0 10px 30px rgba(0,0,0,.28);
+      }
+      .card .hd{
+        padding:10px 12px;
+        display:flex;
+        align-items:center;
+        justify-content:space-between;
+        gap:10px;
+        border-bottom:1px solid rgba(255,255,255,.08);
+      }
+      .card .hd .left{
+        display:flex;
+        gap:8px;
+        align-items:center;
+        min-width:0;
+      }
+      .card .hd strong{font-size:13px}
+      .card .bd{padding:12px}
+      .row{display:flex; gap:10px; flex-wrap:wrap}
+      .row > *{flex:1 1 auto}
+      select, button{
+        appearance:none;
+        border-radius:12px;
+        border:1px solid rgba(255,255,255,.12);
+        background: rgba(4,18,38,.35);
+        color:var(--text);
+        padding:10px 12px;
+        font-size:14px;
+        outline:none;
+      }
+      button{
+        cursor:pointer;
+        background: linear-gradient(180deg, rgba(47,126,247,.75), rgba(20,90,200,.55));
+        border:1px solid rgba(255,255,255,.18);
+        font-weight:700;
+      }
+      button.secondary{
+        background: rgba(4,18,38,.35);
+        font-weight:600;
+      }
+      button.danger{
+        background: linear-gradient(180deg, rgba(255,45,45,.85), rgba(190,20,20,.65));
+      }
+      button:disabled{
+        opacity:.55;
+        cursor:not-allowed;
+      }
+      .hint{
+        color:var(--muted);
+        font-size:12px;
+        line-height:1.5;
+      }
+      .stage{
+        position:relative;
+        width:100%;
+        aspect-ratio: 16 / 10;
+        background:#000;
+      }
+      @media (max-width: 900px){
+        .stage{aspect-ratio: 3 / 4;}
+      }
+      canvas{
+        width:100%;
+        height:100%;
+        display:block;
+      }
+      video{display:none}
+      .overlayTop{
+        position:absolute;
+        left:10px; right:10px;
+        top:10px;
+        display:flex;
+        justify-content:space-between;
+        gap:10px;
+        pointer-events:none;
+      }
+      .pill{
+        pointer-events:none;
+        display:inline-flex;
+        align-items:center;
+        gap:6px;
+        background: rgba(0,0,0,.35);
+        border:1px solid rgba(255,255,255,.15);
+        padding:6px 10px;
+        border-radius:999px;
+        font-size:12px;
+        color:var(--text);
+        backdrop-filter: blur(8px);
+        white-space:nowrap;
+      }
+      .dot{width:8px; height:8px; border-radius:999px; background: var(--ok); display:inline-block;}
+      .dot.red{background: var(--danger);}
+      .errBox{
+        margin-top:10px;
+        padding:10px 12px;
+        border-radius:12px;
+        border:1px solid rgba(255,255,255,.12);
+        background: rgba(0,0,0,.22);
+      }
+      .errTitle{
+        display:flex; align-items:center; gap:8px;
+        font-weight:800;
+        color: var(--danger);
+        margin-bottom:6px;
+        font-size:14px;
+      }
+      .errList{
+        margin:0;
+        padding-left:18px;
+        color: var(--danger);
+        font-size:14px;
+        line-height:1.55;
+        font-weight:800;
+        text-shadow: 0 0 10px rgba(255,45,45,.25);
+      }
+      .stats{
+        display:grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap:10px;
+      }
+      .kpi{
+        border:1px solid rgba(255,255,255,.10);
+        border-radius:12px;
+        padding:10px 12px;
+        background: rgba(4,18,38,.25);
+      }
+      .kpi .k{font-size:12px; color:var(--muted)}
+      .kpi .v{font-size:22px; font-weight:900; margin-top:4px}
+      .kpi .v small{font-size:12px; color:var(--muted); font-weight:700}
+      .footer{
+        padding:12px;
+        color:var(--muted);
+        font-size:12px;
+        text-align:center;
+        opacity:.9;
+      }
+      .mono{font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;}
+    </style>
+
+    <!-- MediaPipe Pose（CDN） -->
+    <!-- 说明：如果你所在网络访问较慢，可把下面 3 个地址替换为你可用的国内镜像 CDN。 -->
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils@0.3/camera_utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils@0.3/drawing_utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/pose@0.5.1675469404/pose.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="title">
+        <h1>排球动作识别与纠错（MediaPipe Pose｜本地运行）</h1>
+        <div class="badge">纯 HTML + JS · 无后端</div>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section class="card">
+        <div class="hd">
+          <div class="left">
+            <strong>实时画面</strong>
+            <span class="badge mono" id="fps">-- fps</span>
+          </div>
+          <span class="badge" id="secureHint">摄像头：检测中…</span>
+        </div>
+        <div class="bd">
+          <div class="stage">
+            <video id="video" playsinline></video>
+            <canvas id="canvas"></canvas>
+            <div class="overlayTop">
+              <div class="pill"><span class="dot" id="dotRun"></span><span id="statusText">初始化中…</span></div>
+              <div class="pill"><span id="modeText">训练模式</span></div>
+            </div>
+          </div>
+
+          <div class="errBox">
+            <div class="errTitle">实时纠错提示（红色）</div>
+            <ul class="errList" id="errList">
+              <li>等待摄像头与人体识别…</li>
+            </ul>
+            <div class="hint" id="extraHint" style="margin-top:8px"></div>
+          </div>
+        </div>
+      </section>
+
+      <aside class="card">
+        <div class="hd">
+          <div class="left">
+            <strong>控制面板</strong>
+          </div>
+          <span class="badge">手机适配</span>
+        </div>
+        <div class="bd">
+          <div class="row" style="margin-bottom:10px">
+            <select id="actionSelect" title="选择动作">
+              <option value="auto">自动识别（推荐）</option>
+              <option value="bump">下手垫球</option>
+              <option value="set">上手传球</option>
+              <option value="serve">正面上手发球</option>
+            </select>
+            <select id="facingSelect" title="摄像头方向">
+              <option value="user">前置（自拍）</option>
+              <option value="environment">后置</option>
+            </select>
+          </div>
+
+          <div class="row" style="margin-bottom:10px">
+            <button id="btnTrain" class="secondary">训练模式</button>
+            <button id="btnExam">考试模拟</button>
+          </div>
+
+          <div class="row" style="margin-bottom:10px">
+            <button id="btnReset" class="secondary">清零/重置</button>
+            <button id="btnStop" class="danger">停止摄像头</button>
+          </div>
+
+          <div class="stats" style="margin-top:6px">
+            <div class="kpi">
+              <div class="k">计数（次）</div>
+              <div class="v" id="kpiCount">0</div>
+            </div>
+            <div class="kpi">
+              <div class="k">得分（百分制）</div>
+              <div class="v"><span id="kpiScore">0</span><small> / 100</small></div>
+            </div>
+            <div class="kpi">
+              <div class="k">当前动作</div>
+              <div class="v" id="kpiAction">--</div>
+            </div>
+            <div class="kpi">
+              <div class="k">考试剩余（秒）</div>
+              <div class="v" id="kpiLeft">--</div>
+            </div>
+          </div>
+
+          <div class="hint" style="margin-top:12px">
+            <div style="font-weight:700; margin-bottom:6px; color:#d6e6ff">使用说明</div>
+            <ol style="margin:0; padding-left:18px; line-height:1.6">
+              <li>尽量全身入镜，光线充足，背景干净。</li>
+              <li>自动识别适合训练；考试模拟默认 30 秒计时并给出百分制评分。</li>
+              <li>如摄像头无法开启：请用本地静态服务器打开（例如 VSCode Live Server / <span class="mono">python -m http.server</span>）。</li>
+            </ol>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <div class="footer">
+      提示：本页面所有识别与纠错均在本地浏览器内运行（无后端、无上传）。
+    </div>
+
+    <script>
+      // ====== 基础工具 ======
+      const $ = (id) => document.getElementById(id);
+      const clamp = (v, a, b) => Math.max(a, Math.min(b, v));
+      const now = () => performance.now();
+
+      function deg(rad){ return rad * 180 / Math.PI; }
+      function dist(a, b){
+        const dx = a.x - b.x, dy = a.y - b.y;
+        return Math.hypot(dx, dy);
+      }
+      function angle(A, B, C){
+        // ∠ABC
+        const v1 = {x: A.x - B.x, y: A.y - B.y};
+        const v2 = {x: C.x - B.x, y: C.y - B.y};
+        const dot = v1.x*v2.x + v1.y*v2.y;
+        const n1 = Math.hypot(v1.x, v1.y);
+        const n2 = Math.hypot(v2.x, v2.y);
+        if(n1 < 1e-6 || n2 < 1e-6) return 0;
+        return deg(Math.acos(clamp(dot/(n1*n2), -1, 1)));
+      }
+      function okLm(lm){ return lm && (lm.visibility === undefined || lm.visibility > 0.55); }
+
+      const ACTIONS = {
+        auto: "自动识别",
+        bump: "下手垫球",
+        set: "上手传球",
+        serve: "正面上手发球",
+      };
+
+      // MediaPipe Pose landmark index（常用点）
+      const LM = {
+        nose: 0,
+        leftShoulder: 11,
+        rightShoulder: 12,
+        leftElbow: 13,
+        rightElbow: 14,
+        leftWrist: 15,
+        rightWrist: 16,
+        leftHip: 23,
+        rightHip: 24,
+        leftKnee: 25,
+        rightKnee: 26,
+        leftAnkle: 27,
+        rightAnkle: 28,
+      };
+
+      // ====== UI 状态 ======
+      const ui = {
+        errList: $("errList"),
+        extraHint: $("extraHint"),
+        fps: $("fps"),
+        statusText: $("statusText"),
+        dotRun: $("dotRun"),
+        modeText: $("modeText"),
+        secureHint: $("secureHint"),
+        kpiCount: $("kpiCount"),
+        kpiScore: $("kpiScore"),
+        kpiAction: $("kpiAction"),
+        kpiLeft: $("kpiLeft"),
+        actionSelect: $("actionSelect"),
+        facingSelect: $("facingSelect"),
+        btnTrain: $("btnTrain"),
+        btnExam: $("btnExam"),
+        btnReset: $("btnReset"),
+        btnStop: $("btnStop"),
+      };
+
+      const state = {
+        running: false,
+        mode: "train", // train | exam
+        examMsTotal: 30_000,
+        examEndsAt: 0,
+        count: 0,
+        repQualitySum: 0,
+        lastRepAt: 0,
+        repGate: false,
+        lastLmAt: 0,
+        chosenAction: "auto",
+        predictedAction: "--",
+        fpsT: {t0: now(), frames: 0},
+        cameraFacing: "user",
+      };
+
+      function setErrors(arr, extra=""){
+        ui.errList.innerHTML = "";
+        if(!arr.length){
+          const li = document.createElement("li");
+          li.style.color = "rgba(255,255,255,.90)";
+          li.style.textShadow = "none";
+          li.textContent = "动作要点良好（继续保持）";
+          ui.errList.appendChild(li);
+        }else{
+          for(const t of arr){
+            const li = document.createElement("li");
+            li.textContent = t;
+            ui.errList.appendChild(li);
+          }
+        }
+        ui.extraHint.textContent = extra || "";
+      }
+
+      function resetStats(){
+        state.count = 0;
+        state.repQualitySum = 0;
+        state.lastRepAt = 0;
+        state.repGate = false;
+        refreshKPIs();
+      }
+
+      function scoreNow(){
+        if(state.count <= 0) return 0;
+        return Math.round(clamp(state.repQualitySum / state.count, 0, 1) * 100);
+      }
+
+      function refreshKPIs(){
+        ui.kpiCount.textContent = String(state.count);
+        ui.kpiScore.textContent = String(scoreNow());
+        ui.kpiAction.textContent = state.predictedAction || "--";
+        if(state.mode === "exam"){
+          const left = Math.max(0, Math.ceil((state.examEndsAt - now()) / 1000));
+          ui.kpiLeft.textContent = String(left);
+        }else{
+          ui.kpiLeft.textContent = "--";
+        }
+      }
+
+      // ====== 动作规则（启发式） ======
+      function getBody(lms){
+        const g = (k) => lms[k];
+        const required = [
+          g(LM.nose),
+          g(LM.leftShoulder), g(LM.rightShoulder),
+          g(LM.leftElbow), g(LM.rightElbow),
+          g(LM.leftWrist), g(LM.rightWrist),
+          g(LM.leftHip), g(LM.rightHip),
+          g(LM.leftKnee), g(LM.rightKnee),
+        ];
+        if(required.some(x => !okLm(x))) return null;
+
+        const ls = g(LM.leftShoulder), rs = g(LM.rightShoulder);
+        const lh = g(LM.leftHip), rh = g(LM.rightHip);
+        const le = g(LM.leftElbow), re = g(LM.rightElbow);
+        const lw = g(LM.leftWrist), rw = g(LM.rightWrist);
+        const lk = g(LM.leftKnee), rk = g(LM.rightKnee);
+        const la = g(LM.leftAnkle), ra = g(LM.rightAnkle);
+        const nose = g(LM.nose);
+
+        const shoulderW = dist(ls, rs);
+        const hipW = dist(lh, rh);
+        const bodyScale = Math.max(shoulderW, hipW, 1e-4);
+
+        const elbowL = angle(ls, le, lw);
+        const elbowR = angle(rs, re, rw);
+        const kneeL = (okLm(la) ? angle(lh, lk, la) : 180);
+        const kneeR = (okLm(ra) ? angle(rh, rk, ra) : 180);
+
+        const midShoulder = {x:(ls.x+rs.x)/2, y:(ls.y+rs.y)/2};
+        const midHip = {x:(lh.x+rh.x)/2, y:(lh.y+rh.y)/2};
+
+        return {
+          nose, ls, rs, le, re, lw, rw, lh, rh, lk, rk, la, ra,
+          shoulderW, hipW, bodyScale,
+          elbowL, elbowR, kneeL, kneeR,
+          midShoulder, midHip,
+        };
+      }
+
+      function evalBump(b){
+        // 下手垫球：双臂伸直 + 手腕相近 + 手在腰胸高度 + 膝微屈
+        const errs = [];
+        const wristD = dist(b.lw, b.rw);
+        const wristsY = (b.lw.y + b.rw.y) / 2;
+        const shoulderY = b.midShoulder.y;
+        const hipY = b.midHip.y;
+
+        if(Math.min(b.elbowL, b.elbowR) < 155) errs.push("双臂不够伸直（肘关节要锁住）");
+        if(wristD > b.shoulderW * 0.55) errs.push("双手未并拢（手腕距离过大）");
+        if(wristsY < shoulderY - 0.02) errs.push("手臂太高（垫球点应在腰胸前方）");
+        if(wristsY > hipY + 0.10) errs.push("手臂太低（垫球点不要掉到大腿附近）");
+
+        const kneeMin = Math.min(b.kneeL, b.kneeR);
+        if(kneeMin > 170) errs.push("膝盖没弯（重心要下沉）");
+
+        // 粗略“前倾”判断：肩与髋的垂直距离变小 => 更前倾/下压
+        const torso = b.midHip.y - b.midShoulder.y;
+        if(torso > 0.28) errs.push("身体过直（微前倾、含胸收腹）");
+
+        // 关键姿态（用于计数）
+        const keyPose =
+          (Math.min(b.elbowL, b.elbowR) > 160) &&
+          (wristD < b.shoulderW * 0.50) &&
+          (wristsY > shoulderY + 0.03) && (wristsY < hipY + 0.06);
+
+        const confidence =
+          0.25 * clamp((Math.min(b.elbowL, b.elbowR)-135)/45, 0, 1) +
+          0.25 * clamp((b.shoulderW*0.55 - wristD)/(b.shoulderW*0.55), 0, 1) +
+          0.25 * clamp((wristsY - (shoulderY+0.02))/0.18, 0, 1) +
+          0.25 * clamp((175 - Math.min(b.kneeL,b.kneeR))/35, 0, 1);
+
+        const quality = clamp(1 - errs.length * 0.18, 0, 1) * (0.4 + 0.6*confidence);
+        return { errs, keyPose, confidence, quality };
+      }
+
+      function evalSet(b){
+        // 上手传球：双手在额头上方 + 肘微屈（90~140）+ 手距适中
+        const errs = [];
+        const wristD = dist(b.lw, b.rw);
+        const wristsY = (b.lw.y + b.rw.y) / 2;
+        const noseY = b.nose.y;
+
+        const elbowOk = (b.elbowL > 80 && b.elbowL < 150 && b.elbowR > 80 && b.elbowR < 150);
+        if(!elbowOk) errs.push("肘部角度不合适（肘微屈，手指发力）");
+
+        if(wristsY > noseY + 0.03) errs.push("手型太低（抬到额头上方）");
+        if(wristD < b.shoulderW * 0.25) errs.push("手型过窄（双手稍分开呈三角）");
+        if(wristD > b.shoulderW * 0.85) errs.push("手型过宽（双手不要张太开）");
+
+        const kneeMin = Math.min(b.kneeL, b.kneeR);
+        if(kneeMin > 175) errs.push("下肢过直（膝微屈，便于蹬伸）");
+
+        const keyPose =
+          (wristsY < noseY + 0.02) &&
+          (b.elbowL > 85 && b.elbowL < 150) && (b.elbowR > 85 && b.elbowR < 150) &&
+          (wristD > b.shoulderW * 0.28) && (wristD < b.shoulderW * 0.78);
+
+        const confidence =
+          0.35 * clamp(((noseY+0.03) - wristsY) / 0.12, 0, 1) +
+          0.35 * clamp((wristD - b.shoulderW*0.25)/(b.shoulderW*0.60), 0, 1) +
+          0.30 * clamp((175 - kneeMin)/35, 0, 1);
+
+        const quality = clamp(1 - errs.length * 0.18, 0, 1) * (0.4 + 0.6*confidence);
+        return { errs, keyPose, confidence, quality };
+      }
+
+      function evalServe(b){
+        // 正面上手发球（简化版）：一侧击球臂举高且伸直 + 击球点高于头部/额头
+        const errs = [];
+        const leftHigher = b.lw.y < b.rw.y;
+        const hit = leftHigher ? {s:b.ls, e:b.le, w:b.lw, elbow:b.elbowL, side:"左"} : {s:b.rs, e:b.re, w:b.rw, elbow:b.elbowR, side:"右"};
+        const toss = leftHigher ? {w:b.rw, s:b.rs} : {w:b.lw, s:b.ls};
+        const noseY = b.nose.y;
+
+        if(hit.elbow < 160) errs.push("击球臂不够伸直（手臂要伸展）");
+        if(hit.w.y > noseY + 0.02) errs.push("击球点太低（抬高手腕，争取高点击球）");
+        if(toss.w.y > toss.s.y + 0.06) errs.push("抛球臂偏低（抛球手提前举起）");
+
+        const kneeMin = Math.min(b.kneeL, b.kneeR);
+        if(kneeMin > 178) errs.push("下肢过直（膝微屈，更好发力）");
+
+        const hitAboveShoulder = hit.w.y < hit.s.y - 0.06;
+        const keyPose = (hitAboveShoulder && hit.elbow > 165 && hit.w.y < noseY + 0.01);
+
+        const confidence =
+          0.40 * clamp((hit.elbow - 145)/35, 0, 1) +
+          0.35 * clamp(((noseY+0.03) - hit.w.y)/0.20, 0, 1) +
+          0.25 * clamp((toss.s.y + 0.10 - toss.w.y)/0.25, 0, 1);
+
+        const quality = clamp(1 - errs.length * 0.18, 0, 1) * (0.4 + 0.6*confidence);
+        return { errs, keyPose, confidence, quality, side: hit.side };
+      }
+
+      function predictAction(b){
+        const eb = evalBump(b);
+        const es = evalSet(b);
+        const ev = evalServe(b);
+        const candidates = [
+          {k:"bump", name:ACTIONS.bump, conf: eb.confidence, pack: eb},
+          {k:"set", name:ACTIONS.set, conf: es.confidence, pack: es},
+          {k:"serve", name:ACTIONS.serve, conf: ev.confidence, pack: ev},
+        ];
+        candidates.sort((a,b)=>b.conf-a.conf);
+        const best = candidates[0];
+        // 置信度太低则不做强行判断
+        if(best.conf < 0.35) return { key:"--", name:"未识别", pack:null, conf:best.conf };
+        return { key: best.k, name: best.name, pack: best.pack, conf: best.conf };
+      }
+
+      // ====== 计数与考试模式 ======
+      function handleRep(keyPose, quality){
+        const t = now();
+        const cooldownMs = 750;
+        if(!state.repGate && keyPose && (t - state.lastRepAt > cooldownMs)){
+          state.repGate = true;
+          state.lastRepAt = t;
+          state.count += 1;
+          state.repQualitySum += quality;
+        }
+        if(!keyPose) state.repGate = false;
+      }
+
+      function setMode(mode){
+        state.mode = mode;
+        ui.modeText.textContent = (mode === "exam" ? "考试模拟模式" : "训练模式");
+        if(mode === "exam"){
+          resetStats();
+          state.examEndsAt = now() + state.examMsTotal;
+        }else{
+          state.examEndsAt = 0;
+        }
+        refreshKPIs();
+      }
+
+      // ====== MediaPipe Pose 初始化 ======
+      const videoEl = $("video");
+      const canvasEl = $("canvas");
+      const ctx = canvasEl.getContext("2d");
+
+      function setStatus(running, text){
+        state.running = running;
+        ui.statusText.textContent = text;
+        ui.dotRun.classList.toggle("red", !running);
+      }
+
+      function secureContextHint(){
+        // getUserMedia 需要安全上下文：https / localhost
+        if(window.isSecureContext){
+          ui.secureHint.textContent = "摄像头：安全上下文 ✓";
+        }else{
+          ui.secureHint.textContent = "摄像头：需要 https/localhost";
+        }
+      }
+      secureContextHint();
+
+      let pose = null;
+      let camera = null;
+      let cameraStarted = false;
+
+      function resizeCanvasToVideo(){
+        // 以 video 的真实尺寸作为 canvas 内部分辨率，保证骨骼点对齐
+        const w = videoEl.videoWidth || 1280;
+        const h = videoEl.videoHeight || 720;
+        if(canvasEl.width !== w || canvasEl.height !== h){
+          canvasEl.width = w;
+          canvasEl.height = h;
+        }
+      }
+
+      function drawPose(lms){
+        // 绘制骨骼点与连接线
+        const scale = {x: canvasEl.width, y: canvasEl.height};
+        ctx.save();
+        ctx.lineWidth = 2;
+        ctx.globalAlpha = 0.95;
+        // 连接线
+        drawConnectors(ctx, lms, POSE_CONNECTIONS, {color: "#66c2ff", lineWidth: 3});
+        // 关键点
+        drawLandmarks(ctx, lms, {
+          color: "#0ea5ff",
+          lineWidth: 2,
+          radius: (data) => {
+            const v = data.from && data.from.visibility !== undefined ? data.from.visibility : 0.6;
+            return 2 + 3 * clamp(v, 0, 1);
+          }
+        });
+        ctx.restore();
+      }
+
+      function drawVideo(image){
+        // 镜像：前置摄像头更符合习惯
+        const mirror = (state.cameraFacing === "user");
+        ctx.save();
+        if(mirror){
+          ctx.translate(canvasEl.width, 0);
+          ctx.scale(-1, 1);
+        }
+        ctx.drawImage(image, 0, 0, canvasEl.width, canvasEl.height);
+        ctx.restore();
+      }
+
+      function updateFps(){
+        state.fpsT.frames += 1;
+        const t = now();
+        if(t - state.fpsT.t0 > 600){
+          const fps = state.fpsT.frames * 1000 / (t - state.fpsT.t0);
+          ui.fps.textContent = fps.toFixed(1) + " fps";
+          state.fpsT.t0 = t;
+          state.fpsT.frames = 0;
+        }
+      }
+
+      function onResults(res){
+        updateFps();
+        resizeCanvasToVideo();
+        drawVideo(res.image);
+
+        const lms = res.poseLandmarks;
+        if(lms){
+          // 前置镜像会导致左右视觉反转，但姿态规则对称不敏感；这里保持使用原始 landmark 值做分析。
+          drawPose(lms);
+          state.lastLmAt = now();
+
+          const b = getBody(lms);
+          if(!b){
+            setErrors(["请全身入镜并保持稳定（关键点置信度不足）"]);
+            state.predictedAction = "未识别";
+            refreshKPIs();
+            return;
+          }
+
+          let actionKey = state.chosenAction;
+          let pack = null;
+          let actionName = "";
+          let conf = 0;
+
+          if(actionKey === "auto"){
+            const pred = predictAction(b);
+            actionKey = pred.key;
+            actionName = pred.name;
+            pack = pred.pack;
+            conf = pred.conf;
+          }else{
+            actionName = ACTIONS[actionKey] || "--";
+            if(actionKey === "bump") pack = evalBump(b);
+            if(actionKey === "set") pack = evalSet(b);
+            if(actionKey === "serve") pack = evalServe(b);
+            conf = pack ? pack.confidence : 0;
+          }
+
+          state.predictedAction = actionName;
+          refreshKPIs();
+
+          if(!pack){
+            setErrors(["未识别到明确动作（请尝试更标准的动作范围）"], "提示：可切换到「自动识别」以便训练。");
+            return;
+          }
+
+          // 考试结束判定
+          if(state.mode === "exam" && now() > state.examEndsAt){
+            setMode("train");
+            setErrors(
+              [`考试结束：共 ${state.count} 次，得分 ${scoreNow()} / 100`],
+              "可点击「考试模拟」再次开始。"
+            );
+            return;
+          }
+
+          const extra =
+            `动作：${actionName}${(actionKey==="serve" && pack.side) ? `（${pack.side}手击球）` : ""} ｜ 置信：${Math.round(conf*100)}%` +
+            (state.mode === "exam" ? ` ｜ 评分按每次动作质量累计` : "");
+
+          setErrors(pack.errs, extra);
+          handleRep(pack.keyPose, pack.quality);
+          refreshKPIs();
+        }else{
+          // 无人或检测不到
+          const idleFor = now() - state.lastLmAt;
+          if(idleFor > 500){
+            setErrors(["未检测到人体（请站到镜头前）"], "提示：尽量全身入镜、光线充足、避免强逆光。");
+            state.predictedAction = "未识别";
+            refreshKPIs();
+          }
+        }
+      }
+
+      async function startCamera(){
+        setStatus(false, "启动摄像头…");
+        secureContextHint();
+
+        if(!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia){
+          setStatus(false, "浏览器不支持摄像头");
+          setErrors(["浏览器不支持 getUserMedia（建议使用 Chrome / Edge / Safari）"]);
+          return;
+        }
+
+        // MediaPipe Pose
+        pose = new Pose({
+          locateFile: (file) =>
+            `https://cdn.jsdelivr.net/npm/@mediapipe/pose@0.5.1675469404/${file}`,
+        });
+        pose.setOptions({
+          modelComplexity: 1,
+          smoothLandmarks: true,
+          enableSegmentation: false,
+          minDetectionConfidence: 0.55,
+          minTrackingConfidence: 0.55,
+        });
+        pose.onResults(onResults);
+
+        // Camera Utils（内部会调用 getUserMedia）
+        camera = new Camera(videoEl, {
+          onFrame: async () => {
+            if(!pose) return;
+            await pose.send({image: videoEl});
+          },
+          width: 1280,
+          height: 720,
+          facingMode: state.cameraFacing,
+        });
+
+        try{
+          await camera.start();
+          cameraStarted = true;
+          setStatus(true, "运行中");
+          setErrors(["请做动作：垫球 / 传球 / 发球（可自动识别）"], "提示：纠错为启发式规则，越标准越准。");
+        }catch(err){
+          cameraStarted = false;
+          setStatus(false, "摄像头启动失败");
+          const msg = (err && (err.message || String(err))) || "未知错误";
+          setErrors([
+            "摄像头无法开启（常见原因：权限被拒绝 / 非 https/localhost / 被占用）",
+            `错误信息：${msg}`
+          ], "建议：用本地静态服务器打开本页面（例如 VSCode Live Server）。");
+        }
+      }
+
+      function stopCamera(){
+        // camera_utils 没有显式 stop API，这里尽量释放媒体流
+        try{
+          const s = videoEl.srcObject;
+          if(s && s.getTracks){
+            s.getTracks().forEach(t => t.stop());
+          }
+        }catch(_){}
+        videoEl.srcObject = null;
+        cameraStarted = false;
+        setStatus(false, "已停止");
+      }
+
+      // ====== 事件绑定 ======
+      ui.actionSelect.addEventListener("change", () => {
+        state.chosenAction = ui.actionSelect.value;
+        setErrors(["动作已切换，继续保持稳定入镜。"]);
+      });
+      ui.facingSelect.addEventListener("change", async () => {
+        state.cameraFacing = ui.facingSelect.value;
+        stopCamera();
+        await startCamera();
+      });
+
+      ui.btnTrain.addEventListener("click", () => setMode("train"));
+      ui.btnExam.addEventListener("click", () => setMode("exam"));
+      ui.btnReset.addEventListener("click", () => resetStats());
+      ui.btnStop.addEventListener("click", () => stopCamera());
+
+      // 定时刷新考试剩余时间
+      setInterval(() => {
+        if(state.mode === "exam"){
+          refreshKPIs();
+        }
+      }, 200);
+
+      // 页面启动
+      resetStats();
+      setMode("train");
+      startCamera();
+    </script>
+  </body>
+</html>
+
